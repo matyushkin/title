@@ -3,15 +3,15 @@ import pandas
 import scrapy
 
 
-def hubs_urls():
-    with open('habr_hubs.pickle', 'rb') as f:
-        start = 'https://habr.com/ru/hub/'
-        urls = [f'{start}{hub}' for hub in pickle.load(f)]
-    return urls
-
-
 class HabrSpider(scrapy.Spider):
     name = "habr"
+
+    def hubs_urls():
+        with open('habr_hubs.pickle', 'rb') as f:
+            start = 'https://habr.com/ru/hub/'
+            urls = [f'{start}{hub}' for hub in pickle.load(f)]
+        return urls
+
     start_urls = hubs_urls()
 
     def parse(self, response):

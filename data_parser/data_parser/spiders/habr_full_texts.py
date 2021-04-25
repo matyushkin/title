@@ -2,6 +2,7 @@ import pickle
 import pandas
 import scrapy
 
+
 path = '/home/leo/Yandex.Disk/GitHub/DATASETS/META/it_articles_ru.feather'
 df = pandas.read_feather(path)
 df_habr = [df['source'] == 'habr']

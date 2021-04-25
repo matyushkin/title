@@ -1,5 +1,6 @@
 import scrapy
 
+
 class VCSpider(scrapy.Spider):
     name = "vc"
     start_urls = [f'https://vc.ru/{i}' for i in range(36701, 237853)] 
