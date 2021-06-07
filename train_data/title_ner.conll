@@ -138,8 +138,8 @@ Java -X- B-LANG
 стоит -X- I-ADV
 отправка -X- I-ADV
 5-мегабайтного -X- O
-электронного -X- B-TECH
-письма -X- I-TECH
+электронного -X- B-OBJ
+письма -X- I-OBJ
 Укрпочта -X- B-ORG
 точно -X- O
 знает -X- O
@@ -245,7 +245,7 @@ Mail -X- I-ADV
 AT&T -X- B-ORG
 запретил -X- B-DANGER
 нецензурные -X- B-DANGER
-пароли -X- B-TECH
+пароли -X- B-OBJ
 
 10 -X- B-NUM
 команд -X- O
@@ -262,8 +262,8 @@ curl -X- B-PROGRAM
 в -X- O
 стартап -X- B-OBJ
 поддержки -X- O
-коллективного -X- B-TECH
-интеллекта -X- I-TECH
+коллективного -X- B-OBJ
+интеллекта -X- I-OBJ
 
 Кто -X- O
 ищет -X- O
@@ -372,8 +372,8 @@ IETF -X- B-ORG
 MIT -X- I-TYPE
 « -X- B-PUNCT
 Безопасность -X- B-ADV
-компьютерных -X- B-TECH
-систем -X- I-TECH
+компьютерных -X- B-OBJ
+систем -X- I-OBJ
 » -X- B-PUNCT 
 . -X- B-PUNCT 
 Лекция -X- B-PART
@@ -386,11 +386,13 @@ MIT -X- I-TYPE
 , -X- B-PUNCT
 часть -X- B-PART
 1 -X- I-PART
-(лекция -X- O
+( -X- B-PUNCT
+лекция -X- B-TYPE
 от -X- O
 создателя -X- O
 сети -X- O
-Tor) -X- B-PROGRAM
+Tor -X- B-PROGRAM
+) -X- B-PUNCT
 
 Маленькое -X- B-TYPE
 исследование -X- I-TYPE
@@ -485,8 +487,8 @@ Wall -X- O
 
 Бои -X- O
 в -X- O
-виртуальной -X- B-TECH
-реальности -X- I-TECH
+виртуальной -X- B-OBJ
+реальности -X- I-OBJ
 
 RE: -X- B-TYPE
 всё -X- B-TYPE
@@ -586,8 +588,8 @@ Positive -X- B-ORG
 Technologies -X- I-ORG
 : -X- B-PUNCT
 « -X- B-PUNCT
-Мобильная -X- B-TECH
-связь -X- I-TECH
+Мобильная -X- B-OBJ
+связь -X- I-OBJ
 ( -X- B-PUNCT
 эволюция -X- B-TYPE
 и -X- I-TYPE
@@ -619,7 +621,7 @@ Technologies -X- I-ORG
 релизы -X- I-ANNOUNCE
 официальных -X- O
 расширений -X- O
-Yii -X- B-PROGRAM
+Yii -X- B-FRAME
 2.0 -X- B-VERSION
 
 К -X- B-TYPE
@@ -26554,7 +26556,7 @@ IP-адреса, -X- B-TECH
 и -X- O
 вообще -X- O
 
-Wi-Fi -X- B-TECH
+Wi-Fi -X- B-OBJ
 : -X- B-PUNCT
 неочевидные -X- B-TYPE
 нюансы -X- I-TYPE
