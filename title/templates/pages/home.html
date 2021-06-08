@@ -1,1 +1,12 @@
 {% extends "base.html" %}
+{% block content %}
+    <form action="/" method="post">
+
+    {{ title_form }}
+    {% csrf_token %}
+<!--     <label for="title">Введите заголовок статьи: </label></br>
+    <input id="title" type="text" name="text" value=""> -->
+    <input type="submit" value="↵">
+    </form>
+    {{ s }}
+{% endblock content %}
