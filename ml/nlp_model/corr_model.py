@@ -210,8 +210,9 @@ def human_suggest(ents, df=df):
     elif 9.0 < value < 10.0:
         comment = "Отличный заголовок для IT-публикации!"
     elif value == 10.0:
-        comment = "Поздравляем! Заголовок набрал максимально возможный балл — 10 из 10."
+        comment = "Поздравляем! Заголовок набрал максимально возможный балл — 10 из 10"
         suggestions = []
+        suggestion_start = ""
 
     definitions_in, examples_in = [], []
     accusatives, definitions_out, examples_out = [], [], []
