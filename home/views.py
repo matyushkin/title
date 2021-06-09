@@ -1,20 +1,39 @@
-import random
-from django.shortcuts import render, get_object_or_404
+import json
+
+from django.shortcuts import render
+from django.http import HttpResponse
+from django.views.decorators.csrf import csrf_exempt
+
 from .models import Title
 from .forms import TitleForm
+
 from ml.nlp_model.corr_model import text_to_suggestion
 
 
-def main_page(request):
+def home(request):
+    title_form = TitleForm()
+    return render(request, 'pages/home.html', {"title_form": title_form})
+
+
+@csrf_exempt
+def create_title(request):
     if request.method == 'POST':
-        form = TitleForm(request.POST)
-        new_form = form.save(commit=False)
-        s = text_to_suggestion(new_form.text)
-        new_form.value = s['rating']
-        new_form.group_id = random.randint(1, 10)
-        new_form.save()
-        title_form = TitleForm()
+        title_text = request.POST.get('text')
+
+        response_data = text_to_suggestion(title_text)
+
+        post = Title(text=title_text,
+            value=response_data['rating'],
+            group_id = 1)
+        post.save()
+
+
+        return HttpResponse(
+            json.dumps(response_data),
+            content_type="application/json"
+        )
     else:
-        s = None
-        title_form = TitleForm()
-    return render(request, 'pages/home.html', {"title_form": title_form, "s": s})
+        return HttpResponse(
+            json.dumps({"nothing to see": "this isn't happening"}),
+            content_type="application/json"
+        )

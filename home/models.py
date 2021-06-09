@@ -9,3 +9,5 @@ class Title(models.Model):
         decimal_places=1)
     group_id = models.PositiveIntegerField()
 
+    class Meta:
+        ordering = ['timestamp']
