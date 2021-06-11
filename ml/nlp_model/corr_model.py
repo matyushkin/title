@@ -129,17 +129,23 @@ def suggest(subset, df=df):
     return od
 
 
-def tooltip_card(ent, definition, examples):
-    examples = ', '.join(examples)
-    s = f'<b>{ent}</b>: {definition}</br>'
-    s += f'<i>Примеры</i>: {examples}'
-    return s
+def rating_to_html(rating):
+    if 0.0 <= rating <= 5.0:
+        c = 'red'
+    elif 5.0 < rating <= 9.0:
+        c = 'orange'
+    else:
+        c = 'green'
+    rating = str(round(rating, 1))
+    rating_html = f'<b style="color: {c}"><span id="rating">{rating}</span> из 10.0</b>. '
+    return rating_html
 
 
 def suggest_to_html(s):
     """Возвращает строку с HTML-представлением
     идей для улучшения"""
-    text = f'{s["comment"]} {s["suggestion_start"]}'
+    text = f'{rating_to_html(s["rating"])}'
+    text += f'{s["comment"]} {s["suggestion_start"]}'
     accusatives = s["accusatives"]
     suggestions = s["suggestions"]
     definitions_out = s["definitions_out"]
@@ -150,11 +156,7 @@ def suggest_to_html(s):
                                definitions_out,
                                examples_out):
         t = f'{acc} '
-        t += f'<button class="{ent} btn btn-success" type="button" '
-        t += f'data-bs-toggle="tooltip" data-bs-html="true" '
-        t += f'title="{tooltip_card(ent, d, ex)} ">'
-        t += f'{ent}'
-        t += '</button>'
+        t += f'<button class="entity" value="{ent}">{ent}</button>'
         text_adds.append(t)
     if len(suggestions) >= 2:
         text += ', '.join(text_adds[:-1]) + f' или {text_adds[-1]}'
@@ -175,18 +177,13 @@ def title_to_html(s):
                                 definitions_in,
                                 examples_in):
         start, end = pair
-        text = text[:end] + '</button>' + text[end:]
-        t = f'<button class="{ent} btn btn-info" type="button" '
-        t += f'data-bs-toggle="tooltip" data-bs-html="true" '
-        t += f'title="{tooltip_card(ent, d, ex)} ">'
+        t = f'<button class="entity" value="{ent}">{ent}</button>'
+        t += f'</mark>'
+        text = text[:end] + t + text[end:]
+        t = f'<mark>'
         text = text[:start] + t + text[start:]
-    return f"{text}."
+    return f'<p class="title">{text}.</p>'
 
-
-def rating_to_html(rating):
-    rating = str(round(rating, 1))
-    rating_html = f'<button class="btn btn-danger" id="rating">{rating}</button> балла из 10 по шкале говорящего заголовка.'
-    return rating_html
 
 
 def human_suggest(ents, df=df):
@@ -210,7 +207,7 @@ def human_suggest(ents, df=df):
     elif 9.0 < value < 10.0:
         comment = "Отличный заголовок для IT-публикации!"
     elif value == 10.0:
-        comment = "Поздравляем! Заголовок набрал максимально возможный балл — 10 из 10"
+        comment = "Поздравляем! Заголовок набрал максимально возможный балл"
         suggestions = []
         suggestion_start = ""
 
@@ -225,6 +222,10 @@ def human_suggest(ents, df=df):
         definitions_out.append(tags[ent]["definition"])
         examples_out.append(tags[ent]["examples"])
 
+    tags_json = dict()
+    for tag in set(ents + suggestions):
+        tags_json[tag] = tags[tag]
+
     return {'rating': value,
             'ents': ents,
             'definitions_in': definitions_in,
@@ -234,7 +235,8 @@ def human_suggest(ents, df=df):
             'suggestions': suggestions,
             'accusatives': accusatives,
             'definitions_out': definitions_out,
-            'examples_out': examples_out}
+            'examples_out': examples_out,
+            'tags': tags_json}
 
 
 def text_to_suggestion(text):
@@ -246,4 +248,4 @@ def text_to_suggestion(text):
     return {'rating': s['rating'],
     'title_html': title_to_html(s),
     'suggest_html': suggest_to_html(s),
-    'rating_html': rating_to_html(s['rating'])}
+    'tags': s['tags']}

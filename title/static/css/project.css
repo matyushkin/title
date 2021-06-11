@@ -1,4 +1,11 @@
-/* These styles are generated from project.scss. */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 12pt;
+    line-height: 18pt;
+    background: #f7f7f7;
+    margin: 0px;
+    padding: 0px;
+}
 
 .alert-debug {
   color: black;
@@ -10,4 +17,62 @@
   color: #b94a48;
   background-color: #f2dede;
   border-color: #eed3d7;
+}
+
+
+mark {
+  background: #ddd;
+  padding: 0.45em 0.6em;
+  margin: 0 0.25em;
+  line-height: 1;
+  border-radius: 0.35em;
+}
+
+.entity {
+  font-size: 0.8em;
+  font-weight: bold;
+  line-height: 1;
+  border-radius: 0.35em;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
+
+#suggest .entity {
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+mark.LANG {
+  background: linear-gradient(90deg, #aa9cfc, #fc9ce7);
+}
+
+p.title {
+  line-height: 2.5;
+}
+
+#suggest {
+  line-height: 2.0;
+}
+
+.explanation {
+  border-style: dashed;
+  border-color: #ddd;
+  border-width: 2px;
+  padding: 0.5rem;
+  border-radius: 0em 1em 1em 1em;
+}
+
+.block {
+    background: #fff;
+    padding: 0.45em 0.6em;
+    border-radius: 0.35em;
+}
+
+.block:empty {
+ padding: 0; 
+}
+
+#old_titles {
+  padding: 0.45em 0.6em;
+  margin-left: 0.45rem;
 }

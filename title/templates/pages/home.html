@@ -10,14 +10,22 @@
         {% csrf_token %}
 
     </form>
+    <div class="row mt-3">
+        <div class="col-9">
+            <div id="title">
+                <p>Введите предварительное название IT-публикации. Приложение даст оценку  по 10-балльной шкале читаемости и подскажет, как улучшить заголовок.</p>
+            </div> 
+            <div class="row mt-3"></div>
+            <div id="suggest" class="block"></div>
+        </div>
+        <div class="col-3">
+            <div class="row mt-3" id="explanation">
+        </div>
+    </div>
+   
+   
     <div class="row mt-3"></div>
-    <div id="title"></div>
-    <div class="row mt-3"></div>
-    <div id="rating"></div>
-    <div class="row mt-3"></div>
-    <div id="suggest"></div>
-    <div class="row mt-5"></div>
-    <div id="titles"></div>
-        
+    <div id="old_titles">
+        <p>Результаты анализа предыдущих заголовков.</p>
     </div>
 {% endblock content %}

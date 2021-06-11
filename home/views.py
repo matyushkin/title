@@ -1,5 +1,4 @@
 import json
-
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
@@ -19,12 +18,15 @@ def home(request):
 def create_title(request):
     if request.method == 'POST':
         title_text = request.POST.get('text')
+        group_id = request.POST.get('group_id')
 
         response_data = text_to_suggestion(title_text)
 
         post = Title(text=title_text,
             value=response_data['rating'],
-            group_id = 1)
+            # group_id используется для простейшей группировки
+            # текущих запросов - минимальная идентификация
+            group_id = group_id)
         post.save()
 
 

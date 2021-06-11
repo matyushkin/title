@@ -1,5 +1,6 @@
 import random
 from django import forms
+from django.utils.translation import gettext_lazy as _
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Layout, Fieldset, ButtonHolder, Submit
 from crispy_forms.bootstrap import FieldWithButtons
@@ -22,6 +23,11 @@ class TitleForm(forms.ModelForm):
                 'required': True, 
                 'placeholder': random.choice(placeholders)
             })
+        }
+        error_messages = {
+            'text': {
+                'required': _("Введите текст заголовка"),
+            },
         }
 
     def __init__(self, *args, **kwargs):
