@@ -182,7 +182,7 @@ def title_to_html(s):
         text = text[:end] + t + text[end:]
         t = f'<mark>'
         text = text[:start] + t + text[start:]
-    return f'<p class="title">{text}.</p>'
+    return f'<p class="title">{text}</p>'
 
 
 
@@ -245,7 +245,9 @@ def text_to_suggestion(text):
     s = human_suggest(ents, df=df)
     s['indices'] = indices
     s['text'] = text
-    return {'rating': s['rating'],
+    return {
+    'text': s['text'],
+    'rating': s['rating'],
     'title_html': title_to_html(s),
     'suggest_html': suggest_to_html(s),
     'tags': s['tags']}
