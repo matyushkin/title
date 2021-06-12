@@ -240,7 +240,7 @@ Mail -X- I-ADV
 квантовое -X- B-MATH
 измерение -X- I-MATH
 уничтожает -X- B-DANGER
-информацию -X- B-TECH
+информацию -X- I-DANGER
 ? -X- B-PUNCT
 
 AT&T -X- B-ORG
@@ -436,7 +436,7 @@ Gillette -X- B-ORG
 с -X- O
 помощью -X- O
 масок -X- B-TECH
-CSS -X- I-TECH
+CSS -X- B-LANG
 
 Загадочная -X- B-TYPE
 история -X- I-TYPE
@@ -1002,7 +1002,7 @@ Server -X- I-PROGRAM
 клякс -X- O
 с -X- O
 помощью -X- O
-CSS -X- B-TECH
+CSS -X- B-LANG
 и -X- O
 SVG -X- B-TECH
 
@@ -10689,15 +10689,15 @@ Firefox -X- B-PROGRAM
 Как -X- O
 трейдер -X- O
 обанкротил -X- B-DANGER
-старейший -X- I-DANGER
-банк -X- I-DANGER
-в -X- I-DANGER
-мире -X- I-DANGER
+старейший -X- O
+банк -X- B-OBJ
+в -X- O
+мире -X- O
 . -X- B-PUNCT
 Манипуляции -X- O
 на -X- O
-рынке -X- O
-опционов -X- O
+рынке -X- B-OBJ
+опционов -X- I-OBJ
 
 Google -X- B-ORG
 познакомит -X- O
@@ -10750,11 +10750,11 @@ wild -X- O
 GoToMyPC -X- O
 обнулил -X- B-DANGER
 пароли -X- I-DANGER
-пользователей -X- I-DANGER
+пользователей -X- B-OBJ
 после -X- O
 « -X- B-PUNCT
-очень -X- B-DANGER
-изощренной -X- I-DANGER
+очень -X- O
+изощренной -X- B-DANGER
 атаки -X- I-DANGER
 » -X- B-PUNCT
 
@@ -10771,17 +10771,17 @@ DevOps-нуться -X- O
 процессов -X- B-OBJ
 планирования -X- B-OBJ
 — -X- B-PUNCT
-коту -X- B-DANGER
-под -X- I-DANGER
-хвост -X- I-DANGER
+коту -X- B-EMO
+под -X- I-EMO
+хвост -X- I-EMO
 ? -X- B-PUNCT
 
 Last.fm -X- B-SITE
 лежит -X- B-DANGER
-из-за -X- I-DANGER
-аварии -X- I-DANGER
-в -X- I-DANGER
-датацентре -X- I-DANGER
+из-за -X- O
+аварии -X- B-DANGER
+в -X- O
+датацентре -X- B-TECH
 
 « -X- B-PUNCT
 Астероидная -X- B-OBJ
@@ -10843,10 +10843,10 @@ Data -X- I-TECH
 зиму -X- O
 
 Слежка -X- B-DANGER
-за -X- I-DANGER
-пользователями -X- I-DANGER
+за -X- O
+пользователями -X- B-OBJ
 в -X- O
-Django -X- B-PROGRAM
+Django -X- B-FRAME
 
 О -X- B-TYPE
 чём -X- I-TYPE
@@ -11101,8 +11101,8 @@ Spark -X- B-PROGRAM
 приложения -X- O
 медленно -X- B-DANGER
 работают -X- I-DANGER
-или -X- I-DANGER
-не -X- I-DANGER
+или -X- O
+не -X- B-DANGER
 работают -X- I-DANGER
 вообще -X- I-DANGER
 . -X- B-PUNCT
@@ -11351,8 +11351,8 @@ Vice -X- B-ORG
 на -X- O
 конференцию -X- O
 о -X- O
-плоской -X- B-DANGER
-Земле -X- I-DANGER
+плоской -X- B-OBJ
+Земле -X- I-OBJ
 
 Продам -X- O
 современное -X- B-OBJ
@@ -11464,9 +11464,9 @@ Club -X- I-ORG
 внутренняя -X- O
 информация -X- O
 , -X- B-PUNCT
-не -X- B-DANGER
-подлежащая -X- I-DANGER
-разглашению -X- B-DANGER
+не -X- O
+подлежащая -X- O
+разглашению -X- O
 " -X- B-PUNCT
 
 Боремся -X- B-TODO
@@ -11552,7 +11552,7 @@ Potok -X- I-ORG
 в -X- O
 memcahced -X- B-TECH
 
-Респонзивлесс -X- O
+Респонзивлесс -X- B-TECH
 
 Мэтт -X- B-PER
 Мюлленвег -X- I-PER
@@ -11656,15 +11656,15 @@ OtScan -X- B-ORG
 Иннополис -X- I-ORG
 [видео] -X- O
 
-Очередное -X- B-DANGER
-мошенничество -X- I-DANGER
+Очередное -X- O
+мошенничество -X- B-DANGER
 с -X- O
-сотовыми -X- O
+сотовыми -X- B-DEVICE
 — -X- B-PUNCT
-старшее -X- O
-поколение -X- O
-под -X- O
-прицелом -X- O
+старшее -X- B-AUD
+поколение -X- I-AUD
+под -X- B-DANGER
+прицелом -X- I-DANGER
 
 Mozilla -X- B-ORG
 оптимизирует -X- B-ANNOUNCE
@@ -11747,7 +11747,7 @@ OSPF -X- B-TECH
 
 ЦБ -X- B-ORG
 : -X- B-PUNCT
-доходы -X- B-DANGER
+доходы -X- B-OBJ
 хакеров -X- I-DANGER
 от -X- O
 атак -X- B-DANGER
@@ -11940,19 +11940,19 @@ JavaScript -X- B-LANG
 Диагностируем -X- B-ADV
 причину -X- I-ADV
 , -X- B-PUNCT
-выживаем -X- B-DANGER
-в -X- I-DANGER
+выживаем -X- B-TODO
+в -X- O
 JAR -X- B-TECH
 hell -X- I-TECH
 : -X- B-PUNCT
-не -X- B-DANGER
-дышим -X- I-DANGER
-серой -X- I-DANGER
+не -X- O
+дышим -X- O
+серой -X- O
 и -X- O
-не -X- B-DANGER
-варимся -X- I-DANGER
-в -X- I-DANGER
-котле -X- I-DANGER
+не -X- O
+варимся -X- O
+в -X- O
+котле -X- O
 
 Продолжая -X- B-TYPE
 разговор -X- I-TYPE
@@ -12066,7 +12066,7 @@ Switcher -X- I-PROGRAM
 InstantForum.NET -X- O
 
 Опасного -X- B-DANGER
-преступника -X- I-DANGER
+преступника -X- B-DANGER
 поймали -X- O
 благодаря -X- O
 Facebook -X- B-ORG
@@ -12079,17 +12079,17 @@ Analytics -X- I-PROGRAM
 страницы -X- B-OBJ
 входа -X- I-OBJ
 
-Голливуд -X- O
+Голливуд -X- B-ORG
 хочет -X- O
 ввести -X- O
 цензуру -X- B-DANGER
-на -X- I-DANGER
-фильмы -X- I-DANGER
+на -X- O
+фильмы -X- O
 , -X- B-PUNCT
 находящиеся -X- O
-в -X- O
-общественном -X- O
-достоянии -X- O
+в -X- B-COND
+общественном -X- I-COND
+достоянии -X- I-COND
 
 Коллекция -X- B-TYPE
 старых -X- I-TYPE
@@ -12295,8 +12295,8 @@ Google -X- O
 франшизах -X- O
 
 Баг -X- B-DANGER
-в -X- I-DANGER
-антивирусе -X- I-DANGER
+в -X- O
+антивирусе -X- B-OBJ
 Webroot -X- B-PROGRAM
 SecureAnywhere -X- I-PROGRAM
 для -X- O
@@ -12623,7 +12623,7 @@ MNP -X- B-TECH
 
 Хотите -X- O
 заблокировать -X- B-DANGER
-распространённые -X- I-DANGER
+распространённые -X- O
 пароли? -X- B-OBJ
 Извините -X- O
 , -X- B-PUNCT
@@ -12652,7 +12652,7 @@ Canary -X- I-PROGRAM
 компьютеру -X- I-ADV
 без -X- B-DANGER
 спроса -X- I-DANGER
-подключили -X- I-DANGER
+подключили -X- O
 USB-устройство -X- B-DEVICE
 
 Тяжела -X- B-EMO
@@ -12722,17 +12722,17 @@ Uber -X- B-ORG
 , -X- B-PUNCT
 что -X- O
 сливают -X- B-DANGER
-$120 -X- I-DANGER
-млн -X- I-DANGER
-на -X- I-DANGER
+$120 -X- O
+млн -X- O
+на -X- O
 бесполезную -X- B-DANGER
-рекламу -X- I-DANGER
+рекламу -X- B-OBJ
 
 Как -X- O
 нетренированные -X- B-OBJ
 мозги -X- I-OBJ
 разрушают -X- B-DANGER
-мир -X- I-DANGER
+мир -X- O
 в -X- O
 эпоху -X- O
 коронавируса -X- B-DANGER
@@ -12916,7 +12916,7 @@ canvas -X- B-TECH
 провайдер -X- B-OBJ
 Telstra -X- B-ORG
 напугал -X- B-DANGER
-пользователей -X- I-DANGER
+пользователей -X- B-OBJ
 
 NB-IoT -X- O
 . -X- B-PUNCT
@@ -12932,9 +12932,9 @@ NIDD. -X- B-OBJ
 сервисом -X- I-OBJ
 МТС -X- B-ORG
 
-Gun -X- O
-Mikey -X- O
-Scars -X- O
+Gun -X- B-ORG
+Mikey -X- I-0RG
+Scars -X- I-ORG
 ( -X- B-PUNCT
 ex. -X- O
 Паша -X- B-PER
@@ -12960,10 +12960,10 @@ ex. -X- O
 Язык -X- B-LANG
 Python -X- I-LANG
 и -X- O
-миллион -X- B-DANGER
-запросов -X- I-DANGER
-в -X- I-DANGER
-секунду -X- I-DANGER
+миллион -X- B-NUM
+запросов -X- B-TECH
+в -X- I-TECH
+секунду -X- I-TECH
 
 Инфраструктура -X- B-TYPE
 Amazon -X- B-ORG
@@ -13178,9 +13178,9 @@ Haskell -X- B-LANG
 софт -X- I-DANGER
 незаметно -X- B-DANGER
 превращает -X- I-DANGER
-наушники -X- B-OBJ
+наушники -X- B-DEVICE
 в -X- O
-микрофон -X- B-OBJ
+микрофон -X- B-DEVICE
 
 Отказ -X- B-DANGER
 в -X- I-DANGER
@@ -13256,9 +13256,9 @@ Services -X- I-OBJ
 меня -X- I-TYPE
 Яндекс -X- B-ORG
 "опустил" -X- B-DANGER
-на -X- I-DANGER
-1000 -X- I-DANGER
-рублей… -X- I-DANGER
+на -X- O
+1000 -X- O
+рублей… -X- O
 
 Эволюция -X- B-TYPE
 эмблем -X- B-OBJ
@@ -13270,14 +13270,14 @@ Services -X- I-OBJ
 у -X- I-TODO
 инвестора -X- I-TODO
 и -X- O
-не -X- B-DANGER
-потерять -X- I-DANGER
+не -X- O
+потерять -X- B-DANGER
 контроль -X- I-DANGER
-над -X- O
 
 Изображения -X- B-OBJ
 ? -X- B-PUNCT
-Изображения! -X- B-LOC
+Изображения -X- B-OBJ
+! -X- B-PUNCT
 
 3.0 -X- O
 в -X- B-EMO
@@ -13539,8 +13539,8 @@ Microsoft -X- B-ORG
 тачскринами -X- B-OBJ
 
 Любимые -X- O
-административные -X- B-DANGER
-грабли -X- I-DANGER
+административные -X- O
+грабли -X- B-DANGER
 интернетчика -X- B-AUD
 
 Перенос -X- B-TODO
@@ -13633,20 +13633,20 @@ CMS -X- B-OBJ
 для -X- O
 него -X- O
 
-Как -X- O
-я -X- O
+Как -X- B-TYPE
+я -X- I-TYPE
 угробил -X- B-DANGER
-SSD -X- B-OBJ
+SSD -X- B-DEVICE
 за -X- B-EFFORT
 два -X- I-EFFORT
 месяца -X- I-EFFORT
 
 Специалисты -X- B-AUD
 обнаружили -X- O
-вторую -X- B-DANGER
-версию -X- I-DANGER
+вторую -X- O
+версию -X- O
 трояна -X- I-DANGER
-Linux.Encoder -X- B-OBJ
+Linux.Encoder -X- B-PROGRAM
 
 Необразованная -X- B-EMO
 молодежь -X- I-EMO
@@ -13818,9 +13818,9 @@ Mantis -X- B-OBJ
 поиска -X- O
 ЦА -X- B-OBJ
 
-Банковский -X- B-DANGER
-троян -X- I-DANGER
-Bolik -X- B-OBJ
+Банковский -X- B-OBJ
+троян -X- B-DANGER
+Bolik -X- B-PROGRAM
 маскируется -X- B-OBJ
 под -X- I-OBJ
 NordVPN -X- B-ORG
@@ -14410,7 +14410,7 @@ versus -X- B-TYPE
 у -X- B-AUD
 вас -X- I-AUD
 украли -X- B-DANGER
-телефон -X- I-DANGER
+телефон -X- B-DEVICE
 
 Выбираем -X- B-TODO
 бесплатный -X- B-ADV
@@ -14453,8 +14453,8 @@ Linux -X- I-OS
 я -X- I-TYPE
 проходил -X- I-TYPE
 собеседования -X- I-TYPE
-на -X- B-AUD
-позицию -X- I-AUD
+на -X- O
+позицию -X- O
 Junior -X- I-AUD
 .Net -X- I-AUD
 Developer -X- I-AUD
@@ -14675,8 +14675,8 @@ Excel -X- B-PROGRAM
 гениальный -X- B-TYPE
 способ -X- I-TYPE
 обманывать -X- B-DANGER
-игровые -X- B-OBJ
-автоматы, -X- I-OBJ
+игровые -X- B-DEVICE
+автоматы, -X- I-DEVICE
 от -X- O
 которого -X- O
 казино -X- B-OBJ
@@ -14702,15 +14702,15 @@ mail() -X- I-TECH
 
 Светодиодное -X- B-DEVICE
 враньё -X- B-DANGER
-невиданных -X- I-DANGER
-масштабов -X- I-DANGER
+невиданных -X- B-EMO
+масштабов -X- I-EMO
 
 SQL -X- B-DANGER
 инъекции -X- I-DANGER
 . -X- B-PUNCT
 Проверка, -X- B-TODO
 взлом, -X- B-DANGER
-защита -X- B-TYPE
+защита -X- B-ADV
 
 KPI -X- B-OBJ
 , -X- B-PUNCT
@@ -14916,8 +14916,8 @@ Suite -X- I-PROGRAM
 ) -X- B-PUNCT
 
 Нелегальная -X- B-DANGER
-торговля -X- B-DANGER
-оружием -X- I-DANGER
+торговля -X- B-OBJ
+оружием -X- I-OBJ
 через -X- O
 Тор -X- B-PROGRAM
 
@@ -15259,9 +15259,9 @@ Wireshark -X- B-TECH
 акулы -X- O
 
 Коронавирус: -X- B-DANGER
-опасная -X- B-TYPE
-иллюзия -X- I-TYPE
-смертности -X- B-DANGER
+опасная -X- B-DANGER
+иллюзия -X- B-DANGER
+смертности -X- B-OBJ
 
 Как -X- B-TYPE
 сверстать -X- I-TYPE
@@ -15601,8 +15601,8 @@ Mesa -X- I-TECH
 бесплатно! -X- B-ADV
 
 Шпионим -X- B-DANGER
-за -X- I-DANGER
-всеми -X- I-DANGER
+за -X- O
+всеми -X- O
 с -X- O
 помощью -X- O
 Яндекс.Метро -X- B-PROGRAM
@@ -15633,9 +15633,9 @@ Code -X- I-PROGRAM
 кабели -X- I-TECH
 связи -X- I-TECH
 
-Вконтакте -X- B-PER
+Вконтакте -X- B-SITE
 закрылся -X- B-DANGER
-для -X- B-AUD
+для -X- O
 пользователей -X- I-AUD
 без -X- I-AUD
 мобильного -X- I-AUD
@@ -15740,19 +15740,20 @@ VNC -X- B-TECH
 менеджеров» -X- O
 . -X- B-PUNCT
 Они -X- O
-не -X- B-DANGER
-только -X- I-DANGER
-бесполезны, -X- I-DANGER
-но -X- I-DANGER
-и -X- I-DANGER
-вредны -X- I-DANGER
+не -X- O
+только -X- O
+бесполезны -X- B-DANGER
+, -X- B-PUNCT
+но -X- O
+и -X- O
+вредны -X- B-DANGER
 
 Структуры -X- B-TECH
 данных -X- I-TECH
-в -X- O
-картинках -X- O
+в -X- B-ADV
+картинках -X- I-ADV
 . -X- B-PUNCT
-LinkedHashMap -X- B-TECH
+LinkedHashMap -X- B-MATH
 
 В -X- B-AUD
 Viber -X- I-AUD
@@ -21774,7 +21775,7 @@ MySQL -X- B-PROGRAM
 нужно -X- B-TYPE
 знать -X- I-TYPE
 про -X- O
-DevOps -X- B-PROGRAM
+DevOps -X- B-TECH
 — -X- B-PUNCT
 
 часть -X- B-PART
@@ -27186,37 +27187,37 @@ VR -X- B-TECH
 : -X- B-PUNCT
 обзор -X- B-TYPE
 игры -X- B-TECH
-Jupiter -X- I-TECH
-Hell -X- I-TECH
+Jupiter -X- B-GAME
+Hell -X- I-GAME
 
-Tproger -X- B-PER
-Changelog -X- I-PER
+Tproger -X- B-SITE
+Changelog -X- B-TECH
 : -X- B-PUNCT
-чем -X- O
-закончился -X- O
+чем -X- B-TYPE
+закончился -X- I-TYPE
   -X- O
-# -X- B-TYPE
-багфиксарь -X- I-TYPE
+# -X- B-CONF
+багфиксарь -X- I-CONF
 
-Интроверты -X- B-TYPE
-и -X- I-TYPE
-open -X- I-TYPE
-space -X- O
+Интроверты -X- B-AUD
+и -X- O
+open -X- B-OBJ
+space -X- I-OBJ
 : -X- B-PUNCT
-будущее -X- B-TYPE
-за -X- I-TYPE
-гибридными -X- I-TYPE
-офисами -X- I-TYPE
+будущее -X- B-ACTUAL
+за -X- O
+гибридными -X- B-OBJ
+офисами -X- I-OBJ
 
-Боль -X- B-AUD
-фронта -X- I-AUD
+Боль -X- B-DANGER
+фронта -X- B-AUD
 , -X- B-PUNCT
 или -X- O
 Что -X- B-TYPE
 нам -X- I-TYPE
 нужно -X- I-TYPE
 от -X- O
-дизайнеров -X- O
+дизайнеров -X- B-AUD
 
 Моя -X- B-TYPE
 история -X- I-TYPE
@@ -27229,21 +27230,21 @@ IT -X- I-TYPE
 разработчика -X- I-TYPE
 
 Увеличиваем -X- B-TYPE
-скорость -X- I-TYPE
-работы -X- I-TYPE
+скорость -X- B-TECH
+работы -X- I-TECH
 Python -X- B-LANG
 до -X- O
 уровня -X- O
 C++ -X- B-LANG
 с -X- O
-Numba -X- B-PROGRAM
+Numba -X- B-LIB
 
-Создайте -X- B-OBJ
-свой -X- O
-первый -X- O
+Создайте -X- B-TODO
+свой -X- B-AUD
+первый -X- I-AUD
 UI -X- B-TECH
-- -X- O
-тест -X- O
+- -X- I
+тест -X- I-TECH
 за -X- B-EFFORT
 20 -X- I-EFFORT
 минут -X- I-EFFORT
@@ -27253,30 +27254,30 @@ UI -X- B-TECH
 : -X- B-PUNCT
 обзор -X- B-TYPE
 игры -X- O
-Doom -X- B-LOC
-: -X- B-PUNCT
-the -X- O
-Roguelike -X- B-TYPE
+Doom -X- B-GAME
+: -X- I-GAME
+the -X- I-GAME
+Roguelike -X- I-GAME
 
-Проекты -X- O
+Проекты -X- B-OBJ
 на -X- O
 Django -X- B-FRAME
 для -X- O
 начинающих -X- B-AUD
 : -X- B-PUNCT
-двухчасовой -X- B-TYPE
+двухчасовой -X- B-EFFORT
 видеокурс -X- B-TYPE
 
-Одна -X- O
-задача -X- O
+Одна -X- B-NUM
+задача -X- B-TYPE
 и -X- O
-10 -X- O
-минут -X- O
+10 -X- B-EFFORT
+минут -X- I-EFFORT
 , -X- B-PUNCT
 чтобы -X- B-AUD
 нанять -X- O
-iOS -X- B-OS
-- -X- B-AUD
+iOS -X- B-AUD
+- -X- I-AUD
 разработчика -X- I-AUD
 
 Мой -X- B-TYPE
@@ -27284,15 +27285,15 @@ pet -X- I-TYPE
 - -X- I-TYPE
 проект -X- I-TYPE
 : -X- B-PUNCT
-сервис -X- O
+сервис -X- B-OBJ
 по -X- O
-сбору -X- O
+сбору -X- B-TECH
 и -X- O
-категоризации -X- O
-объявлений -X- O
+категоризации -X- B-TECH
+объявлений -X- I-TECH
 о -X- O
-продаже -X- O
-телефонов -X- O
+продаже -X- B-OBJ
+телефонов -X- I-OBJ
 
 Моя -X- B-TYPE
 история -X- I-TYPE
@@ -27300,32 +27301,32 @@ pet -X- I-TYPE
 IT -X- I-TYPE
 : -X- B-PUNCT
 стать -X- B-TODO
-успешным -X- O
-программистом -X- B-ADV
-без -X- B-TYPE
-образования -X- I-TYPE
-и -X- O
-технического -X- B-ADV
+успешным -X- B-ADV
+программистом -X- B-AUD
+без -X- B-ADV
+образования -X- I-ADV
+и -X- I-ADV
+технического -X- I-ADV
 склада -X- I-ADV
 ума -X- I-ADV
 
 Как -X- B-TYPE
 я -X- I-TYPE
 организую -X- I-TYPE
-структуру -X- I-TYPE
+структуру -X- B-OBJ
 своих -X- O
-ML -X- O
-- -X- B-PART
-проектов -X- I-PART
+ML -X- B-TECH
+- -X- I-TECH
+проектов -X- I-TECH
 
 Примеры -X- B-TYPE
 задач -X- I-TYPE
-с -X- B-AUD
-собеседования -X- I-AUD
-на -X- B-AUD
-позицию -X- I-AUD
-Middle -X- I-AUD
-Ruby -X- I-AUD
+с -X- I-TYPE
+собеседования -X- I-TYPE
+на -X- O
+позицию -X- O
+Middle -X- B-AUD
+Ruby -X- B-AUD
 разработчика -X- I-AUD
 
 Моя -X- B-TYPE
@@ -27335,46 +27336,46 @@ IT -X- I-TYPE
 : -X- B-PUNCT
 как -X- B-TYPE
 выйти -X- I-TYPE
-из -X- I-TYPE
-космических -X- I-TYPE
-войск -X- O
+из -X- O
+космических -X- B-OBJ
+войск -X- I-OBJ
 и -X- O
 войти -X- O
 в -X- O
-IT -X- O
+IT -X- B-AUD
 
-Индексы -X- O
+Индексы -X- B-TECH
 в -X- O
-PostgreSQL -X- O
+PostgreSQL -X- B-PROGRAM
 
 Как -X- B-TYPE
-разработчику -X- I-TYPE
-- -X- B-DANGER
-одиночке -X- I-DANGER
+разработчику -X- B-AUD
+- -X- I-AUD
+одиночке -X- I-AUD
 правильно -X- B-ADV
-построить -X- O
+построить -X- B-TODO
 процесс -X- O
-создания -X- O
+создания -X- B-TODO
 и -X- O
-деплоя -X- O
-ПО -X- O
+деплоя -X- B-TECH
+ПО -X- B-TECH
 — -X- B-PUNCT
-отвечают -X- O
-эксперты -X- B-OBJ
+отвечают -X- B-TYPE
+эксперты -X- I-TYPE
 
 Что -X- B-TYPE
 нужно -X- I-TYPE
 знать -X- I-TYPE
 React -X- B-LIB
 - -X- O
-разработчику -X- O
+разработчику -X- B-AUD
 в -X- B-ACTUAL
 2021 -X- I-ACTUAL
 году -X- I-ACTUAL
 
-Почему -X- B-DANGER
-айтишнику -X- I-DANGER
-стоит -X- I-DANGER
+Почему -X- B-TYPE
+айтишнику -X- B-AUD
+стоит -X- B-ADV
 идти -X- B-TODO
 работать -X- I-TODO
 в -X- O
@@ -27388,64 +27389,64 @@ React -X- B-LIB
 программированию -X- I-TYPE
 – -X- O
 7 -X- B-NUM
-проверенных -X- B-TECH
-способов -X- I-TECH
+проверенных -X- B-TYPE
+способов -X- I-TYPE
 
 Стоит -X- B-TYPE
 прочитать -X- I-TYPE
 : -X- B-PUNCT
 обзор -X- B-TYPE
-книги -X- O
-Рида -X- O
-Хастингса -X- O
+книги -X- I-TYPE
+Рида -X- B-PER
+Хастингса -X- I-PER
 и -X- O
-Эрин -X- O
-Мейер -X- O
+Эрин -X- B-PER
+Мейер -X- I-PER
 « -X- B-PUNCT
 Никаких -X- O
 правил -X- B-DANGER
 . -X- B-PUNCT
-Уникальная -X- B-TYPE
+Уникальная -X- B-EMO
 культура -X- O
 Netflix -X- B-ORG
 » -X- B-PUNCT
 
-Углубляемся -X- O
+Углубляемся -X- B-TODO
 в -X- O
 JavaScript -X- B-LANG
 : -X- B-PUNCT
 всё -X- B-TYPE
 ли -X- I-TYPE
 может -X- I-TYPE
-async -X- I-TYPE
-/ -X- B-PUNCT
-await -X- O
+async -X- B-TECH
+/ -X- I-TECH
+await -X- I-TECH
 , -X- B-PUNCT
 или -X- O
-когда -X- O
-использовать -X- O
-Promise -X- O
+когда -X- B-ADV
+использовать -X- I-ADV
+Promise -X- B-TECH
 
 Разбираемся -X- B-TODO
 в -X- O
-прохождении -X- O
+прохождении -X- B-ADV
 квеста -X- O
 « -X- B-PUNCT
 Сапёр -X- B-GAME
 » -X- B-PUNCT
 от -X- O
-Tproger -X- O
+Tproger -X- B-SITE
 
 Задания -X- B-TYPE
 с -X- I-TYPE
 собеседования -X- I-TYPE
-на -X- B-AUD
-позицию -X- I-AUD
-Middle -X- I-AUD
+на -X- O
+позицию -X- O
+Middle -X- B-AUD
 Backend -X- I-AUD
 разработчика -X- I-AUD
-с -X- O
-примерами -X- O
+с -X- B-ADV
+примерами -X- I-ADV
 на -X- O
 Python -X- B-LANG
 
@@ -27453,11 +27454,11 @@ Python -X- B-LANG
 прочитать -X- I-TYPE
 : -X- B-PUNCT
 обзор -X- B-TYPE
-книги -X- O
-Джеффа -X- O
-Сазерленда -X- B-ORG
+книги -X- I-TYPE
+Джеффа -X- B-PER
+Сазерленда -X- B-PER
 « -X- B-PUNCT
-Скрам -X- O
+Скрам -X- B-TECH
 . -X- B-PUNCT
 Революционный -X- B-EMO
 метод -X- B-OBJ
@@ -27470,21 +27471,21 @@ Python -X- B-LANG
 в -X- O
 JavaScript -X- B-LANG
 : -X- B-PUNCT
-простая -X- B-MATH
-шпаргалка -X- I-MATH
-с -X- O
-примерами -X- O
+простая -X- B-ADV
+шпаргалка -X- I-ADV
+с -X- B-ADV
+примерами -X- I-ADV
 
 Как -X- B-TYPE
 стать -X- I-TYPE
 Android -X- B-OS
-- -X- B-PART
-разработчиком -X- I-PART
-с -X- I-PART
-нуля -X- I-PART
+- -X- O
+разработчиком -X- B-AUD
+с -X- B-ADV
+нуля -X- I-ADV
 : -X- B-PUNCT
-дорожная -X- O
-карта -X- O
+дорожная -X- B-TECH
+карта -X- I-TECH
 
 Моя -X- B-TYPE
 история -X- I-TYPE
@@ -27494,46 +27495,46 @@ IT -X- I-TYPE
 как -X- B-TYPE
 я -X- I-TYPE
 стал -X- I-TYPE
-QA -X- I-TYPE
-automation -X- O
-engineer -X- O
+QA -X- B-AUD
+automation -X- I-AUD
+engineer -X- I-AUD
 
-Мессенджеры -X- B-LANG
+Мессенджеры -X- B-APP
 , -X- B-PUNCT
 которые -X- O
-действительно -X- B-TYPE
-работают -X- I-TYPE
-без -X- B-NUM
-интернета -X- I-NUM
+действительно -X- B-ADV
+работают -X- O
+без -X- B-ADV
+интернета -X- I-ADV
 
-Интеграционные -X- B-AUD
-тесты -X- O
+Интеграционные -X- B-TECH
+тесты -X- I-TECH
 в -X- O
-микросервисах -X- O
+микросервисах -X- B-TECH
 
 Создаём -X- B-TODO
-собственные -X- O
-правила -X- O
+собственные -X- B-ADV
+правила -X- I-ADV
 для -X- O
 ESLint -X- B-LIB
 
-Нагрузочное -X- B-TYPE
-тестирование -X- I-TYPE
+Нагрузочное -X- B-TECH
+тестирование -X- I-TECH
 : -X- B-PUNCT
 особенности -X- B-TYPE
 профессии -X- I-TYPE
 
-7 -X- B-PART
-советов -X- O
-DevOps -X- B-PROGRAM
-- -X- O
-инженера -X- O
+7 -X- B-NUM
+советов -X- B-TYPE
+DevOps -X- B-AUD
+- -X- I-AUD
+инженера -X- I-AUD
 , -X- B-PUNCT
 которые -X- O
 будут -X- O
-полезны -X- O
-любому -X- O
-программисту -X- O
+полезны -X- B-ADV
+любому -X- B-AUD
+программисту -X- I-AUD
 
 Моя -X- B-TYPE
 история -X- I-TYPE
@@ -27547,24 +27548,24 @@ IT -X- I-TYPE
 стал -X- I-TYPE
 программистом -X- I-TYPE
 
-Собеседование -X- O
-на -X- B-AUD
-позицию -X- I-AUD
-Middle -X- I-AUD
-JavaScript -X- O
-разработчика -X- O
+Собеседование -X- B-OBJ
+на -X- O
+позицию -X- O
+Middle -X- B-AUD
+JavaScript -X- I-AUD
+разработчика -X- I-AUD
 : -X- B-PUNCT
 примеры -X- B-TYPE
 задач -X- I-TYPE
-и -X- I-TYPE
-необходимые -X- B-AUD
-знания -X- I-AUD
+и -X- O
+необходимые -X- B-ADV
+знания -X- I-ADV
 
 Где -X- B-TYPE
 общаются -X- I-TYPE
 разработчики -X- I-TYPE
 : -X- B-PUNCT
-русскоязычные -X- O
+русскоязычные -X- B-AUD
 чаты -X- B-OBJ
 программистов -X- I-OBJ
 
@@ -27572,50 +27573,50 @@ JavaScript -X- O
 мы -X- I-TYPE
 создавали -X- I-TYPE
 свой -X- O
-плагин -X- O
+плагин -X- B-TECH
 для -X- O
-Figma -X- B-TECH
+Figma -X- B-PROGRAM
 
 О -X- O
-выгорании -X- O
+выгорании -X- B-DANGER
 на -X- O
 работе -X- O
 — -X- B-PUNCT
-рассказывают -X- B-DANGER
-эксперты -X- I-DANGER
+рассказывают -X- B-TYPE
+эксперты -X- I-TYPE
 
 Практические -X- B-TYPE
 советы -X- I-TYPE
 по -X- O
-защите -X- B-TECH
-данных -X- I-TECH
-при -X- B-TYPE
-работе -X- I-TYPE
-на -X- I-TYPE
-удалёнке -X- I-TYPE
+защите -X- B-ADV
+данных -X- I-ADV
+при -X- O
+работе -X- O
+на -X- B-COND
+удалёнке -X- I-COND
 
-Проектная -X- B-NEWS
-документация -X- I-NEWS
+Проектная -X- B-TECH
+документация -X- I-TECH
 : -X- B-PUNCT
 инструкция -X- B-TYPE
-по -X- O
-применению -X- O
+по -X- I-TYPE
+применению -X- I-TYPE
 
-Ивентайджест -X- O
+Ивентайджест -X- B-TYPE
 за -X- O
 # -X- O
-авраль -X- O
-2021 -X- O
+апрель -X- B-ACTUAL
+2021 -X- I-ACTUAL
 : -X- B-PUNCT
-наша -X- B-OBJ
-подборка -X- I-OBJ
-IT -X- O
-- -X- O
-событий -X- O
+наша -X- B-TYPE
+подборка -X- I-TYPE
+IT -X- B-OBJ
+- -X- I-OBJ
+событий -X- I-OBJ
 , -X- B-PUNCT
 которые -X- B-ADV
 досадно -X- I-ADV
-пропустить -X- B-TODO
+пропустить -X- I-ADV
 
 В -X- B-TYPE
 поисках -X- I-TYPE
@@ -27624,28 +27625,28 @@ IT -X- O
 , -X- B-PUNCT
 чем -X- O
 у -X- O
-Шелдона -X- O
-Купера -X- O
+Шелдона -X- B-PER
+Купера -X- I-PER
 
 Что -X- B-TYPE
 делает -X- I-TYPE
 Go -X- B-LANG
-таким -X- O
-необычным -X- O
+таким -X- B-EMO
+необычным -X- I-EMO
 ? -X- B-PUNCT
 
-Тренды -X- O
-frontend -X- O
-- -X- O
-разработки -X- O
+Тренды -X- B-TYPE
+frontend -X- B-AUD
+- -X- I-AUD
+разработки -X- I-AUD
 в -X- B-ACTUAL
 2021 -X- I-ACTUAL
 году -X- I-ACTUAL
 
 Как -X- B-TYPE
 подключить -X- I-TYPE
-второй -X- I-TYPE
-экран -X- B-TYPE
+второй -X- B-DEVICE
+экран -X- I-DEVICE
 , -X- B-PUNCT
 используя -X- O
 смартфон -X- B-DEVICE
@@ -27660,8 +27661,8 @@ frontend -X- O
 сделать -X- I-TYPE
 скриншот -X- B-OBJ
 или -X- O
-запись -X- O
-экрана -X- O
+запись -X- B-OBJ
+экрана -X- I-OBJ
 на -X- O
 Windows -X- B-OS
 10 -X- B-VERSION
@@ -27672,76 +27673,76 @@ MacOS -X- B-OS
 задач -X- I-TYPE
 по -X- O
 JavaScript -X- B-LANG
-для -X- B-AUD
-подготовки -X- I-AUD
-джуна -X- I-AUD
-к -X- I-AUD
-собеседованию -X- I-AUD
-по -X- O
-фронтенду -X- B-OBJ
+для -X- O
+подготовки -X- B-TODO
+джуна -X- B-AUD
+к -X- O
+собеседованию -X- B-TECH
+по -X- I-TECH
+фронтенду -X- B-TECH
 
 Моделирование -X- O
-бизнес -X- O
-- -X- O
-процессов -X- O
+бизнес -X- B-OBJ
+- -X- I-OBJ
+процессов -X- I-OBJ
 : -X- B-PUNCT
 практика -X- B-TYPE
 использования -X- I-TYPE
-Camunda -X- O
-BPM -X- B-OBJ
+Camunda -X- B-PROGRAM
+BPM -X- I-PROGRAM
 в -X- O
 Java -X- B-LANG
 разработке -X- O
 
 То -X- B-TYPE
-, -X- B-PUNCT
-что -X- B-TYPE
+, -X- I-TYPE
+что -X- I-TYPE
 не -X- I-TYPE
 видят -X- I-TYPE
 пользователи -X- B-AUD
 : -X- B-PUNCT
 работа -X- O
-бэкенд -X- O
-- -X- O
-программиста -X- B-AUD
+бэкенд -X- B-AUD
+- -X- I-AUD
+программиста -X- I-AUD
 
 Как -X- B-TYPE
 измеряются -X- B-TECH
-метрики -X- I-TECH
-сайта -X- O
+метрики -X- B-TECH
+сайта -X- I-TECH
 : -X- B-PUNCT
 LCP -X- B-TECH
 , -X- B-PUNCT
-FID -X- B-LOC
+FID -X- B-TECH
 и -X- O
 CLS -X- B-TECH
 
 Как -X- B-TYPE
 создать -X- I-TYPE
 рабочую -X- O
-ИТ -X- O
-- -X- B-ADV
-инфраструктуру -X- I-ADV
-сайта -X- O
+ИТ -X- B-OBJ
+- -X- I-OBJ
+инфраструктуру -X- I-OBJ
+сайта -X- B-OBJ
 и -X- O
-не -X- O
-потратить -X- O
-кучу -X- O
-денег -X- O
-зря -X- O
+не -X- B-ADV
+потратить -X- I-ADV
+кучу -X- I-ADV
+денег -X- I-ADV
+зря -X- B-EMO
 
 Как -X- B-TYPE
-разработчику -X- I-TYPE
-выбрать -X- B-OBJ
-первое -X- B-DANGER
-место -X- I-DANGER
-работы -X- I-DANGER
+разработчику -X- B-AUD
+выбрать -X- B-TODO
+первое -X- B-OBJ
+место -X- I-OBJ
+работы -X- I-OBJ
 
 Стоит -X- B-TYPE
 прочитать -X- I-TYPE
 : -X- B-PUNCT
-подборка -X- B-ADV
-книг -X- O
+подборка -X- B-TYPE
+книг -X- I-TYPE
 , -X- B-PUNCT
 которые -X- O
 будут -X- O
@@ -27749,14 +27750,14 @@ CLS -X- B-TECH
 любому -X- O
 айтишнику -X- O
 
-Небольшая -X- B-TODO
-подборка -X- O
-тестовых -X- O
-заданий -X- O
+Небольшая -X- B-EFFORT
+подборка -X- B-TYPE
+тестовых -X- B-OBJ
+заданий -X- I-OBJ
 для -X- O
-Junior -X- O
-DevOps -X- O
-инженера -X- B-TYPE
+Junior -X- B-AUD
+DevOps -X- I-AUD
+инженера -X- I-AUD
 
 Тест -X- B-TECH
 : -X- B-PUNCT
@@ -27782,41 +27783,41 @@ CLS -X- B-TECH
 и -X- O
 почему -X- B-TYPE
 он -X- I-TYPE
-важен -X- I-TYPE
+важен -X- B-ADV
 
 Стоит -X- B-TYPE
 прочитать -X- I-TYPE
 : -X- B-PUNCT
 обзор -X- B-TYPE
 книги -X- I-TYPE
-Сэма -X- B-PROGRAM
-Ньюмана -X- I-PROGRAM
+Сэма -X- B-PER
+Ньюмана -X- I-PER
 « -X- B-PUNCT
-Monolith -X- O
+Monolith -X- B-TECH
 to -X- O
-Microservices -X- O
+Microservices -X- B-TECH
 . -X- B-PUNCT
 Evolutionary -X- O
 patterns -X- O
 to -X- O
 transform -X- O
 your -X- O
-monolith -X- O
+monolith -X- B-TECH
 » -X- B-PUNCT
 
 5 -X- B-NUM
-простых -X- B-TYPE
-тестовых -X- I-TYPE
-заданий -X- I-TYPE
-на -X- B-AUD
-позицию -X- I-AUD
-Junior -X- I-AUD
+простых -X- B-EFFORT
+тестовых -X- B-TECH
+заданий -X- I-TECH
+на -X- O
+позицию -X- O
+Junior -X- B-AUD
 Frontend -X- I-AUD
-- -X- B-TECH
-разработчик -X- I-TECH
+- -X- I-AUD
+разработчик -X- I-AUD
 
-Веб -X- O
-- -X- B-TECH
+Веб -X- B-TECH
+- -X- I-TECH
 разработка -X- I-TECH
 для -X- O
 начинающих -X- B-AUD
@@ -27825,19 +27826,19 @@ Frontend -X- I-AUD
 видеокурс -X- B-OBJ
 , -X- B-PUNCT
 который -X- O
-поможет -X- O
-оценить -X- O
-свои -X- B-TECH
-силы -X- I-TECH
+поможет -X- B-ADV
+оценить -X- B-TODO
+свои -X- I-TODO
+силы -X- I-TODO
 
-Современные -X- O
+Современные -X- B-ACTUAL
 языки -X- B-OBJ
 программирования -X- I-OBJ
 , -X- B-PUNCT
 которые -X- O
-заставят -X- B-MATH
-вас -X- I-MATH
-страдать -X- B-TYPE
+заставят -X- O
+вас -X- O
+страдать -X- B-DANGER
 : -X- B-PUNCT
 Часть -X- B-PART
 2 -X- I-PART
@@ -27846,34 +27847,32 @@ Frontend -X- I-AUD
 языки -X- I-TECH
 
 Как -X- B-TYPE
-муравьи -X- I-TYPE
-решают -X- I-TYPE
-проблемы -X- I-TYPE
-коммивояжёров -X- B-DEVICE
+муравьи -X- B-OBJ
+решают -X- B-ADV
+проблемы -X- B-MATH
+коммивояжёров -X- I-MATH
 
 Музыка -X- B-OBJ
-для -X- B-AUD
-программирования -X- I-AUD
-прямо -X- B-ACTUAL
-в -X- I-ACTUAL
-редакторе -X- I-ACTUAL
-кода -X- I-ACTUAL
+для -X- O
+программирования -X- B-TODO
+прямо -X- B-ADV
+в -X- I-ADV
+редакторе -X- B-PROGRAM
+кода -X- I-PROGRAM
 — -X- B-PUNCT
-наконец -X- B-PROGRAM
-- -X- I-PROGRAM
-то -X- O
+наконец-то -X- B-EMO
 ! -X- B-PUNCT
 
 7 -X- B-NUM
-расширений -X- O
-Сhrome -X- B-ORG
+расширений -X- B-TECH
+Сhrome -X- B-APP
 , -X- B-PUNCT
-на -X- B-ADV
-которые -X- I-ADV
-стоит -X- I-ADV
-обратить -X- B-DANGER
-внимание -X- B-TECH
-разработчикам -X- I-TECH
+на -X- O
+которые -X- O
+стоит -X- B-ADV
+обратить -X- I-ADV
+внимание -X- I-ADV
+разработчикам -X- B-AUD
 
 Хочу -X- B-TYPE
 стать -X- I-TYPE
@@ -27884,26 +27883,26 @@ Frontend -X- I-AUD
 начать -X- I-TYPE
 ? -X- B-PUNCT
 
-Идеальная -X- O
-клавиатура -X- O
+Идеальная -X- B-EMO
+клавиатура -X- B-DEVICE
 — -X- B-PUNCT
-поиск -X- O
-продолжается -X- O
+поиск -X- B-TYPE
+продолжается -X- I-TYPE
 
 Как -X- B-TYPE
-создать -X- O
-дополненную -X- B-EMO
-реальность -X- I-EMO
+создать -X- B-TODO
+дополненную -X- B-TECH
+реальность -X- I-TECH
 , -X- B-PUNCT
 написав -X- B-TYPE
-12 -X- B-NUM
-строк -X- I-NUM
-кода -X- I-NUM
+12 -X- B-EFFORT
+строк -X- I-EFFORT
+кода -X- I-EFFORT
 
 Зачем -X- B-TYPE
 нужно -X- I-TYPE
-реактивное -X- I-TYPE
-программирование -X- I-TYPE
+реактивное -X- B-TECH
+программирование -X- I-TECH
 на -X- O
 Swift -X- B-LANG
 ? -X- B-PUNCT
@@ -27913,14 +27912,14 @@ Swift -X- B-LANG
 как -X- B-TYPE
 мы -X- I-TYPE
 добавили -X- I-TYPE
-на -X- I-TYPE
-маркетплейс -X- I-TYPE
-модуль -X- I-TYPE
+на -X- O
+маркетплейс -X- B-OBJ
+модуль -X- B-TECH
 настройки -X- B-TECH
-календаря -X- I-TECH
+календаря -X- B-OBJ
 для -X- O
-точек -X- B-AUD
-самовывоза -X- I-AUD
+точек -X- B-OBJ
+самовывоза -X- I-OBJ
 
 Базовые -X- B-AUD
 знания -X- I-AUD
@@ -27932,7 +27931,7 @@ Science -X- I-TECH
 где -X- I-TYPE
 нужно -X- I-TYPE
 изучить -X- I-TYPE
-новичку -X- I-TYPE
+новичку -X- B-AUD
 
 Популярные -X- B-TYPE
 задачи -X- I-TYPE
@@ -27953,12 +27952,12 @@ vs -X- B-TYPE
 Data -X- B-TECH
 Science -X- I-TECH
 : -X- B-PUNCT
-чем -X- O
-отличаются -X- B-DANGER
-два -X- I-DANGER
+чем -X- B-TYPE
+отличаются -X- T-TYPE
+два -X- O
 направления -X- B-OBJ
-науки -X- I-OBJ
-о -X- B-TECH
+науки -X- B-TECH
+о -X- I-TECH
 данных -X- I-TECH
 ? -X- B-PUNCT
 
@@ -27967,8 +27966,8 @@ Science -X- I-TECH
 для -X- O
 начинающих -X- B-AUD
 : -X- B-PUNCT
-12 -X- B-TECH
-проектов -X- I-TECH
+12 -X- B-NUM
+проектов -X- B-TYPE
 на -X- O
 Python -X- B-LANG
 за -X- B-EFFORT
@@ -27978,8 +27977,8 @@ Python -X- B-LANG
 Big -X- B-TECH
 Data -X- I-TECH
 и -X- O
-лучшие -X- B-TYPE
-инструменты -X- I-TYPE
+лучшие -X- B-ADV
+инструменты -X- B-TYPE
 аналитики -X- I-TYPE
 в -X- B-ACTUAL
 2021 -X- I-ACTUAL
@@ -27987,40 +27986,40 @@ Data -X- I-TECH
 
 Насколько -X- B-TYPE
 ты -X- I-TYPE
-хакер -X- I-TYPE
+хакер -X- B-DANGER
 ? -X- B-PUNCT
-Тест -X- B-EMO
-на -X- I-EMO
-знание -X- I-EMO
-Манифеста -X- O
-хакера -X- O
+Тест -X- B-TYPE
+на -X- I-TYPE
+знание -X- I-TYPE
+Манифеста -X- B-TECH
+хакера -X- I-TECH
 
 Как -X- B-TYPE
 говорить -X- I-TYPE
-о -X- O
-деньгах -X- O
+о -X- I-TYPE
+деньгах -X- I-TYPE
 на -X- O
 собеседовании -X- B-OBJ
 ? -X- B-PUNCT
 
-Веб -X- B-TYPE
-- -X- I-TYPE
-скрейпинг -X- I-TYPE
+Веб -X- B-TECH
+- -X- I-TECH
+скрейпинг -X- I-TECH
 на -X- O
 Python -X- B-LANG
 : -X- B-PUNCT
-запускаем -X- B-TYPE
-парсинг -X- I-TYPE
-сайтов -X- I-TYPE
+запускаем -X- B-TODO
+парсинг -X- B-TECH
+сайтов -X- I-TECH
 за -X- B-EFFORT
 1 -X- I-EFFORT
 час -X- I-EFFORT
 
 Как -X- B-TYPE
 я -X- I-TYPE
-повысил -X- I-TYPE
-свою -X- I-TYPE
-продуктивность -X- I-TYPE
+повысил -X- B-ADV
+свою -X- I-ADV
+продуктивность -X- I-ADV
 с -X- O
 помощью -X- O
 набора -X- O
@@ -28030,9 +28029,9 @@ PowerToys -X- B-PROGRAM
 Windows -X- B-OS
 10 -X- B-VERSION
 
-Вкладки -X- B-TYPE
-в -X- B-ACTUAL
-браузере -X- I-ACTUAL
+Вкладки -X- B-OBJ
+в -X- I-OBJ
+браузере -X- I-OBJ
 как -X- I-ACTUAL
 элементы -X- B-TECH
 файловой -X- I-TECH
@@ -28047,11 +28046,11 @@ TabFS -X- B-PROGRAM
 Raspberry -X- B-DEVICE
 Pi -X- I-DEVICE
 — -X- B-PUNCT
-полноценный -X- B-TYPE
+полноценный -X- B-ADV
 ноутбук -X- B-DEVICE
 в -X- O
-компьютерной -X- B-TECH
-мышке -X- I-TECH
+компьютерной -X- B-DEVICE
+мышке -X- I-DEVICE
 
 Что -X- B-TYPE
 можно -X- I-TYPE
@@ -28059,70 +28058,70 @@ Pi -X- I-DEVICE
 о -X- I-TYPE
 человеке -X- B-OBJ
 по -X- O
-адресу -X- B-TYPE
-его -X- I-TYPE
-почты -X- I-TYPE
-на -X- I-TYPE
-Gmail -X- O
+адресу -X- B-OBJ
+его -X- O
+почты -X- B-OBJ
+на -X- I-OBJ
+Gmail -X- B-APP
 ? -X- B-PUNCT
-Проверяем -X- O
+Проверяем -X- B-TODO
 с -X- O
 помощью -X- O
 GHunt -X- B-PROGRAM
 
-Фоновая -X- B-OBJ
-подсветка -X- O
+Фоновая -X- B-TECH
+подсветка -X- I-TECH
 монитора -X- B-DEVICE
 , -X- B-PUNCT
-светящееся -X- B-OBJ
+светящееся -X- O
 облако -X- O
 и -X- O
-led -X- O
-- -X- O
-панели -X- O
+led -X- B-DEVICE
+- -X- I-DEVICE
+панели -X- I-DEVICE
 : -X- B-PUNCT
 5 -X- B-NUM
-проектов -X- I-NUM
+проектов -X- B-TYPE
 с -X- O
 использованием -X- O
-адресных -X- O
-светодиодов -X- O
+адресных -X- B-DEVICE
+светодиодов -X- I-DEVICE
 
-Создаём -X- B-TYPE
-своё -X- I-TYPE
+Создаём -X- B-TODO
+своё -X- O
 первое -X- B-AUD
 приложение -X- I-AUD
 на -X- O
-Sapper.js -X- B-SITE
+Sapper.js -X- B-LIB
 
 Как -X- B-TYPE
-компилятор -X- I-TYPE
-преобразует -X- B-TECH
-код -X- I-TECH
-на -X- B-AUD
-C -X- I-AUD
+компилятор -X- B-TECH
+преобразует -X- O
+код -X- B-TECH
+на -X- O
+C -X- B-LANG
 в -X- O
-Assembler -X- B-OS
+Assembler -X- B-LANG
 ? -X- B-PUNCT
 
-Новые -X- O
+Новые -X- B-NEWS
 российские -X- B-AUD
-законы -X- I-AUD
+законы -X- O
 : -X- B-PUNCT
 что -X- B-TYPE
 изменится -X- I-TYPE
 в -X- O
-IT -X- O
-- -X- O
-сфере -X- O
+IT -X- B-OBJ
+- -X- I-OBJ
+сфере -X- I-OBJ
 в -X- B-ACTUAL
 2021 -X- I-ACTUAL
 году -X- I-ACTUAL
 ? -X- B-PUNCT
 
-Проблема -X- B-TYPE
-2038 -X- I-TYPE
-года -X- I-TYPE
+Проблема -X- B-DANGER
+2038 -X- B-ACTUAL
+года -X- I-ACTUAL
 : -X- B-PUNCT
 что -X- B-TYPE
 делать -X- I-TYPE
@@ -28132,44 +28131,44 @@ IT -X- O
 время -X- I-TYPE
 ? -X- B-PUNCT
 
-Tproger -X- B-PER
-Changelog -X- I-PER
+Tproger -X- B-SITE
+Changelog -X- B-TECH
 : -X- B-PUNCT
 что -X- B-TYPE
 изменилось -X- I-TYPE
-за -X- I-TYPE
-2020 -X- I-TYPE
-год -X- I-TYPE
+за -X- B-ACTUAL
+2020 -X- I-ACTUAL
+год -X- I-ACTUAL
 ? -X- B-PUNCT
 
 Спасите -X- B-TODO
-Санту -X- B-TECH
+Санту -X- B-PER
 от -X- O
-суицида -X- B-ORG
+суицида -X- B-DANGER
 : -X- B-PUNCT
 игра -X- O
 « -X- B-PUNCT
-Помощник -X- O
-Санты -X- O
+Помощник -X- B-GAME
+Санты -X- I-GAME
 » -X- B-PUNCT
 на -X- O
-CodePen -X- O
+CodePen -X- B-SITE
 
 Задачи -X- B-TYPE
-с -X- B-AUD
-собеседований -X- I-AUD
+с -X- I-TYPE
+собеседований -X- I-TYPE
 : -X- B-PUNCT
 обработка -X- B-TODO
-параллельного -X- I-TODO
-редактирования -X- B-TECH
+параллельного -X- B-TECH
+редактирования -X- I-TECH
 данных -X- I-TECH
 
 Как -X- B-TYPE
 можно -X- I-TYPE
-улучшить -X- I-TYPE
-защиту -X- O
+улучшить -X- B-ADV
+защиту -X- I-ADV
 от -X- O
-киберугроз -X- B-OBJ
+киберугроз -X- B-DANGER
 в -X- B-ACTUAL
 2021 -X- I-ACTUAL
 году -X- I-ACTUAL
@@ -28178,27 +28177,27 @@ CodePen -X- O
 минуты -X- I-TYPE
 фитилями -X- O
 и -X- O
-доказываем -X- O
-прямоугольность -X- O
-треугольника -X- O
+доказываем -X- B-MATH
+прямоугольность -X- I-MATH
+треугольника -X- I-MATH
 — -X- B-PUNCT
-две -X- B-TYPE
-логические -X- I-TYPE
-задачи -X- I-TYPE
+две -X- B-NUM
+логические -X- B-MATH
+задачи -X- I-MATH
 
 Какими -X- B-TYPE
-будут -X- O
-зарплаты -X- B-TECH
-айтишников -X- I-TECH
+будут -X- I-TYPE
+зарплаты -X- B-OBJ
+айтишников -X- I-OBJ
 в -X- B-ACTUAL
 2021 -X- I-ACTUAL
 году -X- I-ACTUAL
 — -X- B-PUNCT
-прогнозы -X- O
-экспертов -X- O
+прогнозы -X- B-TYPE
+экспертов -X- I-TYPE
 
-Tproger -X- B-TYPE
-рекомендует -X- I-TYPE
+Tproger -X- B-SITE
+рекомендует -X- B-TYPE
 : -X- B-PUNCT
 что -X- B-TYPE
 купить -X- I-TYPE
@@ -28208,20 +28207,20 @@ Tproger -X- B-TYPE
 Steam -X- B-APP
 ? -X- B-PUNCT
 
-Пройдите -X- O
-опрос -X- O
-Developer -X- O
-Economics -X- O
-Survey -X- B-PER
-20 -X- I-PER
+Пройдите -X- B-TYPE
+опрос -X- I-TYPE
+Developer -X- B-ORG
+Economics -X- I-ORG
+Survey -X- I-ORG
+20 -X- O
 и -X- O
 получите -X- B-TYPE
-шанс -X- O
+шанс -X- I-TYPE
 выиграть -X- B-ADV
 приз -X- I-ADV
 
-Истории -X- O
-провалов -X- B-AUD
+Истории -X- B-TYPE
+провалов -X- B-DANGER
 : -X- B-PUNCT
 книги -X- B-TYPE
 о -X- I-TYPE
@@ -28236,70 +28235,70 @@ Survey -X- B-PER
 сразу -X- O
 
 Задачи -X- B-TYPE
-с -X- B-AUD
-собеседований -X- I-AUD
+с -X- I-TYPE
+собеседований -X- I-TYPE
 : -X- B-PUNCT
 ищем -X- B-TODO
 самый -X- O
 тяжёлый -X- O
 шар -X- O
-за -X- O
-два -X- O
-измерения -X- O
+за -X- B-EFFORT
+два -X- I-EFFORT
+измерения -X- I-EFFORT
 
 Big -X- B-TECH
 Data -X- I-TECH
 как -X- O
-универсальный -X- O
+универсальный -X- B-ADV
 инструмент -X- B-OBJ
 для -X- O
-бизнеса -X- O
+бизнеса -X- B-AUD
 
 Как -X- B-TYPE
-восстановить -X- I-TYPE
-битый -X- B-OBJ
-файл -X- I-OBJ
+восстановить -X- B-ADV
+битый -X- B-DANGER
+файл -X- I-DANGER
 ? -X- B-PUNCT
 
 Советы -X- B-TYPE
 по -X- I-TYPE
-программированию -X- B-OBJ
-для -X- B-AUD
+программированию -X- B-TODO
+для -X- O
 Junior -X- I-AUD
 - -X- I-AUD
 разработчиков -X- I-AUD
 
-Готовимся -X- O
+Готовимся -X- B-TODO
 к -X- O
-Новому -X- O
-году -X- O
+Новому -X- B-ACTUAL
+году -X- I-ACTUAL
 — -X- B-PUNCT
-ставим -X- B-ADV
+ставим -X- B-TODO
 ёлку -X- O
-в -X- B-ACTUAL
-терминале -X- I-ACTUAL
+в -X- O
+терминале -X- B-PROGRAM
 
 Почему -X- B-TYPE
 программирование -X- B-OBJ
 — -X- B-PUNCT
-это -X- B-TYPE
-так -X- I-TYPE
-сложно -X- I-TYPE
+это -X- O
+так -X- B-EMO
+сложно -X- I-EMO
 ? -X- B-PUNCT
 
-SQL -X- B-DANGER
-задачка -X- I-DANGER
+SQL -X- B-LANG
+задачка -X- B-OBJ
 : -X- B-PUNCT
-напишите -X- B-TYPE
-запрос -X- I-TYPE
+напишите -X- B-TODO
+запрос -X- I-TODO
 для -X- O
-обработки -X- O
-больших -X- O
-данных -X- O
+обработки -X- B-TECH
+больших -X- I-TECH
+данных -X- I-TECH
 
 5 -X- B-NUM
 шпаргалок -X- B-TYPE
-по -X- I-TYPE
+по -X- O
 Git -X- B-PROGRAM
 : -X- B-PUNCT
 от -X- B-TYPE
@@ -28309,17 +28308,17 @@ Git -X- B-PROGRAM
 с -X- O
 GitHub -X- B-SITE
 
-Японская -X- O
+Японская -X- B-LOC
 головоломка -X- O
-KenKen -X- O
+KenKen -X- B-GAME
 : -X- B-PUNCT
 разбор -X- B-TYPE
 задачи -X- I-TYPE
 и -X- O
 алгоритм -X- B-MATH
 автоматической -X- I-MATH
-генерации -X- O
-таблиц -X- O
+генерации -X- I-MATH
+таблиц -X- I-MATH
 
 Задачи -X- B-TYPE
 с -X- I-TYPE
@@ -28330,72 +28329,72 @@ IT -X- I-TYPE
 модуль -X- B-TYPE
 для -X- I-TYPE
 платформы -X- I-TYPE
-интернет -X- I-TYPE
-- -X- O
-магазинов -X- O
+интернет -X- B-OBJ
+- -X- I-OBJ
+магазинов -X- I-OBJ
 
-Боты -X- O
+Боты -X- B-TECH
 для -X- O
-Discord -X- O
+Discord -X- B-APP
 на -X- O
 Python -X- B-LANG
 : -X- B-PUNCT
-проект -X- B-TODO
-для -X- B-AUD
-начинающих -X- I-AUD
+проект -X- B-TYPE
+для -X- O
+начинающих -X- B-AUD
 
 Стоит -X- B-TYPE
 прочитать -X- I-TYPE
 : -X- B-PUNCT
 обзор -X- B-TYPE
-книги -X- O
-Маркуса -X- O
-Винанда -X- O
+книги -X- I-TYPE
+Маркуса -X- B-PER
+Винанда -X- I-PER
 « -X- B-PUNCT
-SQL -X- O
+SQL -X- B-LANG
 Performance -X- O
 explained -X- O
 » -X- B-PUNCT
 
 « -X- B-PUNCT
-Умирающие -X- B-TECH
+Умирающие -X- B-DANGER
 » -X- B-PUNCT
 языки -X- B-OBJ
 программирования -X- I-OBJ
 : -X- B-PUNCT
 что -X- B-TYPE
-не -X- I-TYPE
-стоит -X- I-TYPE
-учить -X- I-TYPE
+не -X- B-DANGER
+стоит -X- I-DANGER
+учить -X- I-DANGER
 в -X- B-ACTUAL
 2021 -X- I-ACTUAL
 году -X- I-ACTUAL
 
-Из -X- B-TECH
-игрока -X- I-TECH
+Из -X- O
+игрока -X- O
 в -X- O
 универсального -X- O
 программиста -X- O
 : -X- B-PUNCT
 чему -X- O
-ребёнок -X- B-DANGER
-может -X- I-DANGER
-обучиться -X- I-DANGER
+ребёнок -X- B-AUD
+может -X- O
+обучиться -X- O
 в -X- O
-Minecraft -X- B-GAME
-за -X- O
-несколько -X- O
-лет -X- O
+Minecraft -X- B-APP
+за -X- B-EFFORT
+несколько -X- I-EFFORT
+лет -X- I-EFFORT
 
-Доставайте -X- B-EMO
-любимые -X- O
-ретроигры -X- B-COND
+Доставайте -X- B-TODO
+любимые -X- B-EMO
+ретроигры -X- B-OBJ
 — -X- B-PUNCT
-вышел -X- B-TECH
-классный -X- I-TECH
-эмулятор -X- I-TECH
-DOSBox -X- O
-Pure -X- O
+вышел -X- B-ANNOUNCE
+классный -X- B-EMO
+эмулятор -X- B-PROGRAM
+DOSBox -X- B-PROGRAM
+Pure -X- I-PROGRAM
 
 Сборка -X- B-TODO
 программ -X- B-OBJ
@@ -28415,7 +28414,7 @@ Linux -X- B-OS
 Алана -X- B-PER
 Купера -X- I-PER
 « -X- B-PUNCT
-Психбольница -X- O
+Психбольница -X- B-OBJ
 в -X- O
 руках -X- O
 пациентов -X- O
@@ -28424,63 +28423,63 @@ Linux -X- B-OS
 Как -X- B-TYPE
 сделать -X- I-TYPE
 текст -X- B-OBJ
-градиентом -X- I-OBJ
+градиентом -X- B-TECH
 — -X- B-PUNCT
 простой -X- B-ADV
-CSS -X- B-TECH
-- -X- B-ADV
+CSS -X- B-LANG
+- -X- O
 трюк -X- I-ADV
 
-Семь -X- B-TECH
-биографий -X- I-TECH
+Семь -X- B-NUM
+биографий -X- B-OBJ
 , -X- B-PUNCT
 которые -X- O
-стоит -X- B-DANGER
-прочитать -X- I-DANGER
+стоит -X- B-ADV
+прочитать -X- I-ADV
 программистам -X- B-AUD
 
 Борьба -X- O
 за -X- O
-конфиденциальность -X- B-DANGER
+конфиденциальность -X- B-OBJ
 , -X- I-DANGER
-беспилотники -X- I-DANGER
+беспилотники -X- B-DEVOCE
 , -X- B-PUNCT
-Deepfake -X- B-OBJ
+Deepfake -X- B-PROGRAM
 и -X- O
 другие -X- O
-IT -X- O
-- -X- O
-тренды -X- O
-2021 -X- O
-года -X- O
+IT -X- B-TYPE
+- -X- I-TYPE
+тренды -X- I-TYPE
+2021 -X- B-ACTUAL
+года -X- I-ACTUAL
 
 Защита -X- B-ADV
 компаний -X- O
-электронной -X- B-DEVICE
-коммерции -X- I-DEVICE
+электронной -X- B-OBJ
+коммерции -X- I-OBJ
 от -X- O
-интернет -X- B-OBJ
-- -X- O
-угроз -X- O
+интернет -X- B-DANGER
+- -X- I-DANGER
+угроз -X- I-DANGER
 
 Выживут -X- O
 ли -X- O
 мудрецы -X- O
 : -X- B-PUNCT
 задача -X- B-TYPE
-по -X- I-TYPE
-теории -X- I-TYPE
-вероятностей -X- I-TYPE
+по -X- O
+теории -X- B-MATH
+вероятностей -X- I-MATH
 , -X- B-PUNCT
-у -X- B-DANGER
-которой -X- I-DANGER
-нет -X- I-DANGER
-единственного -X- I-DANGER
-правильного -X- I-DANGER
-решения -X- I-DANGER
+у -X- O
+которой -X- O
+нет -X- O
+единственного -X- B-MATH
+правильного -X- I-MATH
+решения -X- I-MATH
 
-Инструменты -X- B-OBJ
-терминала -X- I-OBJ
+Инструменты -X- B-TYPE
+терминала -X- B-PROGRAM
 Linux -X- B-OS
 для -X- O
 начинающих -X- B-AUD
@@ -28501,37 +28500,37 @@ Linux -X- B-OS
 машинного -X- B-TECH
 обучения -X- I-TECH
 для -X- O
-идентификации -X- O
-конфиденциальных -X- O
-документов -X- O
+идентификации -X- B-TECH
+конфиденциальных -X- B-OBJ
+документов -X- I-OBJ
 
-Чего -X- B-DANGER
-ждать -X- I-DANGER
+Чего -X- B-TYPE
+ждать -X- I-TYPE
 в -X- O
-сфере -X- O
+сфере -X- B-OBJ
 ИИ -X- B-TECH
 и -X- O
-машинного -X- O
-обучения -X- O
-в -X- O
-2021 -X- O
-году -X- O
+машинного -X- B-TECH
+обучения -X- B-TECH
+в -X- B-ACTUAL
+2021 -X- I-ACTUAL
+году -X- I-ACTUAL
 ? -X- B-PUNCT
 
-Баттл -X- B-ADV
-языков -X- I-ADV
-программирования -X- I-ADV
-2020 -X- O
-завершился -X- O
+Баттл -X- B-OBJ
+языков -X- B-OBJ
+программирования -X- I-OBJ
+2020 -X- B-ACTUAL
+завершился -X- B-ANNOUNCE
 ! -X- B-PUNCT
 
 Какие -X- B-TYPE
 навыки -X- I-TYPE
 будут -X- I-TYPE
 востребованы -X- I-TYPE
-в -X- O
-2021 -X- O
-году -X- O
+в -X- B-ACTUAL
+2021 -X- I-ACTUAL
+году -X- I-ACTUAL
 
 Суд -X- B-TYPE
 над -X- I-TYPE
@@ -28539,13 +28538,13 @@ Google -X- B-ORG
 , -X- B-PUNCT
 GitHub -X- B-SITE
 в -X- O
-Арктике -X- O
+Арктике -X- B-LOC
 и -X- O
 другие -X- O
-IT -X- O
-- -X- O
-события -X- O
-2020 -X- O
+IT -X- B-TYPE
+- -X- I-TYPE
+события -X- I-TYPE
+2020 -X- B-ACTUAL
 : -X- B-PUNCT
 что -X- B-TYPE
 изменил -X- I-TYPE
@@ -28553,14 +28552,14 @@ IT -X- O
 год -X- O
 ? -X- B-PUNCT
 
-Фронтенд -X- O
-- -X- O
-разработчики -X- B-ADV
-оценят -X- I-ADV
+Фронтенд -X- B-AUD
+- -X- I-AUD
+разработчики -X- B-AUD
+оценят -X- O
 : -X- B-PUNCT
 7 -X- B-NUM
 полезных -X- B-ADV
-репозиториев -X- I-ADV
+репозиториев -X- B-TECH
 на -X- O
 GitHub -X- B-SITE
 
@@ -28568,48 +28567,48 @@ GitHub -X- B-SITE
 немного -X- B-TYPE
 советов -X- I-TYPE
 для -X- O
-джунов -X- O
+джунов -X- B-AUD
 
 Финал -X- O
 баттла -X- O
 языков -X- B-OBJ
 программирования -X- I-OBJ
 2020 -X- B-ACTUAL
-уже -X- I-ACTUAL
-сегодня -X- I-ACTUAL
+уже -X- B-ANNOUNCE
+сегодня -X- I-ANNOUNCE
 ! -X- B-PUNCT
 
-eDEX -X- B-TECH
-- -X- O
-UI -X- B-TECH
+eDEX -X- B-PROGRAM
+- -X- I-PROGRAM
+UI -X- I-PROGRAM
 — -X- B-PUNCT
-кроссплатформенный -X- B-OBJ
-эмулятор -X- B-AUD
-терминала -X- O
+кроссплатформенный -X- B-ADV
+эмулятор -X- B-PROGRAM
+терминала -X- I-PROGRAM
 в -X- O
 стиле -X- O
-Sci -X- O
-- -X- B-SITE
-Fi -X- I-SITE
+Sci -X- B-OBJ
+- -X- I-OBJ
+Fi -X- I-OBJ
 
-Профессии -X- B-TECH
+Профессии -X- O
 в -X- O
-геймдев -X- B-TECH
-индустрии -X- I-TECH
+геймдев -X- B-AUD
+индустрии -X- I-AUD
 
 Полуфинал -X- O
 битвы -X- O
 языков -X- B-OBJ
 программирования -X- I-OBJ
-2020 -X- O
+2020 -X- B-ACTUAL
 
 Шестой -X- O
 раунд -X- O
-битвы -X- B-TECH
-языков -X- I-TECH
-программирования -X- I-TECH
-2020 -X- B-AUD
-начался -X- I-AUD
+битвы -X- B-OBJ
+языков -X- B-OBJ
+программирования -X- I-OBJ
+2020 -X- B-ACTUAL
+начался -X- B-NEWS
 ! -X- B-PUNCT
 
 Какие -X- B-TYPE
@@ -28618,12 +28617,12 @@ Fi -X- I-SITE
 хард -X- B-TYPE
 скиллы -X- I-TYPE
 нужны -X- I-TYPE
-джуниор -X- B-TECH
-- -X- I-TECH
-разработчику -X- I-TECH
+джуниор -X- B-AUD
+- -X- I-AUD
+разработчику -X- I-AUD
 — -X- B-PUNCT
-советы -X- B-OBJ
-тимлидов -X- I-OBJ
+советы -X- B-TYPE
+тимлидов -X- I-TYPE
 и -X- O
 технических -X- O
 директоров -X- O
@@ -28632,36 +28631,36 @@ Fi -X- I-SITE
 - -X- B-PROGRAM
 дайджест -X- O
 от -X- O
-Bercut -X- B-TECH
+Bercut -X- B-ORG
 
-Бесплатные -X- B-TYPE
-курсы -X- I-TYPE
-на -X- B-AUD
-Udemy -X- I-AUD
+Бесплатные -X- B-ADV
+курсы -X- B-TYPE
+на -X- O
+Udemy -X- B-SITE
 : -X- B-PUNCT
 скрипт -X- O
-для -X- B-AUD
-удобного -X- I-AUD
-поиска -X- I-AUD
+для -X- O
+удобного -X- B-ADV
+поиска -X- B-OBJ
 и -X- O
-подписки -X- B-TECH
+подписки -X- B-OBJ
 
-Сегодня -X- B-TYPE
-пятый -X- I-TYPE
+Сегодня -X- B-ANNOUNCE
+пятый -X- O
 раунд -X- O
-битвы -X- B-TECH
-языков -X- I-TECH
-программирования -X- I-TECH
+битвы -X- B-OBJ
+языков -X- B-OBJ
+программирования -X- I-OBJ
 2020 -X- B-ACTUAL
 ! -X- B-PUNCT
 
 Основы -X- B-TYPE
 Docker -X- B-PROGRAM
 : -X- B-PUNCT
-исчерпывающий -X- B-TYPE
-видеоурок -X- I-TYPE
-для -X- B-AUD
-начинающих -X- I-AUD
+исчерпывающий -X- B-STRUCT
+видеоурок -X- B-TYPE
+для -X- O
+начинающих -X- B-AUD
 
 Pip -X- B-PROGRAM
 : -X- B-PUNCT
@@ -28672,8 +28671,8 @@ Pip -X- B-PROGRAM
 Python -X- B-LANG
 
 История -X- B-TYPE
-компании -X- B-OBJ
-HP -X- B-TECH
+компании -X- I-TYPE
+HP -X- B-ORG
 : -X- B-PUNCT
 538 -X- O
 долларов -X- O
@@ -28681,9 +28680,9 @@ HP -X- B-TECH
 старте -X- O
 и -X- O
 первый -X- O
-мини -X- B-OBJ
-- -X- O
-компьютер -X- B-DEVICE
+мини -X- B-DEVICE
+- -X- I-DEVICE
+компьютер -X- I-DEVICE
 
 Стоит -X- B-TYPE
 прочитать -X- I-TYPE
@@ -28693,24 +28692,24 @@ HP -X- B-TECH
 Бретта -X- B-PER
 Маклафлина -X- I-PER
 « -X- B-PUNCT
-Объектно -X- O
-- -X- O
-ориентированный -X- O
+Объектно -X- B-TECH
+- -X- I-TECH
+ориентированный -X- I-TECH
 анализ -X- O
 и -X- O
-проектирование -X- O
+проектирование -X- B-TECH
 » -X- B-PUNCT
 
-CSS -X- B-TECH
-Scroll -X- I-TECH
+CSS -X- B-LANG
+Scroll -X- B-TECH
 Snap -X- I-TECH
 — -X- B-PUNCT
-мощное -X- B-LANG
-средство -X- I-LANG
+мощное -X- B-ADV
+средство -X- I-ADV
 для -X- O
 создания -X- O
-прокручиваемых -X- B-OBJ
-контейнеров -X- I-OBJ
+прокручиваемых -X- B-TECH
+контейнеров -X- I-TECH
 без -X- O
 JavaScript -X- B-LANG
 
@@ -28724,10 +28723,10 @@ JavaScript -X- B-LANG
 JavaScript -X- B-LANG
 ? -X- B-PUNCT
 
-Начался -X- B-ADV
+Начался -X- B-ANNOUNCE
 четвёртый -X- O
 раунд -X- O
-битвы -X- O
+битвы -X- B-OBJ
 языков -X- B-OBJ
 программирования -X- I-OBJ
 2020 -X- B-ACTUAL
@@ -28735,12 +28734,12 @@ JavaScript -X- B-LANG
 
 Разработка -X- B-TODO
 в -X- O
-AWS -X- B-OBJ
+AWS -X- B-ORG
 : -X- B-PUNCT
-полезные -X- B-ADV
-инструменты -X- B-OBJ
-и -X- O
-фичи -X- B-NUM
+полезные -X- B-TYPE
+инструменты -X- I-TYPE
+и -X- I-TYPE
+фичи -X- I-TYPE
 
 Как -X- B-TYPE
 вывести -X- I-TYPE
@@ -28749,68 +28748,69 @@ AWS -X- B-OBJ
 в -X- O
 зелёную -X- O
 зону -X- O
-PageSpeed -X- O
-Insights -X- O
+PageSpeed -X- B-TECH
+Insights -X- I-TECH
 — -X- B-PUNCT
-советуют -X- O
-эксперты -X- O
+советуют -X- B-TYPE
+эксперты -X- I-TYPE
 
-Sherlock -X- O
+Sherlock -X- B-PROGRAM
 — -X- B-PUNCT
 скрипт -X- O
 , -X- B-PUNCT
 который -X- O
 помогает -X- O
 найти -X- O
-профили -X- O
-в -X- O
-соцсетях -X- O
+профили -X- B-OBJ
+в -X- I-OBJ
+соцсетях -X- I-OBJ
 по -X- O
-имени -X- O
-пользователя -X- O
+имени -X- B-OBJ
+пользователя -X- I-OBJ
 
 Как -X- B-TYPE
 распланировать -X- I-TYPE
 рабочий -X- B-OBJ
 день -X- I-OBJ
-разработчика -X- I-OBJ
+разработчика -X- B-AUD
 
 Третий -X- O
 раунд -X- O
-битвы -X- O
+битвы -X- B-OBJ
 языков -X- B-OBJ
 программирования -X- I-OBJ
 2020 -X- B-ACTUAL
 ! -X- B-PUNCT
 
-Рынок -X- O
+Рынок -X- B-OBJ
 мобильных -X- B-OBJ
 игр -X- I-OBJ
-в -X- B-AUD
-эпоху -X- I-AUD
-пандемии -X- I-AUD
+в -X- B-ACTUAL
+эпоху -X- I-ACTUAL
+пандемии -X- I-ACTUAL
 
-На -X- O
-каком -X- O
-движке -X- O
+На -X- B-TYPE
+каком -X- I-TYPE
+движке -X- I-TYPE
 была -X- O
 создана -X- O
 эта -X- O
 игра -X- O
 ? -X- B-PUNCT
-Тест -X- B-TECH
+Тест -X- B-TYPE
 для -X- O
-заядлых -X- B-OBJ
-геймеров -X- I-OBJ
+заядлых -X- B-AUD
+геймеров -X- I-AUD
 
 Как -X- B-TYPE
 перенести -X- B-TYPE
 игру -X- I-TYPE
 на -X- O
-HTML5 -X- B-LANG
+HTML -X- B-LANG
+5 -X- B-VERSION
 : -X- B-PUNCT
-подводные -X- B-TECH
-камни -X- I-TECH
+подводные -X- B-DANGER
+камни -X- I-DANGER
 , -X- B-PUNCT
 ошибки -X- B-OBJ
 , -X- B-PUNCT
@@ -28828,18 +28828,18 @@ HTML5 -X- B-LANG
 языков -X- B-OBJ
 программирования -X- I-OBJ
 2020 -X- B-ACTUAL
-продолжается -X- I-ACTUAL
+продолжается -X- B-ACTUAL
 ! -X- B-PUNCT
 
 12 -X- B-NUM
-проектов -X- B-OBJ
+проектов -X- B-TYPE
 на -X- O
 Python -X- B-LANG
 для -X- O
 новичков -X- B-AUD
 : -X- B-PUNCT
-трёхчасовой -X- B-DANGER
-видеокурс -X- I-DANGER
+трёхчасовой -X- B-EFFORT
+видеокурс -X- B-TYPE
 
 Вторая -X- B-TYPE
 волна -X- O
@@ -28847,10 +28847,10 @@ Python -X- B-LANG
 как -X- B-TYPE
 изменился -X- I-TYPE
 ландшафт -X- B-OBJ
-киберугроз -X- I-OBJ
-к -X- O
-концу -X- O
-года -X- O
+киберугроз -X- B-DANGER
+к -X- B-ACTUAL
+концу -X- I-ACTUAL
+года -X- I-ACTUAL
 
 EStimator -X- B-PROGRAM
 : -X- B-PUNCT
@@ -28858,22 +28858,21 @@ EStimator -X- B-PROGRAM
 насколько -X- B-ADV
 быстрее -X- I-ADV
 станет -X- I-ADV
-ваш -X- B-DANGER
-сайт -X- I-DANGER
-, -X- B-PUNCT
+ваш -X- B-AUD
+сайт -X- I-AUD
 при -X- O
 переходе -X- O
 на -X- O
-Modern -X- B-TODO
+Modern -X- O
 JavaScript -X- B-LANG
 
 Как -X- B-TYPE
-правильно -X- I-TYPE
-составить -X- B-MATH
-резюме -X- I-MATH
+правильно -X- B-ADV
+составить -X- B-TODO
+резюме -X- I-TODO
 — -X- B-PUNCT
-советы -X- B-TECH
-экспертов -X- I-TECH
+советы -X- B-TYPE
+экспертов -X- I-TYPE
 , -X- B-PUNCT
 которые -X- O
 собеседуют -X- O
@@ -28881,58 +28880,58 @@ JavaScript -X- B-LANG
 Яндексе -X- B-ORG
 
 5 -X- B-NUM
-ошибок -X- B-TYPE
-junior -X- B-PROGRAM
-разработчика -X- I-PROGRAM
+ошибок -X- B-DANGER
+junior -X- B-AUD
+разработчика -X- I-AUD
 
-Начался -X- O
+Начался -X- B-ANNOUNCE
 баттл -X- O
 языков -X- B-OBJ
 программирования -X- I-OBJ
-2020 -X- O
+2020 -X- B-ACTUAL
 
-Примите -X- B-TYPE
-участие -X- I-TYPE
+Примите -X- B-TECH
+участие -X- I-TECH
 в -X- O
 баттле -X- O
 языков -X- B-OBJ
 программирования -X- I-OBJ
 2020 -X- B-ACTUAL
-. -X- I-ACTUAL
-Старт -X- O
-уже -X- O
-завтра -X- O
+. -X- B-PUNCT
+Старт -X- B-ANNOUNCE
+уже -X- I-ANNOUNCE
+завтра -X- I-ANNOUNCE
 ! -X- B-PUNCT
 
 Главный -X- O
 по -X- O
 роботам -X- O
 : -X- B-PUNCT
-где -X- O
+где -X- B-TYPE
 учиться -X- B-TODO
-на -X- I-TODO
-RPA -X- I-TODO
-- -X- I-TODO
-разработчика -X- I-TODO
+на -X- O
+RPA -X- B-AUD
+- -X- I-AUD
+разработчика -X- I-AUD
 ? -X- B-PUNCT
 
 Что -X- B-TYPE
 работодатели -X- I-TYPE
-ждут -X- O
+ждут -X- I-TYPE
 от -X- O
-начинающих -X- O
-специалистов -X- O
+начинающих -X- B-AUD
+специалистов -X- I-AUD
 по -X- O
 Data -X- B-TECH
 Science -X- I-TECH
 
-Software -X- O
-Architect -X- O
+Software -X- B-AUD
+Architect -X- I-AUD
 : -X- B-PUNCT
-рассказ -X- O
-от -X- O
-первого -X- O
-лица -X- O
+рассказ -X- B-TYPE
+от -X- I-TYPE
+первого -X- I-TYPE
+лица -X- I-TYPE
 о -X- O
 новой -X- B-OBJ
 , -X- B-PUNCT
@@ -28941,72 +28940,72 @@ Architect -X- O
 востребованной -X- O
 профессии -X- O
 
-3D -X- B-ORG
-- -X- B-DANGER
-принтер -X- I-DANGER
-в -X- I-DANGER
-виде -X- I-DANGER
+3D -X- B-DEVICE
+- -X- I-DEVICE
+принтер -X- I-DEVICE
+в -X- O
+виде -X- O
 ёлочной -X- B-OBJ
 игрушки -X- I-OBJ
 , -X- B-PUNCT
-которая -X- B-DANGER
-может -X- I-DANGER
-печатать -X- I-DANGER
-другие -X- I-DANGER
-ёлочные -X- I-DANGER
-игрушки -X- I-DANGER
+которая -X- O
+может -X- O
+печатать -X- O
+другие -X- O
+ёлочные -X- B-OBJ
+игрушки -X- I-OBJ
 
 Что -X- B-TYPE
 почитать -X- I-TYPE
 ? -X- B-PUNCT
-Подборка -X- O
-художественных -X- B-OBJ
+Подборка -X- B-TYPE
+художественных -X- B-0BJ
 книг -X- I-OBJ
-для -X- B-AUD
-программиста -X- I-AUD
+для -X- O
+программиста -X- B-AUD
 
-Четыре -X- O
+Четыре -X- B-NUM
 шага -X- O
 для -X- O
-защиты -X- O
-стратегически -X- O
-важной -X- O
-информации -X- O
+защиты -X- B-ADV
+стратегически -X- I-ADV
+важной -X- I-ADV
+информации -X- I-ADV
 
-Простой -X- B-ADV
-HTML -X- B-TECH
-- -X- I-TECH
-тег -X- I-TECH
+Простой -X- B-EFFORT
+HTML -X- B-LANG
+- -X- O
+тег -X- B-TECH
 , -X- B-PUNCT
 который -X- O
-делает -X- B-DANGER
-переносы -X- I-DANGER
-правильными -X- I-DANGER
+делает -X- O
+переносы -X- O
+правильными -X- B-ADV
 и -X- O
-красивыми -X- O
+красивыми -X- B-ADV
 
-Чья -X- O
-это -X- O
+Чья -X- B-TYPE
+это -X- I-TYPE
 фраза -X- O
 ? -X- B-PUNCT
-Угадайте -X- O
+Угадайте -X- B-TYPE
 , -X- B-PUNCT
 кто -X- O
 из -X- O
 известных -X- O
-айтишников -X- B-DANGER
-это -X- I-DANGER
-сказал -X- I-DANGER
+айтишников -X- B-AUD
+это -X- O
+сказал -X- O
 
 10 -X- B-NUM
-полезных -X- B-TYPE
-расширений -X- I-TYPE
-Google -X- B-PROGRAM
-Chrome -X- I-PROGRAM
+полезных -X- B-ADV
+расширений -X- B-TECH
+Google -X- B-APP
+Chrome -X- I-APP
 для -X- O
-разработчиков -X- O
+разработчиков -X- B-AUD
 и -X- O
-дизайнеров -X- O
+дизайнеров -X- B-AUD
 
 Как -X- B-TYPE
 отдыхать -X- I-TYPE
@@ -29016,7 +29015,7 @@ Chrome -X- I-PROGRAM
 советуют -X- O
 эксперты -X- O
 
-DevOps -X- B-PROGRAM
+DevOps -X- B-TECH
 - -X- O
 дайджест -X- O
 от -X- O
@@ -29024,8 +29023,8 @@ DevOps -X- B-PROGRAM
 Рексофт -X- B-ORG
 » -X- B-PUNCT
 
-Настройки -X- B-DANGER
-конфиденциальности -X- I-DANGER
+Настройки -X- B-OBJ
+конфиденциальности -X- I-OBJ
 Windows -X- B-OS
 10 -X- I-OS
 : -X- B-PUNCT
@@ -29054,9 +29053,9 @@ Windows -X- B-OS
 ней -X- B-TYPE
 работать -X- I-TYPE
 
-Код -X- O
-- -X- B-DANGER
-ревью -X- I-DANGER
+Код -X- B-TECH
+- -X- I-TECH
+ревью -X- I-TECH
 — -X- B-PUNCT
 как -X- B-TYPE
 сделать -X- I-TYPE
@@ -29131,10 +29130,10 @@ YaTalks -X- B-CONF
 влюбить -X- I-TYPE
 в -X- I-TYPE
 себя -X- O
-своего -X- B-DANGER
-код -X- I-DANGER
-- -X- I-DANGER
-ревьюера -X- I-DANGER
+своего -X- O
+код -X- B-TECH
+- -X- I-TECH
+ревьюера -X- I-TECH
 : -X- B-PUNCT
 правила -X- B-TYPE
 подготовки -X- I-TYPE
@@ -29272,8 +29271,8 @@ Java -X- B-LANG
 Hard -X- B-TECH
 skills -X- I-TECH
 и -X- O
-soft -X- B-DANGER
-skills -X- I-DANGER
+soft -X- B-OBJ
+skills -X- I-OBJ
 — -X- B-PUNCT
 какие -X- B-TYPE
 навыки -X- I-TYPE
@@ -29281,11 +29280,11 @@ skills -X- I-DANGER
 программисту -X- B-AUD
 
 Способы -X- B-TYPE
-ожидания -X- B-DANGER
+ожидания -X- B-OBJ
 в -X- O
 Java -X- B-LANG
 и -X- O
-Selenium -X- B-PROGRAM
+Selenium -X- B-FRAME
 
 История -X- B-TYPE
 графики -X- I-TYPE
@@ -29350,8 +29349,8 @@ Drupal -X- B-PROGRAM
 работоспособность -X- I-ADV
 зимой -X- I-ADV
 : -X- B-PUNCT
-советы -X- B-TECH
-Tproger -X- I-TECH
+советы -X- B-TYPE
+Tproger -X- B-SITE
 
 Property -X- B-AUD
 Wrappers -X- I-AUD
@@ -29430,13 +29429,13 @@ Reddit -X- B-SITE
 день -X- I-OBJ
 
 Как -X- B-TYPE
-пройти -X- O
-интервью -X- B-DANGER
-успешно -X- I-DANGER
+пройти -X- B-ADV
+интервью -X- B-OBJ
+успешно -X- B-ADV
 : -X- B-PUNCT
 рекомендации -X- O
 для -X- O
-аналитиков -X- O
+аналитиков -X- B-AUD
 
 Стоит -X- B-TYPE
 прочитать -X- I-TYPE
@@ -29455,8 +29454,7 @@ Reddit -X- B-SITE
 разработки -X- O
 на -X- O
 языке -X- O
-С -X- O
-# -X- O
+С# -X- B-LANG
 » -X- B-PUNCT
 
 SEO -X- O
@@ -29474,10 +29472,10 @@ SEO -X- O
 прочитать -X- I-TYPE
 : -X- B-PUNCT
 обзор -X- B-TYPE
-книги -X- B-TECH
-Фрайда -X- I-TECH
+книги -X- I-TYPE
+Фрайда -X- B-PER
 и -X- O
-Хенссона -X- O
+Хенссона -X- B-PER
 « -X- B-PUNCT
 Rework -X- O
 : -X- B-PUNCT
@@ -29531,8 +29529,8 @@ DDoS -X- B-DANGER
 в -X- O
 стартап -X- B-OBJ
 — -X- B-PUNCT
-рассказывают -X- O
-эксперты -X- O
+рассказывают -X- B-TYPE
+эксперты -X- I-TYPE
 
 18 -X- B-NUM
 ноября -X- O
@@ -29544,10 +29542,10 @@ DDoS -X- B-DANGER
 — -X- B-PUNCT
 рассказываем -X- O
 о -X- O
-рекордах -X- B-DANGER
-из -X- I-DANGER
-мира -X- I-DANGER
-IT -X- I-DANGER
+рекордах -X- B-OBJ
+из -X- O
+мира -X- O
+IT -X- B-OBJ
 
 Стоит -X- B-TYPE
 прочитать -X- I-TYPE
@@ -29569,7 +29567,7 @@ to -X- O
 API -X- B-TECH
 на -X- O
 гугловом -X- B-DEVICE
-gRPC -X- I-DEVICE
+gRPC -X- B-LIB
 : -X- B-PUNCT
 чем -X- O
 хорош -X- O
@@ -29646,25 +29644,25 @@ gRPC -X- I-DEVICE
 по -X- I-TYPE
 выбору -X- I-TYPE
 
-Как -X- O
-повысить -X- O
-производительность -X- O
-редактора -X- O
-маршрута -X- O
+Как -X- B-TYPE
+повысить -X- B-ADV
+производительность -X- I-ADV
+редактора -X- B-TECH
+маршрута -X- I-TECH
 с -X- O
 помощью -X- O
-дерева -X- O
-квадрантов -X- O
+дерева -X- B-MATH
+квадрантов -X- I-MATH
 
-Как -X- O
-внимательное -X- B-DANGER
-составление -X- I-DANGER
+Как -X- B-TYPE
+внимательное -X- O
+составление -X- O
 технического -X- O
 задания -X- O
 поможет -X- O
 заказчику -X- O
-сэкономить -X- O
-деньги -X- O
+сэкономить -X- B-ADV
+деньги -X- I-ADV
 
 Работа -X- O
 со -X- O
@@ -29747,12 +29745,12 @@ Scrum -X- O
 новичка -X- I-AUD
 , -X- B-PUNCT
 которые -X- O
-могут -X- B-DANGER
-привести -X- I-DANGER
+могут -X- O
+привести -X- O
 к -X- O
-дырам -X- B-OBJ
-в -X- O
-кибербезопасности -X- O
+дырам -X- B-DANGER
+в -X- I-DANGER
+кибербезопасности -X- I-DANGER
 
 Хакатон -X- O
 во -X- O
@@ -29831,19 +29829,19 @@ Legends -X- I-GAME
 может -X- I-TYPE
 быть -X- B-TODO
 важно -X- I-TODO
-для -X- B-AUD
-любого -X- I-AUD
+для -X- O
+любого -X- B-AUD
 разработчика -X- I-AUD
 ? -X- B-PUNCT
 
 Как -X- B-TYPE
-пройти -X- B-AUD
-собеседование -X- I-AUD
+пройти -X- B-ADV
+собеседование -X- I-ADV
 и -X- O
-стать -X- O
-SOC -X- O
-- -X- B-ADV
-специалистом -X- I-ADV
+стать -X- B-TODO
+SOC -X- B-AUD
+- -X- I-AUD
+специалистом -X- I-AUD
 
 Аниме -X- O
 и -X- O
@@ -29867,15 +29865,15 @@ Windows -X- B-OS
 React -X- B-LIB
 Native -X- I-LIB
 
-Evennia -X- B-TECH
+Evennia -X- B-LIB
 — -X- B-PUNCT
 python -X- B-LANG
 библиотека -X- B-TECH
 для -X- O
-текстовых -X- B-AUD
-онлайн -X- B-OBJ
-- -X- B-DANGER
-игр -X- I-DANGER
+текстовых -X- B-OBJ
+онлайн -X- I-OBJ
+- -X- I-OBJ
+игр -X- I-OBJ
 
 7 -X- B-NUM
 практических -X- B-TYPE
@@ -29902,8 +29900,8 @@ python -X- B-LANG
 
 Хэллоуинский -X- O
 спецвыпуск -X- O
-Tproger -X- O
-Changelog -X- O
+Tproger -X- B-SITE
+Changelog -X- B-TECH
 : -X- B-PUNCT
 какие -X- B-TYPE
 факапы -X- I-TYPE
@@ -29965,9 +29963,9 @@ Bercut -X- B-OBJ
 Страх -X- B-TODO
 и -X- O
 ненависть -X- O
-DevOps -X- B-PROGRAM
-- -X- B-DANGER
-специалиста -X- I-DANGER
+DevOps -X- B-AUD
+- -X- I-AUD
+специалиста -X- I-AUD
 : -X- B-PUNCT
 что -X- B-TYPE
 не -X- I-TYPE
@@ -30043,9 +30041,9 @@ Data -X- I-TECH
 
 Сайт -X- O
 на -X- O
-ASP.NET -X- B-LANG
-для -X- B-AUD
-начинающих -X- I-AUD
+ASP.NET -X- B-FRAME
+для -X- O
+начинающих -X- B-AUD
 — -X- B-PUNCT
 первые -X- B-AUD
 шаги -X- I-AUD
@@ -30063,8 +30061,8 @@ ASP.NET -X- B-LANG
 своим -X- O
 создателям -X- O
 
-Tproger -X- B-PER
-Changelog -X- I-PER
+Tproger -X- B-SITE
+Changelog -X- B-TECH
 : -X- B-PUNCT
 добрые -X- O
 комментарии -X- O
@@ -30110,7 +30108,7 @@ Teamlead -X- I-VERSION
 Cloudflare -X- O
 анонсировал -X- B-ANNOUNCE
 поддержку -X- O
-gRPC -X- B-DEVICE
+gRPC -X- B-LIB
 
 Flutter -X- B-TYPE
 vs -X- I-TYPE
@@ -30199,8 +30197,8 @@ Python -X- B-LANG
 стали -X- I-TYPE
 незаменимой -X- O
 частью -X- O
-для -X- B-AUD
-бизнеса -X- I-AUD
+для -X- O
+бизнеса -X- B-AUD
 
 Что -X- B-TYPE
 делать -X- I-TYPE
@@ -30226,11 +30224,11 @@ R -X- B-TYPE
 : -X- B-PUNCT
 что -X- B-TYPE
 выбрать -X- I-TYPE
-для -X- B-AUD
-Data -X- I-AUD
-Science -X- I-AUD
-начинающему -X- O
-специалисту -X- O
+для -X- O
+Data -X- B-TECH
+Science -X- I-TECH
+начинающему -X- B-AUD
+специалисту -X- I-AUD
 ? -X- B-PUNCT
 
 Приёмы -X- B-TYPE
@@ -30342,7 +30340,7 @@ Office -X- I-PROGRAM
 им -X- I-TYPE
 стать -X- I-TYPE
 
-Tproger -X- B-PER
+Tproger -X- B-SITE
 Changelog -X- I-PER
 : -X- B-PUNCT
 своя -X- O
@@ -30464,7 +30462,7 @@ CSS -X- B-LANG
 
 Чем -X- B-TYPE
 занимается -X- I-TYPE
-DevOps -X- B-PROGRAM
+DevOps -X- B-TECH
 - -X- B-DANGER
 инженер -X- I-DANGER
 в -X- I-DANGER
@@ -30809,7 +30807,7 @@ Zoom -X- B-PROGRAM
 работы -X- I-TYPE
 с -X- O
 киберпреступлениями -X- O
-для -X- B-AUD
+для -X- O
 специалиста -X- I-AUD
 по -X- O
 ИБ -X- B-TECH
@@ -30826,8 +30824,8 @@ Zoom -X- B-PROGRAM
 в -X- I-TYPE
 офис -X- I-TYPE
 
-Tproger -X- B-PER
-Changelog -X- I-PER
+Tproger -X- B-SITE
+Changelog -X- O
 : -X- B-PUNCT
 как -X- B-TYPE
 работать -X- I-TYPE
@@ -30845,7 +30843,7 @@ IT -X- I-TYPE
 специалисту -X- B-DANGER
 ввести -X- I-DANGER
 культуру -X- O
-DevOps -X- B-PROGRAM
+DevOps -X- B-TECH
 в -X- O
 своей -X- O
 компании -X- B-OBJ
@@ -30856,9 +30854,9 @@ IoT -X- O
 ? -X- B-PUNCT
 Тест -X- B-TECH
 от -X- O
-Tproger -X- B-PROGRAM
+Tproger -X- B-SITE
 и -X- O
-МегаФона -X- B-TECH
+МегаФона -X- B-ORG
 
 Харизматичный -X- B-TECH
 дизайн -X- I-TECH
@@ -30922,8 +30920,8 @@ IT -X- O
 в -X- O
 IT -X- O
 — -X- B-PUNCT
-рассказывают -X- B-DANGER
-эксперты -X- I-DANGER
+рассказывают -X- B-TYPE
+эксперты -X- I-TYPE
 
 Иголка -X- B-TYPE
 в -X- I-TYPE
@@ -31058,15 +31056,15 @@ IT -X- O
 рынке -X- O
 труда -X- O
 
-Tproger -X- B-PER
-Changelog -X- I-PER
+Tproger -X- B-SITE
+Changelog -X- B-TECH
 : -X- B-PUNCT
 сделали -X- O
-для -X- B-AUD
-вас -X- I-AUD
-за -X- I-AUD
-май -X- I-AUD
-2020 -X- I-AUD
+для -X- O
+вас -X- O
+за -X- B-ACTUAL
+май -X- I-ACTUAL
+2020 -X- I-ACTUAL
 
 Как -X- B-TYPE
 полюбить -X- I-TYPE
@@ -31313,7 +31311,7 @@ Changelog -X- I-PER
 DotNext -X- B-TECH
 
 Разбираем -X- B-ADV
-CSS -X- B-TECH
+CSS -X- B-LANG
 в -X- O
 новом -X- O
 дизайне -X- O
@@ -31422,7 +31420,7 @@ Science -X- I-TECH
 
 Чем -X- B-TYPE
 занимается -X- I-TYPE
-DevOps -X- B-PROGRAM
+DevOps -X- B-TECH
 - -X- B-DANGER
 инженер -X- I-DANGER
 
@@ -31565,8 +31563,8 @@ imisstheoffice -X- B-TYPE
 рассказывают -X- B-TYPE
 эксперты -X- I-TYPE
 
-Tproger -X- B-PER
-Changelog -X- I-PER
+Tproger -X- B-SITE
+Changelog -X- B-TECH
 : -X- B-PUNCT
 сделали -X- O
 для -X- B-AUD
@@ -31631,10 +31629,10 @@ skills -X- O
 Инструменты -X- B-OBJ
 и -X- O
 библиотеки -X- B-OBJ
-для -X- B-AUD
-веб -X- I-AUD
-- -X- I-AUD
-скрейпинга -X- I-AUD
+для -X- O
+веб -X- B-TECH
+- -X- I-TECH
+скрейпинга -X- I-TECH
 
 Практика -X- B-TYPE
 Data -X- B-TECH
@@ -31663,7 +31661,7 @@ Science -X- I-TECH
 Что -X- B-TYPE
 использует -X- I-TYPE
 команда -X- I-TYPE
-Tproger -X- B-PROGRAM
+Tproger -X- B-SITE
 : -X- B-PUNCT
 инструменты -X- O
 для -X- O
@@ -31718,8 +31716,8 @@ Cloudflare -X- O
 тестирования -X- I-AUD
 фронтенда -X- I-AUD
 — -X- B-PUNCT
-рассказывают -X- B-DANGER
-эксперты -X- I-DANGER
+рассказывают -X- B-TYPE
+эксперты -X- I-TYPE
 
 Serious -X- B-DANGER
 games -X- I-DANGER
@@ -31999,11 +31997,11 @@ IT -X- O
 в -X- O
 IT -X- O
 — -X- B-PUNCT
-рассказывают -X- B-DANGER
-эксперты -X- I-DANGER
+рассказывают -X- B-TYPE
+эксперты -X- I-TYPE
 
 Эффективный -X- B-TYPE
-DevOps -X- B-PROGRAM
+DevOps -X- B-TECH
 : -X- B-PUNCT
 6 -X- B-NUM
 способов -X- I-NUM
@@ -32156,8 +32154,8 @@ JVM -X- B-TECH
 по -X- O
 NGINX -X- B-TECH
 — -X- B-PUNCT
-подборка -X- B-NUM
-книг -X- B-TYPE
+подборка -X- B-TYPE
+книг -X- I-TYPE
 на -X- B-AUD
 русском -X- I-AUD
 и -X- I-AUD
@@ -32482,8 +32480,8 @@ AR -X- I-TECH
 - -X- O
 зеркало -X- O
 — -X- B-PUNCT
-подборка -X- B-NUM
-интересных -X- B-TECH
+подборка -X- B-TYPE
+интересных -X- B-EMO
 и -X- O
 технологичных -X- B-ADV
 стартапов -X- I-ADV
@@ -32717,7 +32715,7 @@ PHP -X- B-LANG
 - -X- B-ADV
 лист -X- I-ADV
 для -X- O
-DevOps -X- B-PROGRAM
+DevOps -X- B-TECH
 - -X- O
 инженеров -X- O
 на -X- O
@@ -33100,8 +33098,8 @@ RTX -X- O
 главное -X- O
 с -X- O
 конференции -X- O
-GTC -X- O
-2019 -X- O
+GTC -X- B-CONF
+2019 -X- B-ACTUAL
 
 GPU -X- B-TECH
 — -X- B-PUNCT
@@ -33115,8 +33113,8 @@ GPU -X- B-TECH
 примера -X- O
 с -X- O
 NVIDIA -X- B-PROGRAM
-GTC -X- O
-2019 -X- O
+GTC -X- B-CONF
+2019 -X- B-ACTUAL
 
 Создание -X- B-TODO
 GIF -X- B-TECH
@@ -33476,15 +33474,15 @@ Q4 -X- O
 , -X- I-ORG
 бочки -X- I-ORG
 — -X- B-PUNCT
-подборка -X- B-ADV
-задач -X- O
-для -X- B-AUD
-программистов -X- I-AUD
+подборка -X- B-TYPE
+задач -X- I-TYPE
+для -X- O
+программистов -X- B-AUD
 
-Генерим -X- B-OBJ
-аниме -X- I-OBJ
-- -X- B-DANGER
-тян -X- I-DANGER
+Генерим -X- B-TODO
+аниме -X- B-OBJ
+- -X- I-OBJ
+тян -X- I-OBJ
 с -X- O
 помощью -X- O
 машинного -X- B-TECH
@@ -33801,9 +33799,9 @@ Tproger -X- O
 красим -X- O
 кубы -X- O
 — -X- B-PUNCT
-подборка -X- B-NUM
-задач -X- O
-для -X- B-AUD
+подборка -X- B-TYPE
+задач -X- I-TYPE
+для -X- O
 программистов -X- I-AUD
 
 Рефакторим -X- B-TECH
@@ -33991,7 +33989,7 @@ Android -X- B-OS
 : -X- B-PUNCT
 подборка -X- B-TYPE
 задач -X- I-TYPE
-для -X- I-TYPE
+для -X- O
 программистов -X- B-AUD
 
 Режем -X- O
@@ -34005,7 +34003,7 @@ Android -X- B-OS
 : -X- B-PUNCT
 подборка -X- B-TYPE
 задач -X- I-TYPE
-для -X- I-TYPE
+для -X- O
 программистов -X- B-AUD
 
 Как -X- B-TYPE
@@ -34178,14 +34176,14 @@ Microsoft -X- B-ORG
 временных -X- I-ADV
 рядов -X- I-ADV
 
-Огромная -X- B-TODO
-подборка -X- B-TECH
+Огромная -X- B-EMO
+подборка -X- B-TYPE
 для -X- O
-исследования -X- B-ADV
-безопасности -X- I-ADV
+исследования -X- B-TECH
+безопасности -X- I-TECH
 Android -X- B-OS
-- -X- B-ADV
-приложений -X- I-ADV
+- -X- O
+приложений -X- B-OBJ
 
 Как -X- B-TYPE
 полюбить -X- I-TYPE
@@ -34224,8 +34222,8 @@ Tproger -X- I-DEVICE
 : -X- B-PUNCT
 итоги -X- O
 конференции -X- O
-YaC -X- O
-2018 -X- O
+YaC -X- B-CONF
+2018 -X- B-ACTUAL
 
 Узнайте -X- B-TYPE
 , -X- B-PUNCT
@@ -34267,8 +34265,8 @@ overflow -X- O
 « -X- B-PUNCT
 Яндекса -X- B-ORG
 » -X- B-PUNCT
-YaC -X- O
-2018 -X- O
+YaC -X- B-CONF
+2018 -X- B-ACTUAL
 
 GDPR -X- B-TECH
 — -X- B-PUNCT
@@ -34493,8 +34491,8 @@ Microsoft -X- B-ORG
 по -X- O
 сети -X- O
 : -X- B-PUNCT
-подборка -X- B-ADV
-площадок -X- I-ADV
+подборка -X- B-TYPE
+площадок -X- I-TYPE
 
 Утки -X- O
 , -X- B-PUNCT
@@ -34577,13 +34575,13 @@ IT -X- O
 зимы -X- O
 
 Фичи -X- B-TECH
-Rust -X- I-TECH
+Rust -X- B-LANG
 , -X- B-PUNCT
 которых -X- B-TYPE
 не -X- I-TYPE
 хватает -X- I-TYPE
 в -X- I-TYPE
-C -X- I-TYPE
+C -X- B-LANG
 
 VK -X- B-ORG
 Cup -X- I-ORG
@@ -34967,12 +34965,12 @@ Anime.js -X- B-LIB
 Часть -X- B-PART
 3 -X- I-PART
 
-Задача -X- O
+Задача -X- B-TYPE
 : -X- B-PUNCT
-игра -X- O
+игра -X- B-OBJ
 « -X- B-PUNCT
-Гениальный -X- O
-отгадчик -X- O
+Гениальный -X- B-GAME
+отгадчик -X- I-GAME
 » -X- B-PUNCT
 
 Интересные -X- B-STRUCT
@@ -35047,8 +35045,7 @@ PHP -X- B-LANG
 ВКонтакте -X- B-ORG
 на -X- O
 языке -X- O
-C -X- B-LANG
-# -X- B-TECH
+C# -X- B-LANG
 
 Курс -X- B-TYPE
 « -X- B-PUNCT
@@ -35339,8 +35336,8 @@ Django -X- B-FRAME
 Углубленное -X- O
 программирование -X- O
 на -X- B-AUD
-C -X- I-AUD
-/ -X- I-AUD
+C -X- B-LANG
+/ -X- B-PUNCT
 С++ -X- B-LANG
 » -X- B-PUNCT
 
@@ -35419,7 +35416,7 @@ Sierra -X- I-OS
 в -X- O
 Telegram -X- B-APP
 про -X- O
-околоdigital -X- O
+околоdigital -X- B-AUD
 
 Знакомство -X- B-AUD
 с -X- O
@@ -35427,7 +35424,7 @@ Telegram -X- B-APP
 изображений -X- O
 на -X- O
 чистом -X- O
-CSS -X- O
+CSS -X- B-LANG
 . -X- B-PUNCT
 Часть -X- B-PART
 третья -X- I-PART
@@ -35440,7 +35437,7 @@ CSS -X- O
 изображений -X- O
 на -X- O
 чистом -X- O
-CSS -X- O
+CSS -X- B-LANG
 . -X- B-PUNCT
 Часть -X- B-PART
 вторая -X- I-PART
@@ -35821,8 +35818,7 @@ Cloudflare -X- O
 « -X- B-PUNCT
 Введение -X- B-TYPE
 в -X- O
-C -X- B-LANG
-# -X- B-VERSION
+C# -X- B-LANG
 » -X- B-PUNCT
 
 Как -X- B-TYPE
@@ -36114,9 +36110,9 @@ PHP -X- B-LANG
 по -X- O
 созданию -X- O
 подсказок -X- O
-на -X- B-TYPE
-чистом -X- I-TYPE
-CSS -X- I-TYPE
+на -X- B-ADV
+чистом -X- I-ADV
+CSS -X- B-LANG
 
 Курс -X- B-TYPE
 « -X- B-PUNCT
@@ -36233,8 +36229,8 @@ VR -X- B-TECH
 : -X- B-PUNCT
 обзор -X- B-TYPE
 конференции -X- I-TYPE
-GTC -X- B-TECH
-2017 -X- I-TECH
+GTC -X- B-CONF
+2017 -X- B-ACTUAL
 
 Всё -X- B-TYPE
 , -X- B-PUNCT
@@ -37177,11 +37173,12 @@ Cи -X- O
 бизнес -X- O
 
 Создаём -X- B-TODO
-Солнечную -X- O
-систему -X- O
+Солнечную -X- B-OBJ
+систему -X- I-OBJ
 на -X- B-TYPE
 чистом -X- I-TYPE
-CSS3 -X- I-TYPE
+CSS -X- B-LANG
+3 -X- B-VERSION
 . -X- B-PUNCT
 Часть -X- B-PART
 третья -X- I-PART
@@ -37195,7 +37192,8 @@ CSS3 -X- I-TYPE
 систему -X- O
 на -X- B-TYPE
 чистом -X- I-TYPE
-CSS3 -X- I-TYPE
+CSS -X- I-TYPE
+3 -X- B-VERSION
 . -X- B-PUNCT
 Часть -X- B-PART
 вторая -X- I-PART
@@ -37643,8 +37641,7 @@ Windows -X- B-OS
 с -X- B-TYPE
 примерами -X- I-TYPE
 на -X- O
-C -X- B-LANG
-# -X- B-FRAME
+C# -X- B-LANG
 . -X- B-PUNCT
 Часть -X- B-PART
 пятая -X- I-PART
@@ -37799,11 +37796,11 @@ source -X- I-AUD
 
 От -X- O
 « -X- B-PUNCT
-Типичного -X- B-ORG
+Типичного -X- O
 » -X- B-PUNCT
 до -X- O
 « -X- B-PUNCT
-Tproger -X- B-ORG
+Tproger -X- B-SITE
 » -X- B-PUNCT
 : -X- B-PUNCT
 как -X- B-TYPE
@@ -39112,9 +39109,9 @@ Humanity -X- I-GAME
 . -X- B-PUNCT
 inkHunter -X- B-TECH
 
-Оптимизация -X- B-OBJ
+Оптимизация -X- B-TECH
 в -X- O
-GCC -X- O
+GCC -X- B-PROGRAM
 — -X- B-PUNCT
 ответы -X- B-TYPE
 на -X- I-TYPE
@@ -39646,8 +39643,7 @@ C++ -X- B-LANG
 блокировки -X- I-DANGER
 
 Функциональный -X- O
-C -X- B-LANG
-# -X- B-AUD
+C# -X- B-LANG
 . -X- B-PUNCT
 Часть -X- B-PART
 4 -X- I-PART
@@ -39679,8 +39675,7 @@ IT -X- B-AUD
 Hadoop -X- B-PROGRAM
 
 Функциональный -X- O
-C -X- B-LANG
-# -X- B-AUD
+C# -X- B-LANG
 . -X- B-PUNCT
 Часть -X- B-PART
 3 -X- I-PART
@@ -39703,8 +39698,7 @@ Group -X- O
 микрочипов -X- B-TYPE
 
 Функциональный -X- O
-C -X- B-LANG
-# -X- B-AUD
+C# -X- B-LANG
 . -X- B-PUNCT
 Часть -X- B-PART
 2 -X- I-PART
@@ -39941,8 +39935,8 @@ IT -X- O
 заданий -X- B-TYPE
 с -X- I-TYPE
 собеседования -X- I-TYPE
-на -X- B-AUD
-позицию -X- I-AUD
+на -X- O
+позицию -X- O
 Junior -X- I-AUD
 Golang -X- I-AUD
 - -X- O
@@ -40049,8 +40043,8 @@ QA -X- I-ORG
 SQL -X- B-LANG
 с -X- B-AUD
 собеседований -X- I-AUD
-на -X- B-AUD
-позицию -X- I-AUD
+на -X- O
+позицию -X- O
 Data -X- I-AUD
 Engineer -X- I-AUD
 
@@ -40236,8 +40230,8 @@ Java -X- B-LANG
 сайта -X- I-DANGER
 с -X- O
 помощью -X- O
-CSS -X- B-TECH
-функции -X- I-TECH
+CSS -X- B-LANG
+функции -X- B-TECH
 clamp -X- I-TECH
 ( -X- B-PUNCT
 ) -X- B-PUNCT
@@ -40269,7 +40263,7 @@ iOS -X- B-OS
 об -X- O
 этом -X- O
 на -X- O
-Tproger -X- B-PROGRAM
+Tproger -X- B-SITE
 
 Стоит -X- B-TYPE
 прочитать -X- I-TYPE
@@ -40508,19 +40502,19 @@ Firebase -X- B-PROGRAM
 программистов -X- B-AUD
 
 Как -X- B-TYPE
-Льюис -X- I-TYPE
-Кэрролл -X- B-MATH
-анализировал -X- I-MATH
-булочки -X- I-MATH
+Льюис -X- B-TYPE
+Кэрролл -X- I-TYPE
+анализировал -X- O
+булочки -X- O
 — -X- B-PUNCT
-графическая -X- O
-логическая -X- O
-игра -X- O
+графическая -X- B-STRUCT
+логическая -X- B-MATH
+игра -X- I-MATH
 
 Выбираем -X- B-TECH
 дистрибутив -X- I-TECH
 Linux -X- B-OS
-для -X- B-AUD
+для -X- O
 новичка -X- I-AUD
 
 Что -X- B-TYPE
@@ -40779,7 +40773,7 @@ Explodes -X- I-OBJ
 набор -X- B-TECH
 повседневных -X- I-TECH
 инструментов -X- O
-DevOps -X- B-PROGRAM
+DevOps -X- B-TECH
 - -X- O
 инженера -X- B-TYPE
 
@@ -42836,24 +42830,19 @@ $ -X- O
 второй -X- B-TYPE
 год -X- I-TYPE
 учимся -X- I-TYPE
-на -X- O
-  -X- O
-удаленке -X- B-TECH
+на -X- B-COND
+удаленке -X- I-COND
 и -X- O
-  -X- O
 еще -X- O
 не -X- O
-  -X- O
 сошли -X- B-OBJ
 с -X- O
-  -X- O
 ума -X- O
 
 Чему -X- O
 россияне -X- O
 учатся -X- O
 на -X- O
-  -X- O
 онлайн -X- B-MATH
 - -X- I-MATH
 курсах -X- I-MATH
@@ -51603,7 +51592,7 @@ MikroTik -X- O
 Windows -X- B-OS
 и -X- O
 Linux -X- B-OS
-рассказывают -X- B-DANGER
+рассказывают -X- B-TYPE
 , -X- B-PUNCT
 как -X- O
 отключить -X- O
@@ -56156,8 +56145,8 @@ Chrome -X- B-PROGRAM
 пострадала -X- O
 от -X- O
 киберугроз -X- B-OBJ
-на -X- O
-удаленке -X- B-OBJ
+на -X- B-COND
+удаленке -X- I-COND
 
 0-day -X- O
 баг -X- O
@@ -63336,11 +63325,11 @@ Firefox -X- O
 всего -X- O
 компьютера -X- O
 
-Простой -X- B-ADV
-CSS -X- B-TECH
-- -X- I-TECH
-код -X- B-EFFORT
-заставляет -X- I-EFFORT
+Простой -X- B-EFFORT
+CSS -X- B-LANG
+- -X- O
+код -X- B-TECH
+заставляет -X- O
 iPhone -X- B-DEVICE
 перезагружаться -X- O
 
@@ -100922,7 +100911,7 @@ server -X- I-ADV
 - -X- B-ADV
 mysql -X- I-ADV
 
-МТС -X- O
+МТС -X- B-ORG
 обвиняют -X- O
 в -X- O
 рассылке -X- B-OBJ
