@@ -15,28 +15,28 @@ entryPoints:
     # https
     address: ":443"
 
-# certificatesResolvers:
-#   letsencrypt:
-#     # https://docs.traefik.io/master/https/acme/#lets-encrypt
-#     acme:
-#       email: "leva.matyushkin@gmail.com"
-#       storage: /etc/traefik/acme/acme.json
-#       # https://docs.traefik.io/master/https/acme/#httpchallenge
-#       httpChallenge:
-#         entryPoint: http
+certificatesResolvers:
+  letsencrypt:
+    # https://docs.traefik.io/master/https/acme/#lets-encrypt
+    acme:
+      email: "leva.matyushkin@gmail.com"
+      storage: /etc/traefik/acme/acme.json
+      # https://docs.traefik.io/master/https/acme/#httpchallenge
+      httpChallenge:
+        entryPoint: web
 
 http:
   routers:
     web-secure-router:
-      rule: "Host(`194.67.91.28`) "  # || Host(`www.194.67.91.28`)"
+      rule: "Host(`194.67.91.28`) || Host(`www.194.67.91.28`)"
       entryPoints:
         - web-secure
       middlewares:
         - csrf
       service: django
-      # tls:
-      #   # https://docs.traefik.io/master/routing/routers/#certresolver
-      #   certResolver: letsencrypt
+      tls:
+        # https://docs.traefik.io/master/routing/routers/#certresolver
+        certResolver: letsencrypt
 
   middlewares:
     csrf:
