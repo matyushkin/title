@@ -6,6 +6,10 @@ argon2-cffi==20.1.0  # https://github.com/hynek/argon2_cffi
 whitenoise==5.2.0  # https://github.com/evansd/whitenoise
 redis==3.5.3  # https://github.com/andymccurdy/redis-py
 hiredis==1.1.0  # https://github.com/redis/hiredis-py
+spacy==3.0.6  # https://spacy.io/
+numpy==1.20.3  # https://github.com/numpy/numpy
+pandas==1.2.4  # https://github.com/pandas-dev/pandas
+scikit-learn==0.24.2  # https://github.com/scikit-learn/scikit-learn
 
 # Django
 # ------------------------------------------------------------------------------
