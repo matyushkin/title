@@ -23,7 +23,7 @@ certificatesResolvers:
       storage: /etc/traefik/acme/acme.json
       # https://docs.traefik.io/master/https/acme/#httpchallenge
       httpChallenge:
-        entryPoint: web
+        entryPoint: http
 
 http:
   routers:
