@@ -28,7 +28,7 @@ certificatesResolvers:
 http:
   routers:
     web-secure-router:
-      rule: "Host(`194.67.91.28`) || Host(`www.194.67.91.28`)"
+      rule: "Host(`194.67.91.28`)"
       entryPoints:
         - web-secure
       middlewares:
