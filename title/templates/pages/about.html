@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
     <h1>Что здесь происходит</h1> 
-    <p>iTitle — веб-приложение, которое помогает авторам и редакторам IT-публикаций подбирать к текстам удачные заголовки. Текущая версия</b> — это всего лишь <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE_%D0%B6%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82">MVP</a>, но она уже многое умеет.</p>
+    <p>iTitle — веб-приложение, которое помогает авторам и редакторам IT-публикаций подбирать к текстам удачные заголовки. Текущая версия</b> — это всего лишь <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE_%D0%B6%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82" target="_blank">MVP</a>, но она уже многое умеет.</p>
     <img src="/static/images/example.gif" class="img-fluid" />
     <p><b>Как работать с ресурсом.</b> Введите в форме на <a href="/">главной странице</a> текущую версию названия публикации. В ответ сайт выдаст рейтинг заголовка, советы по его улучшению и список распознанных меток.</p>
 
@@ -9,12 +9,9 @@
 
     <h2>Как устроено приложение</h2> 
 
-    <p>Мы собрали 300 тыс. публикаций и открытые данные о статьях с самых популярных IT-площадок: <a href="https://habr.com/ru/">Хабр</a>, <a href="https://habr.com/ru/">Библиотека программиста</a>, <a href="https://xakep.ru/">Хакер</a>, <a href="https://tproger.ru/">Типичный программист</a> и другие схожие сайты.
-
-    <p>По собранной с IT-площадок информации мы обучили две модели <a href="https://proglib.io/p/the-simplest-introduction-to-machine-learning/">машинного обучения</a>:
-    <p>Мы собрали 300 тыс. публикаций с самых популярных IT-площадок: <a href="https://habr.com/ru/">Хабр</a>, <a href="https://habr.com/ru/">Библиотека программиста</a>, <a href="https://xakep.ru/">Хакер</a>, <a href="https://tproger.ru/">Типичный программист</a> и другие схожие сайты. По собранной информации мы составили и натренировали две модели <a href="https://proglib.io/p/the-simplest-introduction-to-machine-learning/">машинного обучения</a>:
+    <p>Мы собрали 300 тыс. публикаций с самых популярных IT-площадок: <a href="https://habr.com/ru/" target="_blank">Хабр</a>, <a href="https://habr.com/ru/" target="_blank">Библиотека программиста</a>, <a href="https://xakep.ru/" target="_blank">Хакер</a>, <a href="https://tproger.ru/" target="_blank">Типичный программист</a> и другие схожие сайты. По собранной информации мы составили и натренировали две модели <a href="https://proglib.io/p/the-simplest-introduction-to-machine-learning/" target="_blank">машинного обучения</a>:
         <ol>
-            <li>Модель распознавания именованных сущностей (<a href="https://en.wikipedia.org/wiki/Named-entity_recognition">NER</a>).</li>
+            <li>Модель распознавания именованных сущностей (<a href="https://en.wikipedia.org/wiki/Named-entity_recognition" target="_blank">NER</a>).</li>
             <li>Регрессионная модель оценки текущего заголовка (балл по шкале от 0.0 до 10.0).</li>
         </ol>
     </p>
