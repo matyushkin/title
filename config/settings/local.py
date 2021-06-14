@@ -5,7 +5,7 @@ from .base import env
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#debug
 DEBUG = False
-COMPRESS_ENABLED = False
+COMPRESS_ENABLED = True
 # https://docs.djangoproject.com/en/dev/ref/settings/#secret-key
 SECRET_KEY = env(
     "DJANGO_SECRET_KEY",
