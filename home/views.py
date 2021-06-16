@@ -10,6 +10,7 @@ from ml.nlp_model.corr_model import text_to_suggestion
 
 
 def home(request):
+    print('home', request)
     title_form = TitleForm()
     return render(request, 'pages/home.html', {"title_form": title_form})
 
@@ -44,5 +45,6 @@ def create_title(request):
 
 def about(request):
     titles_count = Title.objects.all().count()
-    context = {'titles_count': titles_count}
-    return render(request, 'pages/about.html', context)
+    print('about', request, titles_count)
+    return render(request, 'pages/about.html',
+        {'titles_count': titles_count})
