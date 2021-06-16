@@ -14,6 +14,7 @@ def home(request):
     return render(request, 'pages/home.html', {"title_form": title_form})
 
 
+
 @csrf_exempt
 def create_title(request):
     if request.method == 'POST':
@@ -39,3 +40,9 @@ def create_title(request):
             json.dumps({"nothing to see": "this isn't happening"}),
             content_type="application/json"
         )
+
+
+def about(request):
+    titles_count = Title.objects.all().count()
+    context = {'titles_count': titles_count}
+    return render(request, 'pages/about.html', context)
