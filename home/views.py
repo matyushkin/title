@@ -6,7 +6,10 @@ from django.views.decorators.csrf import csrf_exempt
 from .models import Title
 from .forms import TitleForm
 
+import pymorphy2
 from ml.nlp_model.corr_model import text_to_suggestion
+morph = pymorphy2.MorphAnalyzer()
+title_name = morph.parse('заголовок')[0]
 
 
 def home(request):
@@ -43,8 +46,9 @@ def create_title(request):
         )
 
 
-def about(request):
+def about(request, title_name=title_name):
     titles_count = Title.objects.all().count()
+    title_name = title_name.make_agree_with_number(titles_count).word
+    context = {'titles_count': f'{titles_count} {title_name}'}
     print('about', request, titles_count)
-    return render(request, 'pages/about.html',
-        {'titles_count': titles_count})
+    return render(request, 'pages/about.html', context)
