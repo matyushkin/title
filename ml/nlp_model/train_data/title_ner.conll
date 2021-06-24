@@ -31269,3 +31269,2443 @@ Moscow -X- B-LOC
 как -X- B-TYPE
 им -X- I-TYPE
 стать -X- I-TYPE
+
+Как -X- B-TYPE
+писать -X- I-TYPE
+на -X- O
+python -X- B-LANG
+
+Как -X- B-TYPE
+лучше -X- I-TYPE
+писать -X- I-TYPE
+на -X- O
+python -X- B-LANG
+
+Релокейт -X- B-AUD
+- -X- I-AUD
+диссиденты -X- I-AUD
+: -X- B-PUNCT
+7 -X- B-NUM
+стартапов -X- B-OBJ
+, -X- B-PUNCT
+которые -X- O
+решили -X- O
+развивать -X- O
+инновации -X- B-OBJ
+в -X- O
+России -X- B-LOC
+
+Как -X- B-TYPE
+писать -X- I-TYPE
+на -X- O
+python -X- B-LANG
+и -X- O
+не -X- B-ADV
+облажаться -X- I-ADV
+
+Лол -X- B-EMO
+
+10 -X- B-NUM
+лучших -X- B-ADV
+библиотек -X- B-TECH
+для -X- I-TECH
+работы -X- I-TECH
+с -X- O
+криптографией -X- B-TECH
+
+Как -X- B-TYPE
+мы -X- I-TYPE
+запустили -X- I-TYPE
+сервис -X- B-OBJ
+по -X- O
+коливингам -X- B-AUD
+, -X- B-PUNCT
+а -X- O
+получился -X- O
+дейтинг -X- B-OBJ
+приложение -X- I-OBJ
+
+Как -X- B-TYPE
+мы -X- I-TYPE
+запутили -X- I-TYPE
+сервис -X- B-OBJ
+для -X- O
+меллиниалов -X- B-AUD
+, -X- B-PUNCT
+а -X- O
+получился -X- O
+дейтинг -X- B-OBJ
+приложение -X- I-OBJ
+
+Как -X- B-TYPE
+стать -X- I-TYPE
+java -X- B-LANG
+- -X- O
+разработчиком -X- B-AUD
+новичку -X- B-AUD
+
+ -X- O
+
+Как -X- B-TYPE
+мы -X- I-TYPE
+запутили -X- I-TYPE
+сервис -X- B-OBJ
+для -X- O
+меллиниалов -X- B-AUD
+, -X- B-PUNCT
+а -X- O
+получилось -X- O
+дейтинг -X- B-OBJ
+приложение -X- I-OBJ
+для -X- O
+одиноких -X- B-AUD
+30-летних -X- I-AUD
+мужчин -X- I-AUD
+с -X- O
+квартирами -X- O
+
+Как -X- B-TYPE
+мы -X- I-TYPE
+запутили -X- I-TYPE
+сервис -X- B-OBJ
+для -X- O
+меллиниалов -X- O
+по -X- O
+поиску -X- B-OBJ
+квартир -X- I-OBJ
+, -X- B-PUNCT
+а -X- O
+получилось -X- O
+дейтинг -X- B-OBJ
+приложение -X- I-OBJ
+для -X- O
+одиноких -X- B-AUD
+30-летних -X- I-AUD
+мужчин -X- B-AUD
+с -X- I-AUD
+квартирами -X- I-AUD
+
+Как -X- B-TYPE
+мы -X- I-TYPE
+запутили -X- I-TYPE
+сервис -X- B-OBJ
+для -X- O
+меллиниалов -X- B-AUD
+по -X- O
+поиску -X- B-OBJ
+квартир -X- I-OBJ
+, -X- B-PUNCT
+а -X- O
+получилось -X- O
+дейтинг -X- B-OBJ
+приложение -X- I-OBJ
+
+Как -X- B-TYPE
+мы -X- I-TYPE
+запутили -X- I-TYPE
+сервис -X- B-OBJ
+для -X- O
+меллиниалов -X- B-AUD
+по -X- O
+поиску -X- B-OBJ
+квартир -X- I-OBJ
+, -X- B-PUNCT
+а -X- O
+получилось -X- O
+приложение -X- B-OBJ
+для -X- I-OBJ
+знакомств -X- I-OBJ
+
+Компьютеры -X- B-DEVICE
+Mac -X- I-DEVICE
+на -X- O
+Intel -X- B-ORG
+не -X- B-NEWS
+получат -X- I-NEWS
+ряд -X- O
+новых -X- O
+функции -X- O
+macOS -X- B-OS
+Monterey -X- B-VERSION
+
+Путь -X- B-TYPE
+в -X- I-TYPE
+профессию -X- I-TYPE
+: -X- B-PUNCT
+интервью -X- B-TYPE
+с -X- O
+бизнес-аналитиками -X- B-AUD
+
+5 -X- B-NUM
+лучших -X- B-TYPE
+альтернатив -X- I-TYPE
+Google -X- B-PROGRAM
+Authenticator -X- I-PROGRAM
+
+Apple -X- B-ORG
+прекращает -X- B-DANGER
+поддержку -X- I-DANGER
+программного -X- B-TECH
+обеспечения -X- I-TECH
+для -X- O
+компьютеров -X- B-DEVICE
+Mac -X- I-DEVICE
+с -X- O
+чипами -X- B-TECH
+Intel -X- B-ORG
+
+Что -X- B-TYPE
+такое -X- I-TYPE
+BI -X- B-TECH
+- -X- I-TECH
+системы -X- I-TECH
+и -X- O
+зачем -X- B-TYPE
+они -X- I-TYPE
+нужны -X- I-TYPE
+? -X- B-PUNCT
+
+Где -X- B-TYPE
+изучать -X- I-TYPE
+Python -X- B-LANG
+в -X- B-ACTUAL
+2021 -X- I-ACTUAL
+году -X- I-ACTUAL
+: -X- B-PUNCT
+78 -X- B-NUM
+ресурсов -X- B-TYPE
+для -X- O
+начинающих -X- B-AUD
+
+Как -X- B-TYPE
+искусственный -X- B-OBJ
+интеллект -X- I-OBJ
+меняет -X- O
+киноиндустрию -X- B-OBJ
+
+Что -X- B-TYPE
+такое -X- I-TYPE
+связь -X- B-TECH
+5G -X- I-TECH
+и -X- O
+как -X- B-TYPE
+она -X- I-TYPE
+влияет -X- I-TYPE
+на -X- O
+мышление -X- B-OBJ
+
+Делаем -X- B-TODO
+компьютер -X- B-DEVICE
+тише -X- B-ADV
+. -X- B-PUNCT
+Обзор -X- B-TYPE
+систем -X- B-TECH
+охлаждения -X- I-TECH
+, -X- B-PUNCT
+корпусов -X- B-OBJ
+и -X- O
+термопаст -X- B-TECH
+
+
+Самоучитель -X- B-TYPE
+для -X- O
+начинающих -X- B-AUD
+: -X- B-PUNCT
+как -X- B-TYPE
+освоить -X- I-TYPE
+PHP -X- B-LANG
+с -X- B-AUD
+нуля -X- I-AUD
+за -X- B-EFFORT
+30 -X- I-EFFORT
+минут -X- I-EFFORT
+? -X- B-PUNCT
+
+HDD -X- B-DEVICE
+или -X- O
+SSD -X- B-DEVICE
+? -X- B-PUNCT
+Как -X- B-TYPE
+работают -X- I-TYPE
+и -X- O
+что -X- B-TYPE
+выбрать -X- I-TYPE
+
+О -X- B-TYPE
+пользе -X- I-TYPE
+сериалов -X- B-OBJ
+
+О -X- B-TYPE
+пользе -X- I-TYPE
+Python -X- B-LANG
+
+Самый -X- B-EMO
+тупой -X- I-EMO
+дедлайн -X- B-OBJ
+на -X- O
+свете -X- O
+
+Как -X- B-TYPE
+быстро -X- B-ADV
+осваивать -X- O
+новые -X- O
+дела -X- O
+
+Купил -X- O
+, -X- B-PUNCT
+но -X- O
+не -X- O
+прошёл -X- O
+
+
+Одно -X- B-NUM
+новое -X- B-OBJ
+занятие -X- I-OBJ
+— -X- B-PUNCT
+это -X- O
+минус -X- O
+одно -X- B-NUM
+старое -X- O
+
+Что -X- B-TYPE
+такое -X- I-TYPE
+лицензирование -X- B-TECH
+ПО -X- I-TECH
+и -X- O
+как -X- B-TYPE
+оно -X- I-TYPE
+работает -X- I-TYPE
+? -X- B-PUNCT
+
+Лицензирование -X- B-TECH
+ПО -X- B-TECH
+для -X- O
+чайников -X- b-AUD
+или -X- O
+как -X- B-TYPE
+обезопасить -X- B-ADV
+свой -X- O
+код -X- B-TECH
+
+Недосып -X- B-OBJ
+разрушает -X- B-DANGER
+мозг -X- B-OBJ
+
+О -X- B-TYPE
+вреде -X- I-TYPE
+терпения -X- B-OBJ
+
+Контекст -X- B-OBJ
+может -X- O
+всё -X- O
+разрушить -X- B-DANGER
+
+Как -X- B-TYPE
+быстро -X- I-TYPE
+осваивать -X- I-TYPE
+новые -X- O
+дела -X- O
+
+Что -X- B-DANGER
+не -X- I-DANGER
+так -X- I-DANGER
+с -X- O
+новостями -X- B-OBJ
+
+Кто -X- O
+мало -X- B-DANGER
+спит -X- I-DANGER
+, -X- B-PUNCT
+тот -X- O
+жиреет -X- B-DANGER
+
+Как -X- B-TYPE
+на -X- I-TYPE
+самом -X- I-TYPE
+деле -X- I-TYPE
+нужно -X- I-TYPE
+заботиться -X- I-TYPE
+о -X- O
+себе -X- B-AUD
+
+Тревожно -X- B-EMO
+от -X- O
+новостей -X- B-OBJ
+? -X- B-PUNCT
+Попробуйте -X- B-TYPE
+это -X- I-TYPE
+
+Тревожно -X- B-EMO
+от -X- O
+новостей -X- B-OBJ
+? -X- B-PUNCT
+Попробуйте -X- O
+
+Тревожно -X- B-EMO
+от -X- O
+новостей -X- B-OBJ
+? -X- B-PUNCT
+Попробуйте -X- B-TYPE
+Python -X- B-LANG
+
+К -X- O
+себе -X- O
+нежно -X- O
+
+К -X- O
+себе -X- O
+нежно -X- O
+. -X- B-PUNCT
+Как -X- B-TYPE
+быть -X- I-TYPE
+неженкой -X- B-EMO
+. -X- B-PUNCT
+
+Почти -X- O
+всё -X- O
+, -X- B-PUNCT
+что -X- B-TYPE
+вам -X- I-TYPE
+показывают -X- I-TYPE
+в -X- O
+Инстаграме -X- B-APP
+, -X- B-PUNCT
+— -X- B-PUNCT
+ложь -X- B-DANGER
+
+Всё -X- O
+в -X- O
+Инстаграме -X- B-PROGRAM
+, -X- B-PUNCT
+— -X- B-PUNCT
+ложь -X- B-DANGER
+
+Мало -X- B-DANGER
+спишь -X- I-DANGER
+– -X- O
+жиреешь -X- B-EMO
+
+К -X- O
+себе -X- O
+нежно -X- O
+. -X- B-PUNCT
+Быть -X- O
+неженкой -X- B-EMO
+. -X- B-PUNCT
+
+Чем -X- B-TYPE
+плох -X- B-DANGER
+свой -X- O
+Open -X- B-TECH
+Source -X- I-TECH
+проект -X- I-TECH
+
+лучшие -X- B-ADV
+игры -X- B-OBJ
+для -X- O
+двоих -X- B-AUD
+на -X- O
+одном -X- O
+пк -X- B-TECH
+
+Темная -X- B-DANGER
+сторона -X- I-DANGER
+Open -X- B-TECH
+Source -X- I-TECH
+проектов -X- I-TECH
+
+Японцы -X- B-LOC
+придумали -X- B-NEWS
+устройство -X- B-DEVICE
+, -X- B-PUNCT
+которое -X- O
+воссоздает -X- B-ADV
+любой -X- I-ADV
+вкус -X- B-OBJ
+
+История -X- B-TYPE
+развития -X- I-TYPE
+технологий -X- B-OBJ
+3D -X- B-OBJ
+кинематографа -X- I-OBJ
+
+подборка -X- B-TYPE
+лучших -X- B-ADV
+игр -X- B-OBJ
+для -X- O
+двоих -X- B-AUD
+игроков -X- I-AUD
+на -X- O
+одном -X- O
+компьютере -X- B-DEVICE
+
+Эволюция -X- B-TYPE
+айфона -X- B-DEVICE
+– -X- O
+морфинг -X- B-TECH
+
+firewall -X- B-TECH
+для -X- O
+android -X- B-DEVICE
+
+подборка -X- B-TYPE
+лучших -X- B-ADV
+игр -X- B-OBJ
+для -X- O
+двоих -X- B-AUD
+игроков -X- I-AUD
+за -X- O
+одним -X- O
+компьютером -X- B-DEVICE
+
+К -X- O
+себе -X- O
+нежно -X- B-EMO
+. -X- B-PUNCT
+Гайд -X- B-TYPE
+по -X- O
+мягкотелым -X- B-EMO
+. -X- B-PUNCT
+
+Крутые -X- B-EMO
+роботы -X- B-DEVICE
+животные -X- I-DEVICE
+
+Анализ -X- B-TYPE
+выражений -X- O
+кошачей -X- B-OBJ
+морды -X- I-OBJ
+и -X- O
+их -X- O
+связи -X- O
+с -X- O
+эмоциями -X- B-OBJ
+
+Заменит -X- B-TYPE
+ли -X- I-TYPE
+ИИ -X- B-TECH
+картографов -X- B-AUD
+? -X- B-PUNCT
+
+К -X- O
+себе -X- O
+нежно -X- B-EMO
+. -X- B-PUNCT
+Разговоры -X- B-TYPE
+о -X- I-TYPE
+мягкотелых -X- B-EMO
+. -X- B-PUNCT
+
+Заменит -X- B-TYPE
+ли -X- I-TYPE
+ИИ -X- B-TECH
+картографов -X- B-AUD
+
+подборка -X- B-TECH
+лучших -X- B-ADV
+игр -X- B-OBJ
+для -X- O
+двоих -X- B-AUD
+игроков -X- I-AUD
+на -X- O
+одном -X- O
+компьютере -X- B-DEVICE
+для -X- O
+хорошего -X- B-ADV
+настроения -X- I-ADV
+
+Лучшие -X- B-ADV
+бесплатные -X- B-ADV
+видеоредакторы -X- B-PROGRAM
+
+К -X- O
+себе -X- O
+нежно -X- O
+. -X- B-PUNCT
+Треп -X- B-EMO
+мягкотелых -X- B-EMO
+. -X- B-PUNCT
+
+Подборка -X- B-TYPE
+игр -X- I-TYPE
+с -X- O
+чувством -X- B-OBJ
+юмора -X- I-OBJ
+
+Подборка -X- B-TYPE
+интересных -X- B-ADV
+видеоигр -X- B-GAME
+для -X- O
+двоих -X- B-AUD
+на -X- O
+PC -X- B-DEVICE
+
+обзор -X- B-TYPE
+лучших -X- B-ADV
+игр -X- B-OBJ
+для -X- O
+двоих -X- B-AUD
+игроков -X- I-AUD
+на -X- O
+одном -X- O
+компьютере -X- B-DEVICE
+для -X- O
+хорошего -X- B-ADV
+настроения -X- I-ADV
+
+Топология -X- B-TECH
+  -X- O
+Даркнета -X- B-DANGER
+или -X- O
+Даркнет -X- B-DANGER
+за -X- O
+пределами -X- O
+ТОР -X- B-APP
+
+Заработок -X- B-ADV
+в -X- O
+сети -X- O
+- -X- O
+обзор -X- B-TYPE
+для -X- O
+блогинга -X- B-OBJ
+
+История -X- B-TYPE
+развития -X- I-TYPE
+VR -X- B-TECH
+технологии -X- I-TECH
+
+Как -X- B-TYPE
+купить -X- I-TYPE
+биткойны -X- B-OBJ
+для -X- O
+оплаты -X- B-OBJ
+программ -X- B-DANGER
+- -X- I-DANGER
+вымогателей -X- I-DANGER
+( -X- B-PUNCT
+если -X- B-COND
+необходимо -X- I-COND
+) -X- B-PUNCT
+
+обзор -X- B-TYPE
+лучших -X- B-ADV
+игр -X- B-GAME
+для -X- O
+двоих -X- B-AUD
+игроков -X- I-AUD
+на -X- B-COND
+одном -X- I-COND
+компьютере -X- I-COND
+для -X- O
+windows -X- B-OS
+
+Интернет -X- B-OBJ
+не -X- B-DANGER
+готов -X- I-DANGER
+к -X- O
+потоку -X- B-OBJ
+текста -X- I-OBJ
+, -X- B-PUNCT
+созданного -X- O
+искусственным -X- B-OBJ
+интеллектом -X- I-OBJ
+
+ТОП-15 -X- B-NUM
+книг -X- B-TYPE
+по -X- O
+Python -X- B-LANG
+: -X- B-PUNCT
+от -X- B-AUD
+новичка -X- I-AUD
+до -X- I-AUD
+профессионала -X- I-AUD
+
+сериал -X- B-OBJ
+клон -X- O
+как -X- B-TYPE
+сложились -X- I-TYPE
+судьбы -X- I-TYPE
+актеров -X- B-AUD
+
+HDD -X- B-DEVICE
+или -X- O
+SSD -X- B-DEVICE
+? -X- B-PUNCT
+Как -X- B-TYPE
+работают -X- I-TYPE
+и -X- O
+что -X- B-TYPE
+выбрать -X- I-TYPE
+
+На -X- B-ACTUAL
+период -X- I-ACTUAL
+карантина -X- I-ACTUAL
+GeekBrains -X- B-ORG
+открывает -X- B-ADV
+доступ -X- I-ADV
+к -X- O
+15 -X- B-NUM
+курсам -X- B-OBJ
+
+Пишем -X- B-TODO
+нейросеть -X- B-OBJ
+на -X- O
+Python -X- B-LANG
+с -X- B-EFFORT
+нуля -X- I-EFFORT
+
+Можно -X- B-TYPE
+ли -X- I-TYPE
+заменить -X- I-TYPE
+настольный -X- B-DEVICE
+компьютер -X- I-DEVICE
+на -X- O
+Raspberry -X- B-DEVICE
+Pi -X- I-DEVICE
+4 -X- B-VERSION
+? -X- B-PUNCT
+
+Не -X- B-TECH
+паси -X- B-TECH
+задних -X- I-TECH
+: -X- B-PUNCT
+используй -X- O
+DOM -X- B-TECH
+как -X- B-ADV
+профессионал -X- I-ADV
+
+Курс -X- B-TYPE
+по -X- O
+анализу -X- B-TECH
+данных -X- I-TECH
+
+Курс -X- B-TYPE
+по -X- O
+анализу -X- B-TECH
+данных -X- I-TECH
+от -X- O
+МФТИ -X- B-ORG
+
+Payton -X- O
+
+Как -X- B-TYPE
+взломать -X- I-TYPE
+Wi -X- B-OBJ
+- -X- I-OBJ
+Fi -X- I-OBJ
+с -X- O
+помощью -X- O
+Kali -X- B-OS
+Linux -X- I-OS
+2020.4 -X- B-VERSION
+и -X- O
+Ubuntu -X- B-OS
+20.04 -X- B-VERSION
+
+Как -X- B-TYPE
+выбрать -X- I-TYPE
+монитор -X- B-DEVICE
+для -X- O
+программирования -X- B-OBJ
+
+10 -X- B-NUM
+заповедей -X- B-TYPE
+разработки -X- I-TYPE
+и -X- O
+тестирования -X- B-TECH
+
+Заповеди -X- B-TECH
+разработки -X- I-TECH
+и -X- O
+тестирования -X- B-TECH
+
+Как -X- B-TYPE
+искусственный -X- B-OBJ
+интеллект -X- I-OBJ
+меняет -X- O
+киноиндустрию -X- B-OBJ
+
+Делаем -X- B-TODO
+компьютер -X- B-DEVICE
+тише -X- B-ADV
+. -X- B-PUNCT
+Обзор -X- B-TYPE
+систем -X- B-TECH
+охлаждения -X- I-TECH
+, -X- B-PUNCT
+корпусов -X- B-OBJ
+и -X- O
+термопаст -X- B-TECH
+
+В -X- O
+Анапе -X- B-LOC
+можно -X- B-ADV
+купаться -X- I-ADV
+, -X- B-PUNCT
+в -X- O
+Ялте -X- B-LOC
+— -X- B-PUNCT
+только -X- O
+ножки -X- O
+помочить -X- O
+
+Обзор -X- B-TYPE
+охлаждения -X- B-OBJ
+, -X- B-PUNCT
+корпусов -X- B-OBJ
+и -X- O
+термопаст -X- B-TECH
+
+Bethesda -X- B-TYPE
+анонсировала -X- B-NEWS
+Starfield -X- B-GAME
+на -X- O
+E3 -X- B-CONF
+
+Как -X- B-TYPE
+стать -X- I-TYPE
+охрененным -X- B-EMO
+специалистом -X- B-AUD
+хотя -X- B-EMO
+бы -X- I-EMO
+в -X- I-EMO
+чем-нибудь -X- I-EMO
+
+« -X- B-PUNCT
+Тот -X- O
+, -X- B-PUNCT
+кто -X- O
+приходит -X- O
+за -X- O
+деньгами -X- B-OBJ
+либо -X- O
+для -X- O
+престижа -X- B-OBJ
+, -X- B-PUNCT
+не -X- B-DANGER
+выдерживает -X- I-DANGER
+темпа -X- O
+» -X- B-PUNCT
+
+Apple -X- B-ORG
+'s -X- O
+24 -X- O
+in -X- O
+iMac -X- B-DEVICE
+sold -X- O
+out -X- O
+almost -X- O
+everywhere -X- O
+
+Путь -X- O
+в -X- O
+Java -X- B-LANG
+, -X- B-PUNCT
+или -X- O
+Зачем -X- B-TYPE
+нужен -X- I-TYPE
+ментор -X- B-OBJ
+: -X- B-PUNCT
+интервью -X- B-TYPE
+
+Путь -X- B-TYPE
+в -X- I-TYPE
+профессию -X- I-TYPE
+: -X- B-PUNCT
+интервью -X- B-TYPE
+с -X- O
+бизнес-аналитиками -X- B-AUD
+
+Почитайте -X- B-TYPE
+на -X- I-TYPE
+досуге -X- I-TYPE
+
+HTB -X- B-TECH
+ScriptKiddie -X- I-TECH
+. -X- B-PUNCT
+Атакуем -X- B-DANGER
+Metasploit -X- B-ORG
+при -X- O
+помощи -X- O
+Metasploit -X- B-TECH
+, -X- B-PUNCT
+чтобы -X- O
+захватить -X- B-DANGER
+хост -X- I-DANGER
+
+Крепость -X- B-OBJ
+эльфов -X- I-OBJ
+. -X- B-PUNCT
+Как -X- B-TYPE
+распаковать -X- I-TYPE
+исполняемый -X- B-TECH
+файл -X- I-TECH
+Linux -X- B-OS
+, -X- B-PUNCT
+накрытый -X- O
+UPX -X- B-TECH
+
+Малварь -X- B-DANGER
+на -X- O
+просвет -X- O
+. -X- B-PUNCT
+Используем -X- B-TODO
+Python -X- B-LANG
+для -X- B-AUD
+динамического -X- B-TECH
+анализа -X- I-TECH
+вредоносного -X- B-DANGER
+кода -X- I-DANGER
+
+HTB -X- B-TECH
+Ready -X- I-TECH
+. -X- B-PUNCT
+Эксплуатируем -X- B-TODO
+дыру -X- O
+в -X- O
+GitLab -X- B-SITE
+и -X- O
+совершаем -X- B-TODO
+побег -X- I-TODO
+из -X- O
+Docker -X- B-PROGRAM
+
+Выставка -X- B-CONF
+крыс -X- I-CONF
+. -X- B-PUNCT
+Сравниваем -X- B-TYPE
+лучшие -X- B-ADV
+RAT -X- B-TECH
+для -X- O
+атак -X- B-DANGER
+
+Близкие -X- O
+контакты -X- O
+. -X- B-PUNCT
+Атакуем -X- B-DANGER
+бесконтактные -X- B-OBJ
+карты -X- I-OBJ
+
+Пешком -X- O
+по -X- O
+Firebase -X- B-PROGRAM
+. -X- B-PUNCT
+Находим -X- B-TODO
+открытые -X- O
+базы -X- B-TECH
+данных -X- I-TECH
+, -X- B-PUNCT
+которые -X- O
+прячет -X- O
+Google -X- B-ORG
+
+Препарируем -X- B-TODO
+TypeLibrary -X- B-PROGRAM
+. -X- B-PUNCT
+Реверсим -X- B-TODO
+код -X- B-OBJ
+с -X- O
+ActiveX -X- B-PROGRAM
+и -X- O
+OLE -X- B-PROGRAM
+Automati -X- I-PROGRAM
+
+Кот -X- B-OBJ
+атакует -X- B-DANGER
+! -X- B-PUNCT
+Изучаем -X- B-TODO
+открытый -X- O
+стилер -X- B-TECH
+StormKitty -X- B-PROGRAM
+
+Дробью -X- O
+в -X- O
+PDF -X- B-OBJ
+. -X- B-PUNCT
+Редактируем -X- B-TODO
+подписанный -X- B-TECH
+файл -X- I-TECH
+PDF -X- B-OBJ
+, -X- B-PUNCT
+не -X- B-ADV
+ломая -X- I-ADV
+подпись -X- B-OBJ
+
+Это -X- B-TYPE
+ловушка -X- I-TYPE
+! -X- B-PUNCT
+Как -X- B-TYPE
+мы -X- I-TYPE
+расставляли -X- I-TYPE
+ханипоты -X- B-TECH
+и -X- O
+кто -X- O
+в -X- O
+них -X- O
+попался -X- O
+
+Вам -X- O
+труба -X- B-DANGER
+! -X- B-PUNCT
+Как -X- B-TYPE
+независимый -X- I-TYPE
+исследователь -X- O
+взломал -X- B-DANGER
+YouTube -X- B-SITE
+
+Без -X- O
+башки -X- O
+. -X- B-PUNCT
+Эксплуатируем -X- B-TODO
+динамический -X- B-TECH
+рендеринг -X- I-TECH
+для -X- O
+захвата -X- B-TECH
+веб -X- I-TECH
+- -X- I-TECH
+приложений -X- I-TECH
+
+php -X- B-LANG
+
+Как -X- B-TYPE
+стать -X- I-TYPE
+умнее -X- B-ADV
+
+Как -X- B-TYPE
+стать -X- I-TYPE
+умнее -X- B-ADV
+на -X- B-NUM
+30 -X- I-NUM
+% -X- I-NUM
+
+Больше -X- O
+не -X- O
+энигма -X- O
+. -X- B-PUNCT
+Ломаем -X- B-TODO
+защиту -X- B-TECH
+приложений -X- I-TECH
+Enigma -X- B-PROGRAM
+x64 -X- B-VERSION
+актуальных -X- O
+
+Операция -X- O
+« -X- B-PUNCT
+Предзагрузка -X- O
+» -X- B-PUNCT
+. -X- B-PUNCT
+Создаем -X- B-TODO
+userland -X- B-TECH
+- -X- I-TECH
+руткиты -X- I-TECH
+в -X- O
+Linux -X- B-OS
+с -X- O
+помощью -X- O
+LD_PRELOAD -X- B-PROGRAM
+
+Гиперотладка -X- B-TECH
+. -X- B-PUNCT
+Разбираем -X- B-TODO
+отладку -X- B-TECH
+Microsoft -X- B-ORG
+Hyper -X- B-PROGRAM
+- -X- I-PROGRAM
+V -X- I-PROGRAM
+с -X- B-STRUCT
+самого -X- I-STRUCT
+начала -X- I-STRUCT
+
+Фундаментальные -X- B-TYPE
+основы -X- I-TYPE
+хакерства -X- B-DANGER
+. -X- B-PUNCT
+Идентификация -X- B-TECH
+библиотечных -X- B-TECH
+функций -X- I-TECH
+
+
+Попался -X- B-TYPE
+! -X- B-PUNCT
+Что -X- B-TYPE
+делать -X- I-TYPE
+, -X- B-PUNCT
+если -X- B-COND
+тебя -X- O
+привлекают -X- O
+к -X- O
+уголовной -X- B-DANGER
+ответственности -X- I-DANGER
+за -X- O
+киберпреступление -X- B-DANGER
+
+ -X- O
+
+Попался -X- B-TYPE
+! -X- B-PUNCT
+Что -X- B-TYPE
+делать -X- I-TYPE
+
+ -X- O
+
+Качественная -X- B-ADV
+склейка -X- B-OBJ
+. -X- B-PUNCT
+Пишем -X- B-TODO
+джоинер -X- B-TECH
+исполняемых -X- B-TECH
+файлов -X- I-TECH
+для -X- O
+Win64 -X- B-OS
+
+« -X- B-PUNCT
+Я -X- O
+даже -X- O
+не -X- O
+видел -X- O
+себя -X- O
+разработчиком -X- B-AUD
+, -X- B-PUNCT
+это -X- O
+было -X- O
+просто -X- O
+хобби -X- B-OBJ
+» -X- B-PUNCT
+
+Урбанистика -X- B-OBJ
+и -X- O
+дата -X- B-TECH
+сайенс -X- I-TECH
+
+Зачем -X- B-TYPE
+урбанистам -X- B-AUD
+data -X- B-TECH
+science -X- I-TECH
+
+Как -X- B-TYPE
+стать -X- I-TYPE
+тестировщиком -X- B-AUD
+
+Первое -X- B-TYPE
+знакомство -X- I-TYPE
+с -X- O
+Kubernetes -X- B-PROGRAM
+: -X- B-PUNCT
+что -X- B-TYPE
+под -X- I-TYPE
+капотом -X- I-TYPE
+у -X- O
+системы -X- B-TECH
+оркестрации -X- I-TECH
+? -X- B-PUNCT
+
+data -X- B-TECH
+science -X- I-TECH
+
+Как -X- B-TYPE
+взломать -X- I-TYPE
+IPhone -X- B-DEVICE
+? -X- B-PUNCT
+
+Почему -X- B-TYPE
+мы -X- I-TYPE
+должны -X- B-DANGER
+прекратить -X- I-DANGER
+использовать -X- I-DANGER
+React -X- B-PROGRAM
+? -X- B-PUNCT
+
+Как -X- B-TYPE
+выучить -X- I-TYPE
+JavaScript -X- B-LANG
+с -X- B-EFFORT
+нуля -X- I-EFFORT
+? -X- B-PUNCT
+
+Статья -X- B-TYPE
+для -X- B-AUD
+умников -X- I-AUD
+: -X- B-PUNCT
+5 -X- B-NUM
+причин -X- B-TYPE
+почему -X- I-TYPE
+мы -X- O
+должны -X- B-DANGER
+прекратить -X- I-DANGER
+использовать -X- I-DANGER
+React -X- B-PROGRAM
+? -X- B-PUNCT
+
+5 -X- B-NUM
+лучших -X- B-TYPE
+альтернатив -X- I-TYPE
+Google -X- B-PROGRAM
+Authenticator -X- I-PROGRAM
+
+Как -X- B-TYPE
+написать -X- I-TYPE
+текст -X- B-OBJ
+, -X- B-PUNCT
+который -X- B-ADV
+будут -X- I-ADV
+читать -X- I-ADV
+
+как -X- B-TYPE
+стать -X- I-TYPE
+инженером -X- B-AUD
+? -X- B-PUNCT
+
+как -X- B-TYPE
+стать -X- I-TYPE
+инженером -X- B-AUD
+
+Куда -X- B-TYPE
+двигается -X- I-TYPE
+мир -X- O
+продуктов -X- B-OBJ
+. -X- B-PUNCT
+Тренды -X- B-ACTUAL
+2025 -X- I-ACTUAL
+
+Роль -X- B-TYPE
+денег -X- B-OBJ
+в -X- O
+вашем -X- B-AUD
+бизнесе -X- I-AUD
+
+Мифы -X- B-TYPE
+о -X- O
+SEO -X- B-TECH
+: -X- O
+5 -X- B-NUM
+заблуждений -X- B-DANGER
+, -X- B-PUNCT
+которые -X- O
+тоннами -X- O
+воруют -X- B-DANGER
+ваш -X- I-DANGER
+трафик -X- I-DANGER
+
+как -X- B-TYPE
+стать -X- I-TYPE
+программистом -X- B-AUD
+за -X- B-EFFORT
+10 -X- I-EFFORT
+дней -X- I-EFFORT
+
+как -X- B-TYPE
+стать -X- I-TYPE
+программистом -X- B-AUD
+землекопу -X- B-AUD
+за -X- B-EFFORT
+10 -X- I-EFFORT
+дней -X- I-EFFORT
+
+как -X- B-TYPE
+стать -X- I-TYPE
+программистом -X- B-AUD
+сварщику -X- B-AUD
+за -X- B-EFFORT
+10 -X- I-EFFORT
+дней -X- O
+
+Зеленского -X- B-PER
+снова -X- B-NEWS
+подставили -X- I-NEWS
+. -X- B-PUNCT
+
+Статья -X- O
+5 -X- B-NUM
+школьников -X- O
+ебать -X- O
+дом -X- O
+. -X- B-PUNCT
+
+Статья -X- O
+5 -X- B-NUM
+школьник -X- O
+ебать -X- O
+дом -X- O
+. -X- B-PUNCT
+
+Статья -X- O
+5 -X- B-NUM
+школьники -X- O
+ебать -X- O
+дом -X- O
+. -X- B-PUNCT
+
+Статья -X- O
+5 -X- B-NUM
+школьников -X- O
+ебать -X- O
+дом -X- O
+. -X- B-PUNCT
+
+Статья -X- O
+5 -X- B-NUM
+школьников -X- O
+учись -X- O
+ебать -X- O
+дом -X- O
+. -X- B-PUNCT
+
+Роман -X- B-PER
+Протасевич -X- I-PER
+выступил -X- B-NEWS
+на -X- O
+брифинге -X- B-OBJ
+белорусского -X- B-LOC
+МИДа -X- B-ORG
+
+Роман -X- B-PER
+Протасевич -X- I-PER
+выступил -X- B-NEWS
+на -X- O
+брифинге -X- O
+белорусского -X- B-LOC
+МИДа -X- B-ORG
+с -X- O
+5000 -X- B-NUM
+инструций -X- O
+для -X- O
+новичков -X- B-AUD
+
+Горе -X- B-EMO
+от -X- O
+ума -X- B-OBJ
+
+Как -X- B-TYPE
+есть -X- I-TYPE
+и -X- O
+не -X- B-ADV
+толстеть -X- I-ADV
+
+Тенденции -X- B-TYPE
+в -X- O
+социально -X- O
+- -X- O
+экономическом -X- O
+развитии -X- O
+стран -X- B-LOC
+Балтии -X- I-LOC
+
+Python -X- B-LANG
+
+« -X- B-PUNCT
+Пациент -X- B-AUD
+, -X- B-PUNCT
+у -X- O
+вас -X- O
+имба -X- B-TECH
+! -X- B-PUNCT
+» -X- B-PUNCT
+: -X- B-PUNCT
+что -X- B-TYPE
+делать -X- I-TYPE
+Game -X- B-AUD
+Data -X- I-AUD
+- -X- I-AUD
+аналитику -X- I-AUD
+, -X- B-PUNCT
+если -X- B-COND
+игроки -X- O
+жалуются -X- B-DANGER
+на -X- O
+баланс -X- B-OBJ
+? -X- B-PUNCT
+
+Конфигурационные -X- B-TECH
+файлы -X- I-TECH
+как -X- O
+инструмент -X- B-OBJ
+управления -X- I-OBJ
+приложениями -X- B-OBJ
+на -X- O
+Python -X- B-LANG
+
+Как -X- B-TYPE
+стать -X- I-TYPE
+фуллстек -X- B-AUD
+- -X- I-AUD
+разработчиком -X- B-AUD
+на -X- O
+JavaScript -X- B-LANG
+в -X- B-ACTUAL
+2021 -X- I-ACTUAL
+году -X- I-ACTUAL
+: -X- B-PUNCT
+25 -X- B-NUM
+ресурсов -X- O
+для -X- O
+начинающих -X- B-AUD
+
+Планирование -X- B-OBJ
+маршрута -X- I-OBJ
+роботом -X- B-DEVICE
+при -X- O
+помощи -X- O
+RRT -X- B-TECH
+
+Используем -X- B-TODO
+CycleGAN -X- B-PROGRAM
+для -X- O
+применения -X- O
+стиля -X- O
+к -X- O
+видео -X- B-OBJ
+, -X- B-PUNCT
+полученному -X- O
+с -X- O
+веб -X- B-DEVICE
+- -X- I-DEVICE
+камеры -X- I-DEVICE
+
+ES12 -X- B-TECH
+сделает -X- O
+вашу -X- O
+жизнь -X- O
+проще -X- B-ADV
+! -X- B-PUNCT
+
+Исключения -X- B-TECH
+в -X- O
+Go -X- B-LANG
+– -X- O
+это -X- B-TYPE
+легко -X- I-TYPE
+? -X- B-PUNCT
+
+Удалите -X- B-TODO
+из -X- O
+кода -X- B-OBJ
+If -X- B-TECH
+- -X- O
+Else -X- B-TECH
+и -X- O
+Switch -X- B-TECH
+Case -X- I-TECH
+
+Карьерный -X- B-TYPE
+гид -X- I-TYPE
+от -X- B-AUD
+новичка -X- I-AUD
+до -X- I-AUD
+профи -X- I-AUD
+: -X- B-PUNCT
+дорожная -X- B-TYPE
+карта -X- I-TYPE
+iOS -X- B-OS
+- -X- O
+разработчика -X- B-AUD
+
+Как -X- B-TYPE
+наука -X- B-TECH
+о -X- I-TECH
+данных -X- I-TECH
+помогает -X- B-ADV
+врачам -X- B-AUD
+? -X- B-PUNCT
+
+Не -X- O
+только -X- O
+криптовалюты -X- B-OBJ
+: -X- B-PUNCT
+реальное -X- B-TYPE
+применение -X- I-TYPE
+технологий -X- O
+блокчейна -X- B-TECH
+
+35 -X- O
+лет -X- O
+– -X- O
+конец -X- O
+карьеры -X- O
+? -X- B-PUNCT
+Когда -X- O
+программисты -X- B-AUD
+выходят -X- O
+на -X- O
+пенсию -X- B-OBJ
+? -X- B-PUNCT
+
+GPG -X- B-TECH
+и -X- O
+все -X- O
+- -X- O
+все -X- O
+- -X- O
+все -X- O
+: -X- B-PUNCT
+настраиваем -X- B-TODO
+шифрование -X- I-TECH
+переписки -X- I-TECH
+за -X- B-EFFORT
+10 -X- I-EFFORT
+минут -X- I-EFFORT
+по -X- O
+методу -X- O
+Кристофера -X- B-PER
+Робина -X- I-PER
+
+SDLC -X- B-TECH
+модели -X- I-TECH
+: -X- B-PUNCT
+как -X- B-TYPE
+выбрать -X- I-TYPE
+правильный -X- B-ADV
+подход -X- I-ADV
+к -X- O
+разработке -X- B-OBJ
+и -X- O
+не -X- B-ADV
+завалить -X- I-ADV
+проект -X- I-ADV
+
+Как -X- B-TYPE
+стать -X- B-ADV
+тимлидом -X- I-ADV
+: -X- B-PUNCT
+дорожная -X- B-TYPE
+карта -X- I-TYPE
+
+Зачем -X- B-TYPE
+изучать -X- I-TYPE
+Python -X- B-LANG
+, -X- B-PUNCT
+если -X- B-COND
+вы -X- O
+не -X- B-AUD
+программист -X- I-AUD
+? -X- B-PUNCT
+
+Скрытые -X- B-TYPE
+сокровища -X- I-TYPE
+Python -X- B-LANG
+
+Магия -X- O
+консоли -X- B-PROGRAM
+. -X- B-PUNCT
+Подбираем -X- B-TODO
+полезные -X- I-ADV
+утилиты -X- B-PROGRAM
+для -X- I-PROGRAM
+работы -X- I-PROGRAM
+в -X- O
+терминале -X- B-PROGRAM
+
+Не -X- O
+App -X- B-PROGRAM
+Store -X- I-PROGRAM
+единым -X- O
+. -X- B-PUNCT
+Устанавливаем -X- B-TODO
+сторонние -X- B-TECH
+приложения -X- I-TECH
+в -X- O
+iOS -X- B-OS
+без -X- B-ADV
+джейла -X- I-ADV
+
+Разгребаем -X- B-TODO
+руины -X- O
+. -X- B-PUNCT
+Как -X- B-TYPE
+восстановить -X- I-TYPE
+удаленные -X- B-OBJ
+файлы -X- I-OBJ
+на -X- O
+разделах -X- B-DANGER
+NTFS -X- B-TECH
+
+Сам -X- O
+себе -X- O
+архивариус -X- O
+. -X- B-PUNCT
+Изучаем -X- B-TODO
+возможности -X- B-OBJ
+ArchiveBox -X- B-PROGRAM
+
+Клиентский -X- B-TECH
+портал -X- I-TECH
+на -X- O
+Webflow -X- B-PROGRAM
+за -X- B-EFFORT
+4000 -X- I-EFFORT
+$ -X- I-EFFORT
+и -X- O
+еще -X- O
+16 -X- B-NUM
+вакансий -X- B-OBJ
+для -X- O
+зерокодеров -X- B-AUD
+за -X- O
+6–13 -X- B-ACTUAL
+июня -X- I-ACTUAL
+
+В -X- O
+Калифорнии -X- B-LOC
+делают -X- O
+аналог -X- O
+« -X- B-PUNCT
+Госуслуг -X- B-APP
+» -X- B-PUNCT
+и -X- O
+другие -X- O
+материалы -X- O
+о -X- O
+зерокодинге -X- B-TECH
+за -X- O
+5–12 -X- B-ACTUAL
+июня -X- I-ACTUAL
+
+Как -X- B-TYPE
+за -X- B-EFFORT
+2 -X- I-EFFORT
+недели -X- I-EFFORT
+назерокодить -X- B-TECH
+MVP -X- B-TECH
+, -X- B-PUNCT
+а -X- O
+через -X- O
+месяц -X- O
+привлечь -X- B-ADV
+6 -X- I-ADV
+млн -X- I-ADV
+рублей -X- I-ADV
+инвестиций -X- B-OBJ
+: -X- B-PUNCT
+сервис -X- O
+TutGood -X- B-ORG
+
+Как -X- B-TYPE
+стать -X- I-TYPE
+программистом -X- B-AUD
+
+Световая -X- B-DEVICE
+башня -X- I-DEVICE
+от -X- O
+производителя -X- O
+купить -X- B-TODO
+
+Как -X- B-TYPE
+научить -X- I-TYPE
+непросто -X- O
+думать -X- O
+
+Как -X- B-TYPE
+научить -X- I-TYPE
+нейросеть -X- B-OBJ
+думать -X- O
+
+Программирование -X- B-OBJ
+больше -X- B-TYPE
+не -X- I-TYPE
+нужно -X- I-TYPE
+
+Встроенные -X- B-TECH
+функции -X- I-TECH
+Python -X- B-LANG
+: -X- B-PUNCT
+какие -X- B-TYPE
+нужно -X- I-TYPE
+знать -X- I-TYPE
+и -X- O
+на -X- O
+какие -X- B-TYPE
+не -X- I-TYPE
+стоит -X- I-TYPE
+тратить -X- I-TYPE
+время -X- I-TYPE
+
+Производительность -X- B-TECH
+фронтенда -X- B-TECH
+: -X- B-PUNCT
+разбираем -X- B-TODO
+важные -X- O
+метрики -X- B-TECH
+
+Умный -X- B-ADV
+парсер -X- B-TECH
+числа -X- I-TECH
+, -X- B-PUNCT
+записанного -X- B-COND
+прописью -X- I-COND
+
+8 -X- B-NUM
+самых -X- B-ADV
+распространенных -X- I-ADV
+ошибок -X- B-DANGER
+веб -X- B-AUD
+- -X- I-AUD
+разработчика -X- I-AUD
+
+swift -X- B-LANG
+
+Как -X- B-TYPE
+стать -X- I-TYPE
+хорошим -X- B-AUD
+программистом -X- I-AUD
+
+Как -X- B-TYPE
+научиться -X- I-TYPE
+кодить -X- B-TODO
+
+Как -X- B-TYPE
+придумать -X- I-TYPE
+название -X- B-OBJ
+для -X- O
+публикации -X- B-OBJ
+
+Как -X- B-TYPE
+девелоперу -X- B-TYPE
+увеличить -X- B-ADV
+продажи -X- I-ADV
+квартир -X- I-ADV
+на -X- B-NUM
+20 -X- I-NUM
+% -X- I-NUM
+через -X- B-COND
+онлайн -X- I-COND
+- -X- I-COND
+сервис -X- I-COND
+
+Анализируй -X- B-TODO
+это -X- O
+: -X- B-PUNCT
+как -X- B-TYPE
+сквозная -X- B-OBJ
+аналитика -X- I-OBJ
+помогает -X- B-ADV
+продажам -X- B-OBJ
+в -X- O
+недвижимости -X- B-OBJ
+
+Как -X- B-TYPE
+переехать -X- I-TYPE
+в -X- O
+Берлин -X- B-LOC
+за -X- B-EFFORT
+20 -X- I-EFFORT
+тыс. -X- I-EFFORT
+рублей -X- I-EFFORT
+
+Как -X- B-TYPE
+Амплифер -X- B-SITE
+использует -X- O
+Logux -X- B-PROGRAM
+— -X- B-PUNCT
+инструмент -X- B-OBJ
+для -X- O
+связи -X- O
+клиента -X- B-TECH
+и -X- O
+сервера -X- B-TECH
+
+Uibook -X- B-PROGRAM
+— -X- B-PUNCT
+инструмент -X- B-TYPE
+для -X- O
+визуального -X- B-TECH
+тестирования -X- I-TECH
+React -X- B-LIB
+- -X- O
+компонентов -X- B-TECH
+с -X- O
+медиа -X- B-TECH
+- -X- I-TECH
+запросами -X- I-TECH
+
+Yandex -X- B-ORG
+Music -X- B-LIB
+Controls -X- I-LIB
+— -X- B-PUNCT
+плагин -X- B-TECH
+для -X- O
+управления -X- O
+« -X- B-PUNCT
+Яндекс.Музыкой -X- B-APP
+» -X- B-PUNCT
+из -X- B-ADV
+любой -X- I-ADV
+вкладки -X- I-ADV
+
+Как -X- B-TYPE
+владелец -X- B-OBJ
+микроотеля -X- B-OBJ
+в -X- O
+Германии -X- B-LOC
+за -X- O
+день -X- O
+назерокодил -X- B-TECH
+приложение -X- B-OBJ
+для -X- O
+аренды -X- B-OBJ
+на -X- O
+Glide -X- B-SITE
+
+170 -X- B-NUM
++ -X- I-NUM
+инструментов -X- B-OBJ
+зерокодера -X- B-AUD
+
+Конструктор -X- B-TECH
+приложений -X- I-TECH
+из -X- O
+текста -X- O
+и -X- O
+еще -X- O
+11 -X- B-NUM
+новых -X- B-TYPE
+no -X- B-TECH
+- -X- I-TECH
+code -X- I-TECH
+- -X- O
+сервисов -X- O
+апреля -X- B-ACTUAL
+и -X- I-ACTUAL
+мая -X- I-ACTUAL
+
+Как -X- B-TYPE
+собрать -X- B-TODO
+сервис -X- I-TODO
+для -X- O
+отслеживания -X- B-OBJ
+конкурентов -X- I-OBJ
+на -X- O
+Bubble -X- B-PROGRAM
+за -X- B-EFFORT
+2 -X- I-EFFORT
+дня -X- I-EFFORT
+
+Кейсы -X- B-OBJ
+, -X- B-PUNCT
+карьера -X- B-OBJ
+, -X- B-PUNCT
+заработок -X- B-OBJ
+и -X- O
+обзоры -X- B-TYPE
+инструментов -X- I-TYPE
+: -X- B-PUNCT
+14 -X- B-NUM
+лучших -X- B-ADV
+статей -X- O
+« -X- B-PUNCT
+Я -X- O
+зерокодера -X- B-AUD
+» -X- B-PUNCT
+в -X- B-ACTUAL
+мае -X- I-ACTUAL
+
+Запуск -X- B-TODO
+ноукод -X- B-TECH
+- -X- O
+экосистемы -X- O
+Сбера -X- B-ORG
+и -X- O
+другие -X- O
+новости -X- O
+зерокодинга -X- B-TECH
+за -X- B-ACTUAL
+май -X- I-ACTUAL
+
+Что -X- B-TYPE
+такое -X- I-TYPE
+зерокодинг -X- B-TECH
+простыми -X- B-STRUCT
+словами -X- I-STRUCT
+
+« -X- B-PUNCT
+Карасё -X- B-ORG
+» -X- B-PUNCT
+— -X- B-PUNCT
+сервис -X- B-OBJ
+доставки -X- I-OBJ
+еды -X- I-OBJ
+напрямую -X- B-ADV
+из -X- O
+ресторана -X- B-OBJ
+на -X- O
+Glide -X- B-PROGRAM
+
+Как -X- B-TYPE
+загрузить -X- I-TYPE
+приложение -X- B-OBJ
+на -X- O
+Adalo -X- B-PROGRAM
+в -X- O
+Google -X- B-PROGRAM
+Play -X- I-PROGRAM
+
+8 -X- B-NUM
++ -X- O
+советов -X- B-TYPE
+, -X- B-PUNCT
+как -X- O
+зерокодеру -X- B-AUD
+найти -X- B-ADV
+работу -X- I-ADV
+или -X- O
+заказ -X- B-OBJ
+
+Обзор -X- B-TYPE
+Zapier -X- B-APP
+: -X- B-PUNCT
+простой -X- B-ADV
+конструктор -X- B-TECH
+сценариев -X- I-TECH
+с -X- O
+самым -X- B-ADV
+большим -X- I-ADV
+каталогом -X- I-ADV
+интеграций -X- B-TECH
+
+30 -X- B-NUM
++ -X- I-NUM
+площадок -X- O
+, -X- B-PUNCT
+где -X- O
+зерокодер -X- B-AUD
+найдет -X- B-ADV
+работу -X- I-ADV
+и -X- I-ADV
+заказы -X- I-ADV
+
+Конструктор -X- B-TECH
+мобильных -X- B-OBJ
+приложений -X- I-OBJ
+без -X- B-ADV
+кода -X- I-ADV
+Adalo -X- B-PROGRAM
+закрыл -X- O
+раунд -X- B-OBJ
+инвестиций -X- I-OBJ
+A -X- O
+на -X- O
+8 -X- O
+млн -X- O
+$ -X- O
+
+Join -X- B-ORG
+In -X- I-ORG
+— -X- B-PUNCT
+аналог -X- O
+KudaGo -X- B-SITE
+« -X- B-PUNCT
+на -X- O
+районе -X- O
+» -X- B-PUNCT
+без -X- B-ADV
+кода -X- I-ADV
+
+Notion -X- B-APP
+открыл -X- B-NEWS
+бету -X- I-NEWS
+своего -X- O
+API -X- B-TECH
+. -X- B-PUNCT
+Что -X- B-TYPE
+это -X- I-TYPE
+значит -X- I-TYPE
+и -X- O
+какие -X- B-TYPE
+интеграции -X- I-TYPE
+уже -X- O
+появились -X- O
+
+Microsoft -X- B-ORG
+обновила -X- B-NEWS
+low-code -X- B-TECH
+конструктор -X- I-TECH
+приложений -X- I-TECH
+Power -X- B-PROGRAM
+Apps -X- I-PROGRAM
+
+10 -X- B-NUM
+самых -X- B-TYPE
+перспективных -X- I-TYPE
+стартапов -X- B-OBJ
+из -X- O
+Сколково -X- B-LOC
+
+10 -X- B-NUM
+идей -X- B-TYPE
+летних -X- B-OBJ
+образов -X- I-OBJ
+
+Как -X- B-TYPE
+принять -X- B-TODO
+себя -X- I-TODO
+
+В -X- O
+Москве -X- B-LOC
+взорвался -X- B-DANGER
+кран -X- B-OBJ
+
+Headless -X- B-TECH
+VPA -X- I-TECH
+vs -X- B-TYPE
+Kubernetes -X- B-PROGRAM
+
+Как -X- B-TYPE
+сделать -X- I-TYPE
+модный -X- B-ADV
+дизайн -X- B-OBJ
+в -X- O
+фигме -X- B-PROGRAM
+
+Подведомственный -X- O
+Роскомнадзору -X- B-ORG
+центр -X- O
+предложил -X- B-NEWS
+легализовать -X- O
+доступ -X- O
+к -X- O
+порнографии -X- B-OBJ
+через -X- O
+портал -X- B-SITE
+госуслуг -X- I-SITE
+
+« -X- B-PUNCT
+Сбер -X- B-ORG
+» -X- B-PUNCT
+купит -X- B-ANNOUNCE
+одного -X- O
+из -X- O
+крупнейших -X- O
+владельцев -X- B-OBJ
+прав -X- I-OBJ
+на -X- O
+спортивные -X- B-OBJ
+трансляции -X- I-OBJ
+
+Каждый -X- B-NUM
+пятый -X- I-NUM
+работодатель -X- B-OBJ
+выберет -X- O
+кандидата -X- O
+без -X- O
+онлайн -X- B-OBJ
+- -X- I-OBJ
+курсов -X- I-OBJ
+в -X- O
+резюме -X- B-OBJ
+— -X- B-PUNCT
+опрос -X- B-TYPE
+
+« -X- B-PUNCT
+М.Видео -X- B-ORG
+» -X- B-PUNCT
+запустила -X- B-NEWS
+ИИ -X- B-TECH
+- -X- I-TECH
+помощника -X- I-TECH
+« -X- B-PUNCT
+Алену -X- O
+» -X- B-PUNCT
+, -X- B-PUNCT
+которая -X- O
+уже -X- O
+обрабатывает -X- O
+60 -X- B-NUM
+% -X- I-NUM
+обращений -X- O
+
+6 -X- B-NUM
+источников -X- O
+финансирования -X- O
+малого -X- B-AUD
+и -X- I-AUD
+среднего -X- I-AUD
+бизнеса -X- I-AUD
+
+20 -X- B-NUM
+привычек -X- B-TYPE
+для -X- I-TYPE
+практикующих -X- B-AUD
+lifelong -X- I-AUD
+learning -X- I-AUD
+
+32 -X- B-NUM
+микропривычки -X- B-OBJ
+, -X- B-PUNCT
+которые -X- O
+сделают -X- O
+из -X- O
+вас -X- B-AUD
+другого -X- O
+человека -X- O
+
+Эксперимент -X- B-TYPE
+: -X- B-PUNCT
+писательница -X- B-OBJ
+целый -X- B-EFFORT
+месяц -X- I-EFFORT
+фиксировала -X- O
+, -X- B-PUNCT
+что -X- O
+делала -X- O
+каждые -X- O
+15 -X- B-NUM
+минут -X- I-NUM
+в -X- O
+течение -X- O
+дня -X- O
+. -X- B-PUNCT
+Вот -X- B-TYPE
+о -X- I-TYPE
+чем -X- I-TYPE
+она -X- I-TYPE
+узнала -X- I-TYPE
+
+Как -X- O
+поживаешь -X- O
+
+DOU -X- B-SITE
+LinkedIn -X- B-ORG
+интервью -X- B-OBJ
+
+Как -X- B-TYPE
+не -X- I-TYPE
+выгореть -X- B-DANGER
+на -X- I-DANGER
+работе -X- I-DANGER
+
+Как -X- B-TYPE
+заснуть -X- B-TODO
+
+Как -X- B-TYPE
+спать -X- B-TODO
+
+Как -X- O
+
+лошадка -X- O
+
+Бит -X- B-TECH
+
+Байт -X- B-TECH
+
+как -X- B-TYPE
+выкинуть -X- I-TYPE
+ноутбук -X- B-DEVICE
+из -X- O
+окна -X- O
+
+предварительные -X- O
+ласки -X- O
+сервера -X- B-TECH
+
+проблемы -X- B-DANGER
+сервера -X- I-DANGER
+
+танцы -X- B-DANGER
+с -X- I-DANGER
+бубном -X- I-DANGER
+вокруг -X- O
+сервера -X- B-TECH
+
+История -X- B-TYPE
+о -X- O
+бесконечных -X- O
+багах -X- B-TECH
+в -X- O
+табло -X- O
+
+Бег -X- B-OBJ
+с -X- I-OBJ
+препятствиями -X- I-OBJ
+
+конкур -X- O
+
+будни -X- O
+админ -X- O
+лошадки -X- O
+
+Налоговая -X- B-ORG
+США -X- B-LOC
+начала -X- B-NEWS
+отслеживать -X- I-NEWS
+операции -X- O
+с -X- O
+биткоинами -X- B-TECH
+в -X- O
+Telegram -X- B-APP
+
+Новое -X- O
+обновление -X- B-OBJ
+Windows -X- B-OS
+10 -X- B-VERSION
+самостоятельно -X- B-DANGER
+удаляет -X- I-DANGER
+из -X- O
+системы -X- O
+uTorrent -X- B-PROGRAM
+
+Странные -X- B-EMO
+управленческие -X- B-OBJ
+решения -X- I-OBJ
+внутри -X- O
+хостинга -X- B-TECH
+
+как -X- B-TYPE
+взломать -X- B-DANGER
+вк -X- B-SITE
+? -X- B-PUNCT
+
+как -X- B-TYPE
+взломать -X- B-DANGER
+vk -X- B-SITE
+? -X- B-PUNCT
+
+как -X- B-TYPE
+взломать -X- B-DANGER
+вконтакте -X- B-SITE
+? -X- B-PUNCT
+
+Программистка -X- B-OBJ
+компании -X- O
+LinkedIn -X- B-ORG
+о -X- O
+том -X- O
+, -X- B-PUNCT
+как -X- B-TYPE
+получить -X- B-ADV
+повышение -X- I-ADV
+в -X- I-ADV
+крупной -X- I-ADV
+корпорации -X- I-ADV
+в -X- O
+США -X- B-LOC
+
+10 -X- B-NUM
+книг -X- B-TYPE
+о -X- O
+Python -X- B-LANG
+
+Ещё -X- O
+один -X- O
+тест -X- B-OBJ
+
+Простая -X- B-ADV
+проверка -X- B-OBJ
+
+Работает -X- B-TYPE
+ли -X- O
+это -X- O
+
+снять -X- B-TODO
+видеостудию -X- B-OBJ
+в -X- O
+москве -X- B-LOC
+
+Как -X- O
+я -X- O
+
+Как -X- O
+я -X- O
+. -X- O
+
+
+Эффективный -X- B-ADV
+способ -X- I-ADV
+поиска -X- B-OBJ
+работы -X- I-OBJ
+. -X- B-PUNCT
+Пишем -X- B-TODO
+продающий -X- O
+сторителлинг -X- B-OBJ
+
+Kubernetes -X- B-PROGRAM
+Headless -X- B-TECH
+Service -X- I-TECH
+: -X- B-PUNCT
+А -X- O
+если -X- O
+Pod -X- B-TECH
+исчез -X- O
+? -X- B-PUNCT
+
+Numpy -X- B-LIB
+, -X- B-PUNCT
+Pandas -X- B-LIB
+, -X- B-PUNCT
+matplotlib -X- B-LIB
+– -X- O
+необходимый -X- B-ADV
+минимум -X- I-ADV
+для -X- O
+старта -X- O
+в -X- O
+Machine -X- B-TECH
+Learning -X- I-TECH
+
+Разработка -X- B-TODO
+игр -X- I-TODO
+на -X- O
+Unity -X- B-PROGRAM
+: -X- B-PUNCT
+10 -X- B-NUM
+важных -X- B-TYPE
+советов -X- I-TYPE
+для -X- O
+начинающих -X- B-AUD
+
+Побитовое -X- B-TECH
+и -X- O
+почленное -X- B-TECH
+копирование -X- I-TECH
+в -X- O
+C++ -X- B-LANG
+
+Как -X- B-TYPE
+стать -X- B-TODO
+богатым -X- I-TODO
+
+Как -X- B-TYPE
+стать -X- B-TODO
+богатым -X- I-TODO
+за -X- B-EFFORT
+5 -X- I-EFFORT
+лет -X- I-EFFORT
+
+10 -X- B-NUM
+лучших -X- B-ADV
+платьев -X- O
+для -X- O
+пикника -X- O
+
+мегафон -X- B-DEVICE
+
+Мегафон -X- B-ORG
+
+мегафон -X- B-ORG
+лучший -X- B-ADV
+оператор -X- B-OBJ
+
+как -X- B-TYPE
+делать -X- B-TODO
+деньги -X- I-TODO
+
+Разделение -X- B-MATH
+пространства -X- I-MATH
+и -X- O
+K -X- B-MATH
+- -X- I-MATH
+мерные -X- I-MATH
+деревья -X- I-MATH
+
+как -X- B-TYPE
+научиться -X- I-TYPE
+кодить -X- B-TODO
+на -X- O
+python -X- B-LANG
+
+навальный -X- B-PER
+или -X- O
+путин -X- B-PER
+
+как -X- B-TYPE
+стать -X- B-TODO
+программистом -X- B-AUD
+
+10 -X- B-NUM
+способов -X- B-TYPE
+как -X- I-TYPE
+стать -X- B-TODO
+программистом -X- B-AUD
+
+1001 -X- B-NUM
+способ -X- B-TYPE
+как -X- I-TYPE
+стать -X- B-TODO
+программистом -X- B-AUD
+
+Миллион -X- B-NUM
+способов -X- B-TYPE
+как -X- I-TYPE
+стать -X- B-TODO
+программистом -X- B-AUD
+
+Тысяча -X- B-NUM
+способов -X- B-TYPE
+как -X- I-TYPE
+стать -X- B-TODO
+программистом -X- B-AUD
+
+РЭО -X- B-ORG
+проведет -X- O
+хакатон -X- B-TECH
+по -X- O
+обращению -X- B-OBJ
+с -X- I-OBJ
+отходами -X- I-OBJ
+
+Microsoft -X- B-ORG
+выпустил -X- B-NEWS
+новую -X- O
+версию -X- O
+ОС -X- B-OBJ
+
+2D -X- B-TECH
+или -X- B-TYPE
+3D -X- B-TECH
+: -X- B-PUNCT
+какое -X- B-TYPE
+направление -X- I-TYPE
+выбрать -X- I-TYPE
+начинающему -X- B-AUD
+разработчику -X- I-AUD
+игр -X- I-AUD
+на -X- O
+Unity -X- B-PROGRAM
+
+Чем -X- B-TYPE
+плох -X- I-TYPE
+свой -X- O
+Open -X- B-TECH
+Source -X- I-TECH
+проект -X- I-TECH
+? -X- B-PUNCT
+
+История -X- B-TYPE
+языка -X- I-TYPE
+Python -X- B-LANG
+для -X- O
+программистов -X- B-AUD
+
+Java -X- B-LANG
+Backend -X- B-TECH
+- -X- I-AUD
+пример -X- B-TYPE
+полного -X- I-TYPE
+завершенного -X- I-TYPE
+проекта -X- I-TYPE
+  -X- O
+( -X- B-PUNCT
+DDD -X- B-TECH
+, -X- B-PUNCT
+Микросервисы -X- B-TECH
+, -X- B-PUNCT
+Spring -X- B-FRAME
+Cloud -X- I-FRAME
+, -X- B-PUNCT
+AWS -X- B-SITE
+) -X- B-PUNCT
+  -X- O
+Часть -X- B-PART
+3 -X- I-PART
+. -X- B-PUNCT
+Архитектура -X- B-TECH
+проекта -X- I-TECH
+. -X- B-PUNCT
+Основные -X- B-TYPE
+концепции -X- I-TYPE
+Предметно -X- B-TECH
+- -X- I-TECH
+Ориентированного -X- I-TECH
+Проектирования -X- I-TECH
+. -X- B-PUNCT
+Создание -X- O
+своего -X- O
+проекта -X- O
